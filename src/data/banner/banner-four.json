@@ -2,25 +2,25 @@
   {
     "id": 1,
     "image": "/assets/img/banner/banner-13.png",
-    "title": "Peepal",
-    "subtitle": "Starting at",
-    "price": "$99.00",
+    "title": "Discover  brands",
+    "subtitle": "Purchase from a carefully curated list of 500+ global and independent brands.",
+    "price": "",
     "link": "/shop-grid-standard"
   },
   {
     "id": 2,
     "image": "/assets/img/banner/banner-14.png",
-    "title": "Banyan",
-    "subtitle": "Starting at",
-    "price": "$79.00",
+    "title": "Buy now, pay later",
+    "subtitle": "No payments upfront. Pay only when your items are shipped or pay 60 days later.",
+    "price": "",
     "link": "/shop-grid-standard"
   },
   {
     "id": 3,
     "image": "/assets/img/banner/banner-15.png",
-    "title": "Aloe Vera",
-    "subtitle": "Starting at",
-    "price": "$29.00",
+    "title": "Guaranteed Sales",
+    "subtitle": "Peeba offers a 60 days sale trial. Return unsold items for free.",
+    "price": "",
     "link": "/shop-grid-standard"
   }
 ]

@@ -1,56 +1,56 @@
 [
   {
     "id": "1",
-    "image": "/assets/img/product/men.jpg",
+    "image": "/assets/img/product/category/men.jpg",
     "subtitle": "12 Products",
     "title": "Men",
     "link": "/shop-grid-standard"
   },
   {
     "id": "2",
-    "image": "/assets/img/product/women.jpg",
+    "image": "/assets/img/product/category/women.jpg",
     "subtitle": "13 Products",
     "title": "Women",
     "link": "/shop-grid-standard"
   },
   {
     "id": "3",
-    "image": "/assets/img/product/electronics.jpg",
+    "image": "/assets/img/product/category/electronics.jpg",
     "subtitle": "15 Products",
     "title": "Electronics",
     "link": "/shop-grid-standard"
   },
   {
     "id": "4",
-    "image": "/assets/img/product/furnitures.jpg",
+    "image": "/assets/img/product/category/furnitures.jpg",
     "subtitle": "13 Products",
     "title": "Furnitures",
     "link": "/shop-grid-standard"
   },
   {
     "id": "5",
-    "image": "/assets/img/product/fruits.jpg",
+    "image": "/assets/img/product/category/fruits.jpg",
     "subtitle": "13 Products",
     "title": "Fruits",
     "link": "/shop-grid-standard"
   },
   {
     "id": "6",
-    "image": "/assets/img/product/plants.jpg",
+    "image": "/assets/img/product/category/plants.jpg",
     "subtitle": "13 Products",
     "title": "Plants",
     "link": "/shop-grid-standard"
   },
   {
     "id": "7",
-    "image": "/assets/img/product/flowers.jpg",
+    "image": "/assets/img/product/category/flowers.jpg",
     "subtitle": "13 Products",
     "title": "Flowers",
     "link": "/shop-grid-standard"
   },
   {
     "id": "8",
-    "image": "/assets/img/product/books.jpg",
+    "image": "/assets/img/product/category/books.jpg",
     "subtitle": "13 Products",
     "title": "Books",
     "link": "/shop-grid-standard"

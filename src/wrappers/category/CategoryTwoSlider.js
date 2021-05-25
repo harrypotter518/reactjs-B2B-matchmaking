@@ -11,7 +11,7 @@ const CategoryTwoSlider = ({ spaceTopClass, spaceBottomClass }) => {
     loop: false,
     spaceBetween: 10,
     autoplay: {
-      delay: 3000,
+      delay: 100000,
       disableOnInteraction: false
     },
     breakpoints: {

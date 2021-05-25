@@ -35,7 +35,7 @@ const HeroSliderNine = ({ spaceLeftClass, spaceRightClass }) => {
         spaceRightClass ? spaceRightClass : ""
       }`}
     >
-      <div className="slider-active nav-style-1">
+      <div className="slider-active nav-style-1" style={{ paddingTop:"50px" }}>
         <Swiper {...params}>
           {sliderData &&
             sliderData.map((single, key) => {

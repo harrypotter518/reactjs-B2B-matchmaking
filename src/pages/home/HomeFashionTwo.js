@@ -11,8 +11,8 @@ import CategoryTwoSlider from "../../wrappers/category/CategoryTwoSlider";
 import Card from "react-bootstrap/Card";
 import Accordion from "react-bootstrap/Accordion";
 
+import BannerFour from "../../wrappers/banner/BannerFour";
 const HomeFashionTwo = () => {
-
   return (
     <Fragment>
       <MetaTags>
@@ -29,10 +29,10 @@ const HomeFashionTwo = () => {
       >
 
         {/* hero slider */}
-        <HeroSliderNine spaceLeftClass="ml-70" spaceRightClass="mr-70" />
+        <HeroSliderNine spaceTopClass="pt-50" spaceLeftClass="ml-70" spaceRightClass="mr-70" />
         {/* banner */}
-        <BannerOne spaceTopClass="pt-60" spaceBottomClass="pb-35" />
-        
+        {/* <BannerOne spaceTopClass="pt-60" spaceBottomClass="pb-35" /> */}
+        <BannerFour spaceTopClass="pt-60" spaceBottomClass="pb-35" />
         {/* category */}
         <CategoryTwoSlider spaceTopClass="pt-50" spaceBottomClass="pb-95" />
         

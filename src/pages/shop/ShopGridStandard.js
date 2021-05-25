@@ -40,7 +40,7 @@ const ShopGridStandard = ({location, products}) => {
     }
 
     useEffect(() => {
-        console.log("products:::::::::::::",sortValue,sortType);
+        
         let sortedProducts = getSortedProducts(products, sortType, sortValue);
         const filterSortedProducts = getSortedProducts(sortedProducts, filterSortType, filterSortValue);
         sortedProducts = filterSortedProducts;

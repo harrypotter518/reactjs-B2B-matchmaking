@@ -7,15 +7,15 @@ const CategoryTwoSingle = ({ data, sliderClass }) => {
     <div className={`collection-product ${sliderClass ? sliderClass : ""}`} >
       <div className="collection-img">
         <Link to={process.env.PUBLIC_URL + data.link}>
-          <img src={process.env.PUBLIC_URL + data.image} alt=""  style={{ width:"168px", height:"210px"}}/>
+          <img src={process.env.PUBLIC_URL + data.image} alt=""  style={{ width:"160px"}}/>
         </Link>
       </div>
-      <div className="collection-content text-center" style={{ width:"168px"}}>
+      {/* <div className="collection-content text-center" style={{ width:"170"}}>
         <span>{data.subtitle}</span>
         <h4>
           <Link to={process.env.PUBLIC_URL + data.link}>{data.title}</Link>
         </h4>
-      </div>
+      </div> */}
     </div>
   );
 };

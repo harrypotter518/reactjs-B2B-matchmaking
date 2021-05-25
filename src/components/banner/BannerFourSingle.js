@@ -15,12 +15,12 @@ const BannerFourSingle = ({ data, spaceBottomClass }) => {
         </Link>
         <div className="banner-content">
           <h3>{data.title}</h3>
-          <h4>
+          <h4 style={{paddingTop:"30px" }}>
             {data.subtitle} <span>{data.price}</span>
           </h4>
-          <Link to={process.env.PUBLIC_URL + data.link}>
+          {/* <Link to={process.env.PUBLIC_URL + data.link}>
             <i className="fa fa-long-arrow-right" />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
