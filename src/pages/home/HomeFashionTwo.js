@@ -16,7 +16,7 @@ const HomeFashionTwo = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Fashion Home</title>
+        <title>OpenAsia | B2B</title>
         <meta
           name="description"
           content="Fashion home of flone react minimalist eCommerce template."
@@ -31,10 +31,10 @@ const HomeFashionTwo = () => {
         {/* hero slider */}
         <HeroSliderNine spaceLeftClass="ml-70" spaceRightClass="mr-70" />
         {/* banner */}
-        <BannerOne spaceTopClass="pt-60" spaceBottomClass="pb-65" />
+        <BannerOne spaceTopClass="pt-60" spaceBottomClass="pb-35" />
         
         {/* category */}
-        <CategoryTwoSlider spaceTopClass="pt-100" spaceBottomClass="pb-95" />
+        <CategoryTwoSlider spaceTopClass="pt-50" spaceBottomClass="pb-95" />
         
         {/* tab product */}
         <TabProduct spaceBottomClass="pb-60" category="fashion" />
