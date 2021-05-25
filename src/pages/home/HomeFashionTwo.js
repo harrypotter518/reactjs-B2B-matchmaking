@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import LayoutOne from "../../layouts/LayoutOne";
-import BannerOne from "../../wrappers/banner/BannerOne";
+// import BannerOne from "../../wrappers/banner/BannerOne";
 import BlogFeatured from "../../wrappers/blog-featured/BlogFeatured";
 import HeroSliderNine from "../../wrappers/hero-slider/HeroSliderNine";
 import TabProduct from "../../wrappers/product/TabProduct";
@@ -29,7 +29,7 @@ const HomeFashionTwo = () => {
       >
 
         {/* hero slider */}
-        <HeroSliderNine spaceTopClass="pt-50" spaceLeftClass="ml-70" spaceRightClass="mr-70" />
+        <HeroSliderNine spaceLeftClass="ml-70" spaceRightClass="mr-70" />
         {/* banner */}
         {/* <BannerOne spaceTopClass="pt-60" spaceBottomClass="pb-35" /> */}
         <BannerFour spaceTopClass="pt-60" spaceBottomClass="pb-35" />
