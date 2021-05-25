@@ -9,14 +9,14 @@ const CategoryTwoSlider = ({ spaceTopClass, spaceBottomClass }) => {
   // swiper slider settings
   const settings = {
     loop: false,
-    spaceBetween: 30,
+    spaceBetween: 10,
     autoplay: {
-      delay: 5000,
+      delay: 3000,
       disableOnInteraction: false
     },
     breakpoints: {
       992: {
-        slidesPerView: 4
+        slidesPerView: 6
       },
       576: {
         slidesPerView: 3

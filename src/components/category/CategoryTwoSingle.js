@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 
 const CategoryTwoSingle = ({ data, sliderClass }) => {
   return (
-    <div className={`collection-product ${sliderClass ? sliderClass : ""}`}>
+    <div className={`collection-product ${sliderClass ? sliderClass : ""}`} >
       <div className="collection-img">
         <Link to={process.env.PUBLIC_URL + data.link}>
-          <img src={process.env.PUBLIC_URL + data.image} alt="" />
+          <img src={process.env.PUBLIC_URL + data.image} alt=""  style={{ width:"168px", height:"210px"}}/>
         </Link>
       </div>
-      <div className="collection-content text-center">
+      <div className="collection-content text-center" style={{ width:"168px"}}>
         <span>{data.subtitle}</span>
         <h4>
           <Link to={process.env.PUBLIC_URL + data.link}>{data.title}</Link>

@@ -43,19 +43,21 @@ const ProductGridSingle = ({
                 className="default-img"
                 src={process.env.PUBLIC_URL + product.image[0]}
                 alt=""
+                style={{ width:"200px", height:"250px" }}
               />
               {product.image.length > 1 ? (
                 <img
                   className="hover-img"
                   src={process.env.PUBLIC_URL + product.image[1]}
                   alt=""
+                  style={{ width:"200px", height:"250px" }}
                 />
               ) : (
                 ""
               )}
             </Link>
             {product.discount || product.new ? (
-              <div className="product-img-badges">
+              <div className="product-img-badges" >
                 {product.discount ? (
                   <span className="pink">-{product.discount}%</span>
                 ) : (
@@ -67,7 +69,7 @@ const ProductGridSingle = ({
               ""
             )}
 
-            <div className="product-action">
+            <div className="product-action"  style={{ width:"200px"}}>
               <div className="pro-same-action pro-wishlist">
                 <button
                   className={wishlistItem !== undefined ? "active" : ""}
