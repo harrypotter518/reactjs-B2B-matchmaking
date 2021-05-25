@@ -84,13 +84,13 @@ const HomeFashionTwo = () => {
 
                   <Card className="single-my-account mb-20">
                     <Card.Header className="panel-heading">
-                      <Accordion.Toggle variant="link" eventKey="0">
+                      <Accordion.Toggle variant="link" eventKey="1">
                         <h3 className="panel-title">
                           <span>2 .</span> What is Guaranteed Sales?
                         </h3>
                       </Accordion.Toggle>
                     </Card.Header>
-                    <Accordion.Collapse eventKey="0">
+                    <Accordion.Collapse eventKey="1">
                       <Card.Body>
                         <div className="myaccount-info-wrapper">
                         
@@ -106,13 +106,13 @@ const HomeFashionTwo = () => {
 
                   <Card className="single-my-account mb-20">
                     <Card.Header className="panel-heading">
-                      <Accordion.Toggle variant="link" eventKey="0">
+                      <Accordion.Toggle variant="link" eventKey="2">
                         <h3 className="panel-title">
                           <span>3 .</span> What are Net-60 Terms?
                         </h3>
                       </Accordion.Toggle>
                     </Card.Header>
-                    <Accordion.Collapse eventKey="0">
+                    <Accordion.Collapse eventKey="2">
                       <Card.Body>
                         <div className="myaccount-info-wrapper">
                         
@@ -128,13 +128,13 @@ const HomeFashionTwo = () => {
 
                   <Card className="single-my-account mb-20">
                     <Card.Header className="panel-heading">
-                      <Accordion.Toggle variant="link" eventKey="0">
+                      <Accordion.Toggle variant="link" eventKey="3">
                         <h3 className="panel-title">
                           <span>4 .</span>How many days does it take to receive my shipment?
                         </h3>
                       </Accordion.Toggle>
                     </Card.Header>
-                    <Accordion.Collapse eventKey="0">
+                    <Accordion.Collapse eventKey="3">
                       <Card.Body>
                         <div className="myaccount-info-wrapper">
                         
