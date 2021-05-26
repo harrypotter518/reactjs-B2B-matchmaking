@@ -13,11 +13,11 @@ const BannerFourSingle = ({ data, spaceBottomClass }) => {
         <Link to={process.env.PUBLIC_URL + data.link}>
           <img src={process.env.PUBLIC_URL + data.image} alt="" />
         </Link>
-        <div className="banner-content">
-          <h3>{data.title}</h3>
-          <h4 style={{paddingTop:"30px" }}>
+        <div className="banner-content" >
+          <h4 style={{ fontFamily:"sans-serif" }}>{data.title}</h4>
+          <h5 style={{paddingTop:"20px", fontFamily:"sans-serif" }}>
             {data.subtitle} <span>{data.price}</span>
-          </h4>
+          </h5>
           {/* <Link to={process.env.PUBLIC_URL + data.link}>
             <i className="fa fa-long-arrow-right" />
           </Link> */}
