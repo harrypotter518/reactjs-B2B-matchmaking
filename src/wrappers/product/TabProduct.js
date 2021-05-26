@@ -17,7 +17,7 @@ const TabProduct = ({
         spaceBottomClass ? spaceBottomClass : ""
       } ${bgColorClass ? bgColorClass : ""}`}
     >
-      <div className="container">
+      <div className="container" style={{ paddingLeft:"11vw", paddingRight:"11vw" }}>
         <SectionTitle titleText="DAILY DEALS!" positionClass="text-center" />
         <Tab.Container defaultActiveKey="bestSeller">
           <Nav
