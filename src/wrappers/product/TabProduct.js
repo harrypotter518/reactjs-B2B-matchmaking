@@ -17,7 +17,7 @@ const TabProduct = ({
         spaceBottomClass ? spaceBottomClass : ""
       } ${bgColorClass ? bgColorClass : ""}`}
     >
-      <div className="container" style={{ paddingLeft:"11vw", paddingRight:"11vw" }}>
+      <div className="container" >
         <SectionTitle titleText="DAILY DEALS!" positionClass="text-center" />
         <Tab.Container defaultActiveKey="bestSeller">
           <Nav
@@ -46,7 +46,7 @@ const TabProduct = ({
                 <ProductGrid
                   category={category}
                   type="new"
-                  limit={8}
+                  limit={12}
                   spaceBottomClass="mb-25"
                 />
               </div>
@@ -56,7 +56,7 @@ const TabProduct = ({
                 <ProductGrid
                   category={category}
                   type="bestSeller"
-                  limit={8}
+                  limit={12}
                   spaceBottomClass="mb-25"
                 />
               </div>
@@ -66,7 +66,7 @@ const TabProduct = ({
                 <ProductGrid
                   category={category}
                   type="saleItems"
-                  limit={8}
+                  limit={12}
                   spaceBottomClass="mb-25"
                 />
               </div>
