@@ -47,8 +47,8 @@ const HomeFashionTwo = () => {
         <TestimonialOne
           spaceTopClass="pt-100"
           spaceBottomClass="pb-95"
-          spaceLeftClass="ml-70"
-          spaceRightClass="mr-70"
+          // spaceLeftClass="ml-70"
+          // spaceRightClass="mr-70"
           bgColorClass="bg-gray-3"
           
         />

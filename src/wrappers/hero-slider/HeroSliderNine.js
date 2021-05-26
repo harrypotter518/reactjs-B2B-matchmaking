@@ -9,10 +9,10 @@ const HeroSliderNine = ({ spaceLeftClass, spaceRightClass }) => {
     effect: "fade",
     loop: true,
     speed: 1000,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
+    // autoplay: {
+    //   delay: 5000,
+    //   disableOnInteraction: false
+    // },
     watchSlidesVisibility: true,
     navigation: {
       nextEl: ".swiper-button-next",
@@ -30,10 +30,15 @@ const HeroSliderNine = ({ spaceLeftClass, spaceRightClass }) => {
     )
   };
   return (
-    <div
-      className={`slider-area ${spaceLeftClass ? spaceLeftClass : ""} ${
-        spaceRightClass ? spaceRightClass : ""
-      }`}
+    // <div
+    //   className={`slider-area ${spaceLeftClass ? spaceLeftClass : ""} ${
+    //     spaceRightClass ? spaceRightClass : ""
+    //   }`} 
+    //   style={{ backgroundColor:"#5e20!important" }}
+    // >
+     <div
+      className="slider-area" 
+      style={{ backgroundColor:"#f0f0f0", paddingLeft:'70px',paddingRight:'70px' }}
     >
       <div className="slider-active nav-style-1" style={{ marginBottom:"50px" }}>
         <Swiper {...params}>
