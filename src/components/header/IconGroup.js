@@ -30,10 +30,10 @@ const IconGroup = ({
     >
       
       <div className="same-style header-search d-none d-lg-block">
-        <button className="search-active" onClick={e => handleClick(e)}>
+        {/* <button className="search-active" onClick={e => handleClick(e)}>
           <i className="pe-7s-search " />
-        </button>
-        <div className="search-content active" style={{ width:"50vw",marginTop:"-88px", boxShadow:"none" }}>
+        </button> */}
+        <div className="search-content active" style={{ width:"50vw",marginTop:"-85px", boxShadow:"none" }}>
           <form action="#">
             <input type="text" placeholder="Search" />
             <button className="button-search">

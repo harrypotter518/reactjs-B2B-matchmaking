@@ -10,7 +10,7 @@ const HeroSliderNineSingle = ({ data, sliderClass }) => {
       }`}
       style={{ backgroundImage: `url(${process.env.PUBLIC_URL + data.image})` }}
     >
-      <div className="container" >
+      <div className="container">
         <div className="row">
           <div className="col-xl-6 col-lg-6 col-md-7 ml-auto">
             <div className="slider-content-2 slider-animated-1">
