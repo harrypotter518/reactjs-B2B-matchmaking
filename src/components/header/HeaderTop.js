@@ -16,7 +16,7 @@ const HeaderTop = ({
     <div
       className={`header-top-wap ${
         borderStyle === "fluid-border" ? "border-bottom" : ""
-      }`}
+      }`} style={{ width:"72px", marginTop:"15px" }}
     >
       <LanguageCurrencyChanger
         currency={currency}
@@ -24,14 +24,14 @@ const HeaderTop = ({
         currentLanguageCode={currentLanguageCode}
         dispatch={dispatch}
       />
-      <div className="header-offer">
+      {/* <div className="header-offer"> */}
         {/* <p>
           Free delivery on order over{" "}
           <span>
             {currency.currencySymbol + (200 * currency.currencyRate).toFixed(2)}
           </span>
         </p> */}
-      </div>
+      {/* </div> */}
     </div>
   );
 };
