@@ -4,7 +4,8 @@ import LayoutOne from "../../layouts/LayoutOne";
 // import BannerOne from "../../wrappers/banner/BannerOne";
 import BlogFeatured from "../../wrappers/blog-featured/BlogFeatured";
 import HeroSliderNine from "../../wrappers/hero-slider/HeroSliderNine";
-import TabProduct from "../../wrappers/product/TabProduct";
+// import TabProduct from "../../wrappers/product/TabProduct";
+import TabProductEleven from "../../wrappers/product/TabProductEleven";
 import TestimonialOne from "../../wrappers/testimonial/TestimonialOne";
 import CategoryTwoSlider from "../../wrappers/category/CategoryTwoSlider";
 
@@ -37,7 +38,7 @@ const HomeFashionTwo = () => {
         <CategoryTwoSlider spaceTopClass="pt-50" spaceBottomClass="pb-95" />
         
         {/* tab product */}
-        <TabProduct spaceBottomClass="pb-60" category="fashion" />
+        <TabProductEleven spaceBottomClass="pb-60" category="fashion" />
 
         {/* blog featured */}
         <BlogFeatured spaceBottomClass="pb-55" />
