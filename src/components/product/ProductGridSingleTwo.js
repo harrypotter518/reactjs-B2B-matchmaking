@@ -40,14 +40,16 @@ const ProductGridSingleTwo = ({
             spaceBottomClass ? spaceBottomClass : ""
           } ${colorClass ? colorClass : ""} `}
         >
+   
           <div className="product-img">
             <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
               <img
                 className="default-img"
                 src={process.env.PUBLIC_URL + product.image[0]}
                 alt=""
+                height="270px"
               />
-              {product.image.length > 1 ? (
+              {/* {product.image.length > 1 ? (
                 <img
                   className="hover-img"
                   src={process.env.PUBLIC_URL + product.image[1]}
@@ -55,7 +57,7 @@ const ProductGridSingleTwo = ({
                 />
               ) : (
                 ""
-              )}
+              )} */}
             </Link>
             {product.discount || product.new ? (
               <div className="product-img-badges">
@@ -71,7 +73,7 @@ const ProductGridSingleTwo = ({
             )}
 
             <div className="product-action-2">
-              {product.affiliateLink ? (
+              {/* {product.affiliateLink ? (
                 <a
                   href={product.affiliateLink}
                   rel="noopener noreferrer"
@@ -108,13 +110,13 @@ const ProductGridSingleTwo = ({
                 <button disabled className="active" title="Out of stock">
                   <i className="fa fa-shopping-cart"></i>
                 </button>
-              )}
+              )} */}
 
-              <button onClick={() => setModalShow(true)} title="Quick View">
+              {/* <button onClick={() => setModalShow(true)} title="Quick View">
                 <i className="fa fa-eye"></i>
-              </button>
+              </button> */}
 
-              <button
+              {/* <button
                 className={compareItem !== undefined ? "active" : ""}
                 disabled={compareItem !== undefined}
                 title={
@@ -125,7 +127,7 @@ const ProductGridSingleTwo = ({
                 onClick={() => addToCompare(product, addToast)}
               >
                 <i className="fa fa-retweet"></i>
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="product-content-2">

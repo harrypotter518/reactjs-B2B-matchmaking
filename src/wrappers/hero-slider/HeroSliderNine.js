@@ -13,11 +13,11 @@ const HeroSliderNine = ({ spaceLeftClass, spaceRightClass }) => {
     //   delay: 5000,
     //   disableOnInteraction: false
     // },
-    watchSlidesVisibility: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
-    },
+    watchSlidesVisibility: false,
+    // navigation: {
+    //   nextEl: ".swiper-button-next",
+    //   prevEl: ".swiper-button-prev"
+    // },
     renderPrevButton: () => (
       <button className="swiper-button-prev ht-swiper-button-nav">
         <i className="pe-7s-angle-left" />

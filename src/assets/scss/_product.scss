@@ -1437,6 +1437,7 @@
     }
     & .default-img {
       transition: all 0.5s ease-in-out;
+    
     }
     & .hover-img {
       position: absolute;
@@ -1628,11 +1629,11 @@
 
     opacity: 1;
   }
-  &:hover .default-img {
-    visibility: hidden;
+  // &:hover .default-img {
+  //   visibility: hidden;
 
-    transform: translateX(-100%);
-  }
+  //   transform: translateX(-100%);
+  // }
   &:hover .product-action-2 a {
     transform: scaleX(1);
   }
