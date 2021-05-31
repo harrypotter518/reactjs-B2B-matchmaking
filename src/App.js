@@ -109,6 +109,8 @@ const Checkout = lazy(() => import("./pages/other/Checkout"));
 
 const NotFound = lazy(() => import("./pages/other/NotFound"));
 
+const StartSeller = lazy(() => import("./pages/seller/StartSeller"));
+
 const App = (props) => {
   useEffect(() => {
     props.dispatch(
@@ -420,6 +422,11 @@ const App = (props) => {
                 <Route
                   path={process.env.PUBLIC_URL + "/not-found"}
                   component={NotFound}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/seller/StartSeller"}
+                  component={StartSeller}
                 />
 
                 <Route exact component={NotFound} />

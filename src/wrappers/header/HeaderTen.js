@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 import React, { useEffect, useState } from "react";
 import Logo from "../../components/header/Logo";
-import NavMenu from "../../components/header/NavMenu";
-import IconGroup from "../../components/header/IconGroup";
+import NavMenuTen from "../../components/header/NavMenuTen";
+import IconGroupTen from "../../components/header/IconGroupTen";
 import MobileMenu from "../../components/header/MobileMenu";
-import HeaderTop from "../../components/header/HeaderTop";
+import HeaderTopTen from "../../components/header/HeaderTopTen";
 
-const HeaderOne = ({
+const HeaderTen = ({
   layout,
   top,
   borderStyle,
@@ -35,19 +35,21 @@ const HeaderOne = ({
       className={`header-area clearfix ${headerBgClass ? headerBgClass : ""} ${
         headerPositionClass ? headerPositionClass : ""
       }`}
-    >
-      <div
+    >      
+      {/* <div
         className={`${headerPaddingClass ? headerPaddingClass : ""} ${
           top === "visible" ? "d-none d-lg-block" : "d-none"
         } header-top-area ${
           borderStyle === "fluid-border" ? "border-none" : ""
         }`}
-      >
-        {/* <div className={layout === "container-fluid" ? layout : "container"}> */}
-          {/* header top */}
-          {/* <HeaderTop borderStyle={borderStyle} />
-        </div> */}
-      </div>
+      > */}
+          {/* <div className={layout === "container-fluid" ? layout : "container"}> */}
+            {/* header top */}
+            {/* <hr/>
+            <HeaderTopTen borderStyle={borderStyle} />
+          </div> */}
+
+        {/* </div> */}
 
       <div
         className={` ${
@@ -64,17 +66,16 @@ const HeaderOne = ({
             </div>
             <div className="col-xl-9 col-lg-9 d-none d-lg-block">
               {/* Nav menu */}
-              <NavMenu />
-              
+              <NavMenuTen />
             </div>         
             <div className="col-xl-1 col-lg-1 col-md-6 col-8">
               {/* Icon group */}
-              <IconGroup />
+              <IconGroupTen />
             </div>
 
             <div className="col-xl-1 col-lg-1 col-md-6 col-8">
               <div className={layout === "container-fluid" ? layout : "container"} style={{ marginLeft:"-3vw" }}>          
-                <HeaderTop borderStyle={borderStyle} />             
+                <HeaderTopTen borderStyle={borderStyle} />             
               </div>
             </div>
          
@@ -82,12 +83,15 @@ const HeaderOne = ({
         </div>
         {/* mobile menu */}
         <MobileMenu />
+
+     
+
       </div>
     </header>
   );
 };
 
-HeaderOne.propTypes = {
+HeaderTen.propTypes = {
   borderStyle: PropTypes.string,
   headerPaddingClass: PropTypes.string,
   headerPositionClass: PropTypes.string,
@@ -95,4 +99,4 @@ HeaderOne.propTypes = {
   top: PropTypes.string
 };
 
-export default HeaderOne;
+export default HeaderTen;

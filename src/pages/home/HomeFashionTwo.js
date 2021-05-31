@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
-import LayoutOne from "../../layouts/LayoutOne";
+import LayoutTwenty from "../../layouts/LayoutTwenty";
+
 // import BannerOne from "../../wrappers/banner/BannerOne";
 import BlogFeatured from "../../wrappers/blog-featured/BlogFeatured";
 import HeroSliderNine from "../../wrappers/hero-slider/HeroSliderNine";
@@ -23,7 +24,7 @@ const HomeFashionTwo = () => {
           content="Fashion home of flone react minimalist eCommerce template."
         />
       </MetaTags>
-      <LayoutOne
+      <LayoutTwenty
         headerContainerClass="container-fluid"
         headerPaddingClass="header-padding-2"
         headerTop="visible"
@@ -155,7 +156,7 @@ const HomeFashionTwo = () => {
           </div>
         </div>
 
-      </LayoutOne>
+      </LayoutTwenty>
     </Fragment>
   );
 };
