@@ -21,7 +21,7 @@ const NavMenuTen = ({ strings, menuWhiteClass, sidebarMenu }) => {
           </li>
           
           <li>
-            <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+            <Link to={process.env.PUBLIC_URL + "/buyer/StartBuyer"}>
               <h4>{strings["buyer"]}</h4>
             </Link>
           </li>

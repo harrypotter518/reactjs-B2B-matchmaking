@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 import React, { useEffect, useState } from "react";
 import Logo from "../../components/header/Logo";
-import NavMenu from "../../components/header/NavMenu";
-import IconGroup from "../../components/header/IconGroup";
-import MobileMenu from "../../components/header/MobileMenu";
+import NavMenuTwelve from "../../components/header/NavMenuTwelve";
+import IconGroupTwelve from "../../components/header/IconGroupTwelve";
+import MobileMenuTwelve from "../../components/header/MobileMenuTwelve";
 import HeaderTop from "../../components/header/HeaderTop";
 
-const HeaderOne = ({
+const HeaderTwelve = ({
   layout,
   top,
   borderStyle,
@@ -64,22 +64,22 @@ const HeaderOne = ({
             </div>
             <div className="col-xl-8 col-lg-8 d-none d-lg-block">
               {/* Nav menu */}
-              <NavMenu />
+              <NavMenuTwelve />
             </div>
             <div className="col-xl-2 col-lg-2 col-md-6 col-8">
               {/* Icon group */}
-              <IconGroup />
+              <IconGroupTwelve />
             </div>
           </div>
         </div>
         {/* mobile menu */}
-        <MobileMenu />
+        <MobileMenuTwelve />
       </div>
     </header>
   );
 };
 
-HeaderOne.propTypes = {
+HeaderTwelve.propTypes = {
   borderStyle: PropTypes.string,
   headerPaddingClass: PropTypes.string,
   headerPositionClass: PropTypes.string,
@@ -87,4 +87,4 @@ HeaderOne.propTypes = {
   top: PropTypes.string
 };
 
-export default HeaderOne;
+export default HeaderTwelve;

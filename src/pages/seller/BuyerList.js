@@ -2,14 +2,11 @@ import PropTypes from "prop-types";
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
-import LayoutTwenty from "../../layouts/LayoutTwenty";
+import LayoutTwentyOne from "../../layouts/LayoutTwentyOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 
-const StartSeller = ({ location }) => {
+const SellerDashboard = ({ location }) => {
   const { pathname } = location;
-  const handleClick = e => {
-   window.location.href ="/seller/SellerDashboard";
-  };
 
   return (
     <Fragment>
@@ -22,9 +19,9 @@ const StartSeller = ({ location }) => {
       </MetaTags>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Seller</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Start 
+        Buyer List 
       </BreadcrumbsItem>
-      <LayoutTwenty 
+      <LayoutTwentyOne 
         headerContainerClass="container-fluid"
         headerPaddingClass="header-padding-2"
         headerTop="visible"
@@ -44,7 +41,7 @@ const StartSeller = ({ location }) => {
                       <p>Make informed business decisions with our industry directory, consumer search engine trends, IRI insights and reports.</p>
                   {/* </div> */}
                   <center>
-                    <button className="button_sign" type="button" onClick={handleClick}>
+                    <button className="button_sign" type="button">
                       Sign
                     </button>   
                   </center>
@@ -56,13 +53,13 @@ const StartSeller = ({ location }) => {
             </div>
           </div>
         </div>
-      </LayoutTwenty>
+      </LayoutTwentyOne>
     </Fragment>
   );
 };
 
-StartSeller.propTypes = {
+SellerDashboard.propTypes = {
   location: PropTypes.object
 };
 
-export default StartSeller;
+export default SellerDashboard;

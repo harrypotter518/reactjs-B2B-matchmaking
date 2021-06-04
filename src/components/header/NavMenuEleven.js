@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { multilanguage } from "redux-multilanguage";
 
-const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
+const NavMenuEleven = ({ strings, menuWhiteClass, sidebarMenu }) => {
   return (
     <div
       className={` ${
@@ -14,8 +14,55 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
     >
       <nav>
         <ul style={{ float:'left' }}>
-              
+          <li >
+            <Link to={process.env.PUBLIC_URL + "/seller/SellerDashboard"}>
+              <h4>{strings["dashboard"]}</h4>
+            </Link>
+          </li>
+          
           <li>
+            <Link to={process.env.PUBLIC_URL + "/seller/AddProduct"}>
+              <h4>{strings["add_product"]}</h4>
+            </Link>
+          </li>
+
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/seller/EditProduct"}>
+              <h4>{strings["edit_product"]}</h4>
+            </Link>
+          </li>
+
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/seller/BuyerList"}>
+              <h4>{strings["buyer_list"]}</h4>
+            </Link>
+          </li>
+
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/seller/Checkout"}>
+              <h4>{strings["checkout"]}</h4>
+            </Link>
+          </li>
+
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/seller/EditAccount"}>
+              <h4>{strings["edit_account"]}</h4>
+            </Link>
+          </li>
+
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/seller/ChangePassword"}>
+              <h4>{strings["change_password"]}</h4>
+            </Link>
+          </li>
+
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/seller/StartSeller"}>
+              <h4>{strings["logout"]}</h4>
+            </Link>
+          </li>
+          
+          {/* <li>
             <Link to={process.env.PUBLIC_URL + "/"}>
               {strings["home"]}
               {sidebarMenu ? (
@@ -495,7 +542,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
             </ul>
           </li>
 
-         
+          */}
           <li>
             <Link to={process.env.PUBLIC_URL + "/contact"}>
               {strings["contact_us"]}
@@ -507,10 +554,10 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
   );
 };
 
-NavMenu.propTypes = {
+NavMenuEleven.propTypes = {
   menuWhiteClass: PropTypes.string,
   sidebarMenu: PropTypes.bool,
   strings: PropTypes.object
 };
 
-export default multilanguage(NavMenu);
+export default multilanguage(NavMenuEleven);

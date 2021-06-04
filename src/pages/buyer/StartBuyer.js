@@ -8,19 +8,18 @@ import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 const StartSeller = ({ location }) => {
   const { pathname } = location;
   const handleClick = e => {
-   window.location.href ="/seller/SellerDashboard";
-  };
-
+    window.location.href ="/buyer/BuyerSearch";
+   };
   return (
     <Fragment>
       <MetaTags>
-        <title>OpenAsia | Seller</title>
+        <title>OpenAsia | Buyer</title>
         <meta
           name="description"
           content="Contact of flone react minimalist eCommerce template."
         />
       </MetaTags>
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Seller</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Buyer</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
         Start 
       </BreadcrumbsItem>
@@ -37,21 +36,20 @@ const StartSeller = ({ location }) => {
               <div className="col-lg-4 col-md-5" >
                 {/* <div className="contact-info-wrap" > */}
                   {/* <div className="single-contact-info"> */}
-                      <h3  style={{ paddingBottom:"2vh" }}>Suppliers & manufacturers</h3>
-                      <p>The resource you need to grow your business.</p>
-                      <p> It starts with you, the passinate manufacturers. We've built this platform to help brands grow.</p>
-                      <p>The need for availability is constant - increase your width and depth of distribution by showcasing your products to the key retailers and distributors.</p>
-                      <p>Make informed business decisions with our industry directory, consumer search engine trends, IRI insights and reports.</p>
+                      <h3 style={{ paddingBottom:"2vh" }}>Retailers & Distributors</h3>
+                      <p>We know you're busy, we've made this seasy for you and your team.</p>
+                      <p>Discover innovative products that meet your needs and keep on top of local and interantional consumer search trends.</p>
+                      <p>Everything you need to discover, source and grow.</p>                      
                   {/* </div> */}
                   <center>
-                    <button className="button_sign" type="button" onClick={handleClick}>
+                    <button className="button_sign" onClick={handleClick} type="button">
                       Sign
                     </button>   
                   </center>
                 {/* </div> */}
               </div>
               <div className="col-lg-8 col-md-7">
-                 <img src={process.env.PUBLIC_URL + "/assets/img/seller-banner.jpg"} alt="" />
+                 <img src={process.env.PUBLIC_URL + "/assets/img/buyer-banner.jpg"} alt="" />
               </div>
             </div>
           </div>

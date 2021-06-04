@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { multilanguage } from "redux-multilanguage";
 
-const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
+const NavMenuTwelve = ({ strings, menuWhiteClass, sidebarMenu }) => {
   return (
     <div
       className={` ${
@@ -14,10 +14,10 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
     >
       <nav>
         <ul style={{ float:'left' }}>
-              
+       
           <li>
             <Link to={process.env.PUBLIC_URL + "/"}>
-              {strings["home"]}
+              {strings["food_beverages"]}
               {sidebarMenu ? (
                 <span>
                   <i className="fa fa-angle-right"></i>
@@ -35,75 +35,137 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-fashion"}>
-                      {strings["home_fashion"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["accessories"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-fashion-two"}>
-                      {strings["home_fashion_two"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["baking&ingredients"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-fashion-three"}>
-                      {strings["home_fashion_three"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["beans"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-fashion-four"}>
-                      {strings["home_fashion_four"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["beef"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-fashion-five"}>
-                      {strings["home_fashion_five"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["bread"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-fashion-six"}>
-                      {strings["home_fashion_six"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["breakfast&snacks"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-fashion-seven"}>
-                      {strings["home_fashion_seven"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["broth&bouillon"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-fashion-eight"}>
-                      {strings["home_fashion_eight"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["butter"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-kids-fashion"}>
-                      {strings["home_kids_fashion"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["butter&alternative"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-cosmetics"}>
-                      {strings["home_cosmetics"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["cakes&desserts"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-furniture"}>
-                      {strings["home_furniture"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["candy"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-furniture-two"}>
-                      {strings["home_furniture_two"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["canned&soup"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-furniture-three"}>
-                      {strings["home_furniture_three"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["cheese"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-furniture-four"}>
-                      {strings["home_furniture_four"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["chicken"]}
+                    </Link>
+                  </li>                 
+                </ul>
+              </li>
+     
+            </ul>
+          </li>
+          
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/"}>
+              {strings["health_wellness"]}
+              {sidebarMenu ? (
+                <span>
+                  <i className="fa fa-angle-right"></i>
+                </span>
+              ) : (
+                <i className="fa fa-angle-down" />
+              )}
+            </Link>
+            <ul className="mega-menu mega-menu-padding">
+              <li>
+                <ul>
+                  <li className="mega-menu-title">
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["home_group_one"]}
                     </Link>
                   </li>
+                  <li>
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["aromatherapy&relaxation"]}
+                    </Link>
+                  </li>
+               
+                  <li>
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["chocolate"]}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["cough_cold&flu"]}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["detox&cleanses"]}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["digestion&nausea_remedies"]}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["digestive_enzymes"]}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["drink_mixes"]}
+                    </Link>
+                  </li>                
+               
                 </ul>
               </li>
               <li>
@@ -189,71 +251,68 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                   </li>
                 </ul>
               </li>
+
+            </ul>
+          </li>
+          
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/"}>
+              {strings["beauty_cosmetics"]}
+              {sidebarMenu ? (
+                <span>
+                  <i className="fa fa-angle-right"></i>
+                </span>
+              ) : (
+                <i className="fa fa-angle-down" />
+              )}
+            </Link>
+            <ul className="mega-menu mega-menu-padding">
               <li>
                 <ul>
                   <li className="mega-menu-title">
                     <Link to={process.env.PUBLIC_URL + "/"}>
-                      {strings["home_group_three"]}
+                      {strings["home_group_one"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-grid-banner"}>
-                      {strings["home_grid_banner"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["bags&organizers"]}
+                    </Link>
+                  </li>
+               
+                  <li>
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["bar_soap"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-auto-parts"}>
-                      {strings["home_auto_parts"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["beard_oils&balms"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-cake-shop"}>
-                      {strings["home_cake_shop"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["body_lotions&creams"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-handmade"}>
-                      {strings["home_handmade"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["body_wash&shower_gel"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-pet-food"}>
-                      {strings["home_pet_food"]}
+                    <Link to={process.env.PUBLIC_URL + "/"}>
+                      {strings["bubble_bath&bath_salts"]}
                     </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to={process.env.PUBLIC_URL + "/home-medical-equipment"}
-                    >
-                      {strings["home_medical_equipment"]}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-christmas"}>
-                      {strings["home_christmas"]}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-black-friday"}>
-                      {strings["home_black_friday"]}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to={process.env.PUBLIC_URL + "/home-black-friday-two"}
-                    >
-                      {strings["home_black_friday_two"]}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-valentines-day"}>
-                      {strings["home_valentines_day"]}
-                    </Link>
-                  </li>
+                  </li>                     
+               
                 </ul>
               </li>
+     
+
             </ul>
           </li>
+                    
           <li>
             <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
               {" "}
@@ -396,106 +455,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
               </li>
             </ul>
           </li>
-          <li>
-            <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-              {strings["collection"]}
-            </Link>
-          </li>
-          <li>
-            <Link to={process.env.PUBLIC_URL + "/"}>
-              {strings["pages"]}
-              {sidebarMenu ? (
-                <span>
-                  <i className="fa fa-angle-right"></i>
-                </span>
-              ) : (
-                <i className="fa fa-angle-down" />
-              )}
-            </Link>
-            <ul className="submenu">
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/cart"}>
-                  {strings["cart"]}
-                </Link>
-              </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/checkout"}>
-                  {strings["checkout"]}
-                </Link>
-              </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/wishlist"}>
-                  {strings["wishlist"]}
-                </Link>
-              </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/compare"}>
-                  {strings["compare"]}
-                </Link>
-              </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/my-account"}>
-                  {strings["my_account"]}
-                </Link>
-              </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/login-register"}>
-                  {strings["login_register"]}
-                </Link>
-              </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/about"}>
-                  {strings["about_us"]}
-                </Link>
-              </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/contact"}>
-                  {strings["contact_us"]}
-                </Link>
-              </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/not-found"}>
-                  {strings["404_page"]}
-                </Link>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-              {strings["blog"]}
-              {sidebarMenu ? (
-                <span>
-                  <i className="fa fa-angle-right"></i>
-                </span>
-              ) : (
-                <i className="fa fa-angle-down" />
-              )}
-            </Link>
-            <ul className="submenu">
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                  {strings["blog_standard"]}
-                </Link>
-              </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/blog-no-sidebar"}>
-                  {strings["blog_no_sidebar"]}
-                </Link>
-              </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/blog-right-sidebar"}>
-                  {strings["blog_right_sidebar"]}
-                </Link>
-              </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
-                  {strings["blog_details_standard"]}
-                </Link>
-              </li>
-            </ul>
-          </li>
-
-         
+      
           <li>
             <Link to={process.env.PUBLIC_URL + "/contact"}>
               {strings["contact_us"]}
@@ -507,10 +467,10 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
   );
 };
 
-NavMenu.propTypes = {
+NavMenuTwelve.propTypes = {
   menuWhiteClass: PropTypes.string,
   sidebarMenu: PropTypes.bool,
   strings: PropTypes.object
 };
 
-export default multilanguage(NavMenu);
+export default multilanguage(NavMenuTwelve);

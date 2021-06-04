@@ -82,5 +82,48 @@
   "blog_details_slider": "Blog Details Slider",
 
   "seller": "Seller",
-  "buyer": "Buyer"
+  "buyer": "Buyer",
+  "dashboard":"Dashboard",
+  "add_product":"Add Product",
+  "edit_product": "Edit Product",
+  "buyer_list": "Buyer List",
+  "edit_account": "Edit Account",
+  "change_password": "Change Password",
+  "logout":"Logout",
+
+
+  "food_beverages" :"Food & Beverages",
+  "health_wellness" :"Health & Wellness",
+  "beauty_cosmetics" :"Beauty& Cosmetics",
+
+  "accessories": "Accessories",
+  "baking&ingredients": "Baking Ingredients",
+  "beans": "Beans",
+  "beef": "Beef",
+  "bread": "Bread",
+  "breakfast&snacks": "Breakfast Snacks",
+  "broth&bouillon": "Broth & Bouillon",
+  "butter": "Butter",
+  "butter&alternative": "Butter Alternative",
+  "cakes&desserts": "Cakes & Desserts",
+  "candy": "Candy",
+  "canned&soup": "Canned Soup",
+  "cheese": "Cheese",
+  "chicken": "Chicken",
+  
+  "aromatherapy&relaxation": "Aromatherapy & Relaxation",
+  "chocolate" :"Chocolate",
+  "cough_cold&flu": "Cough, Cold & Flu",
+  "detox&cleanses": "Detox & Cleanses",
+  "digestion&nausea_remedies": "Detox & Cleanses",
+  "digestive_enzymes" :"Digestive Enzymes",
+  "drink_mixes" :"Drink Mixes",
+
+  "bags&organizers" :"Bags & Organizers",
+  "bar_soap" :"Bar Soap",
+  "beard_oils&balms" :"Beard Oils And Balms",
+  "body_lotions&creams" :"Body Lotions & Creams",
+  "body_wash&shower_gel" :"Body Wash & Shower Gel",
+  "bubble_bath&bath_salts" :"Bubble Bath & Bath Salts"  
+
 }

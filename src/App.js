@@ -105,11 +105,21 @@ const LoginRegister = lazy(() => import("./pages/other/LoginRegister"));
 const Cart = lazy(() => import("./pages/other/Cart"));
 const Wishlist = lazy(() => import("./pages/other/Wishlist"));
 const Compare = lazy(() => import("./pages/other/Compare"));
-const Checkout = lazy(() => import("./pages/other/Checkout"));
+// const Checkout = lazy(() => import("./pages/other/Checkout"));
 
 const NotFound = lazy(() => import("./pages/other/NotFound"));
 
 const StartSeller = lazy(() => import("./pages/seller/StartSeller"));
+const SellerDashboard = lazy(() => import("./pages/seller/SellerDashboard"));
+const AddProduct = lazy(() => import("./pages/seller/AddProduct"));
+const EditProduct = lazy(() => import("./pages/seller/EditProduct"));
+const BuyerList = lazy(() => import("./pages/seller/BuyerList"));
+const Checkout = lazy(() => import("./pages/seller/Checkout"));
+const EditAccount = lazy(() => import("./pages/seller/EditAccount"));
+const ChangePassword = lazy(() => import("./pages/seller/ChangePassword"));
+
+const StartBuyer = lazy(() => import("./pages/buyer/StartBuyer"));
+const BuyerSearch = lazy(() => import("./pages/buyer/BuyerSearch"));
 
 const App = (props) => {
   useEffect(() => {
@@ -414,10 +424,10 @@ const App = (props) => {
                   path={process.env.PUBLIC_URL + "/compare"}
                   component={Compare}
                 />
-                <Route
+                {/* <Route
                   path={process.env.PUBLIC_URL + "/checkout"}
                   component={Checkout}
-                />
+                /> */}
 
                 <Route
                   path={process.env.PUBLIC_URL + "/not-found"}
@@ -427,6 +437,50 @@ const App = (props) => {
                 <Route
                   path={process.env.PUBLIC_URL + "/seller/StartSeller"}
                   component={StartSeller}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/buyer/StartBuyer"}
+                  component={StartBuyer}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/seller/SellerDashboard"}
+                  component={SellerDashboard}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/seller/AddProduct"}
+                  component={AddProduct}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/seller/EditProduct"}
+                  component={EditProduct}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/seller/BuyerList"}
+                  component={BuyerList}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/seller/Checkout"}
+                  component={Checkout}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/seller/EditAccount"}
+                  component={EditAccount}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/seller/ChangePassword"}
+                  component={ChangePassword}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/buyer/BuyerSearch"}
+                  component={BuyerSearch}
                 />
 
                 <Route exact component={NotFound} />
