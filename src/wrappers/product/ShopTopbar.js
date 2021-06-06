@@ -17,6 +17,7 @@ const ShopTopbar = ({
         productCount={productCount}
         sortedProductCount={sortedProductCount}
       />
+
     </Fragment>
   );
 };

@@ -3,7 +3,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { useToasts } from "react-toast-notifications";
 import Sticky from "react-sticky-el";
-import { getDiscountPrice } from "../../helpers/product";
+import { getDiscountPrice } from "../../helpers/product_twelve";
 import ProductDescriptionInfo from "../../components/product/ProductDescriptionInfo";
 import ProductImageGallerySticky from "../../components/product/ProductImageGallerySticky";
 

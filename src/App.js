@@ -120,6 +120,8 @@ const ChangePassword = lazy(() => import("./pages/seller/ChangePassword"));
 
 const StartBuyer = lazy(() => import("./pages/buyer/StartBuyer"));
 const BuyerSearch = lazy(() => import("./pages/buyer/BuyerSearch"));
+const Brand = lazy(() => import("./pages/buyer/Brand"));
+const ProductDetail = lazy(() => import("./pages/buyer/ProductDetail"));
 
 const App = (props) => {
   useEffect(() => {
@@ -481,6 +483,18 @@ const App = (props) => {
                 <Route
                   path={process.env.PUBLIC_URL + "/buyer/BuyerSearch"}
                   component={BuyerSearch}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/buyer/Brand"}
+                  component={Brand}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/buyer/product/:id"}
+                  render={(routeProps) => (
+                    <ProductDetail {...routeProps} key={routeProps.match.params.id} />
+                  )}
                 />
 
                 <Route exact component={NotFound} />

@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React, { Fragment } from "react";
 import ShopTopFilter from "./ShopTopFilter";
-import { toggleShopTopFilter } from "../../helpers/product";
+import { toggleShopTopFilter } from "../../helpers/product_twelve";
 
 const ShopTopActionFilter = ({
   getFilterSortParams,

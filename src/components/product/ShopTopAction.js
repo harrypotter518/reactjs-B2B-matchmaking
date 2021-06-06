@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { setActiveLayout } from "../../helpers/product";
+import { setActiveLayout } from "../../helpers/product_twelve";
 
 const ShopTopAction = ({
   getLayout,

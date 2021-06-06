@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import MetaTags from "react-meta-tags";
 import { connect } from "react-redux";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
-import { getDiscountPrice } from "../../helpers/product";
+import { getDiscountPrice } from "../../helpers/product_twelve";
 import LayoutTwentyOne from "../../layouts/LayoutTwentyOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 

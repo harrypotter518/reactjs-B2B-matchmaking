@@ -4,12 +4,12 @@ import MetaTags from 'react-meta-tags';
 import Paginator from 'react-hooks-paginator';
 import { BreadcrumbsItem } from 'react-breadcrumbs-dynamic';
 import { connect } from 'react-redux';
-import { getSortedProducts } from '../../helpers/product';
+import { getSortedProducts } from '../../helpers/product_twelve';
 import LayoutTwentyTwo from '../../layouts/LayoutTwentyTwo';
 import Breadcrumb from '../../wrappers/breadcrumb/Breadcrumb';
-import ShopSidebar from '../../wrappers/product/ShopSidebar';
+import ShopSidebarTwelve from '../../wrappers/product/ShopSidebarTwelve';
 import ShopTopbar from '../../wrappers/product/ShopTopbar';
-import ShopProducts from '../../wrappers/product/ShopProducts';
+import ShopBrands from '../../wrappers/product/ShopBrands';
 
 const BuyerSearch = ({location, products}) => {
     const [layout, setLayout] = useState('grid three-column');
@@ -67,14 +67,14 @@ const BuyerSearch = ({location, products}) => {
                         <div className="row">
                             <div className="col-lg-3 order-2 order-lg-1">
                                 {/* shop sidebar */}
-                                <ShopSidebar products={products} getSortParams={getSortParams} sideSpaceClass="mr-30"/>
+                                <ShopSidebarTwelve products={products} getSortParams={getSortParams} sideSpaceClass="mr-30"/>
                             </div>
                             <div className="col-lg-9 order-1 order-lg-2">
                                 {/* shop topbar default */}
                                 <ShopTopbar getLayout={getLayout} getFilterSortParams={getFilterSortParams} productCount={products.length} sortedProductCount={currentData.length} />
 
                                 {/* shop page content default */}
-                                <ShopProducts layout={layout} products={currentData} />
+                                <ShopBrands layout={layout} products={currentData} />
 
                                 {/* shop product pagination */}
                                 <div className="pro-pagination-style text-center mt-30">

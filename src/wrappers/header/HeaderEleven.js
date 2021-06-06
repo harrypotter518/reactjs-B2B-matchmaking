@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../components/header/Logo";
-import IconGroupTen from "../../components/header/IconGroupTen";
+import IconGroupEleven from "../../components/header/IconGroupEleven";
 import MobileMenu from "../../components/header/MobileMenu";
 import NavMenuEleven from "../../components/header/NavMenuEleven";
 
@@ -11,7 +11,7 @@ const HeaderEleven = () => {
         {/* header logo */}
         <Logo imageUrl="/assets/img/logo/logo.png" logoClass="logo" />
         {/* Icon group */}
-        <IconGroupTen />
+        <IconGroupEleven />
         {/* sidebar nav menu */}
         <NavMenuEleven sidebarMenu={true} />
         {/* <div className="sidebar-copyright">

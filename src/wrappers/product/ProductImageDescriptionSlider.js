@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { connect } from "react-redux";
 import { useToasts } from "react-toast-notifications";
-import { getDiscountPrice } from "../../helpers/product";
+import { getDiscountPrice } from "../../helpers/product_twelve";
 import ProductImageGallerySlider from "../../components/product/ProductImageGallerySlider";
 import ProductDescriptionInfoSlider from "../../components/product/ProductDescriptionInfoSlider";
 

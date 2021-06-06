@@ -5,7 +5,7 @@ import {
   getIndividualTags,
   getIndividualColors,
   getProductsIndividualSizes
-} from "../../helpers/product";
+} from "../../helpers/product_twelve";
 import ShopSearch from "../../components/product/ShopSearch";
 import ShopCategories from "../../components/product/ShopCategories";
 import ShopColor from "../../components/product/ShopColor";

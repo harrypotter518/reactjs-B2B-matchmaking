@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { setActiveSort } from "../../helpers/product";
+import { setActiveSort } from "../../helpers/product_twelve";
 
 const ShopColor = ({ colors, getSortParams }) => {
   return (
@@ -24,6 +24,8 @@ const ShopColor = ({ colors, getSortParams }) => {
             {colors.map((color, key) => {
               return (
                 <li key={key}>
+                  <div className="color_type">
+
                   <div className="sidebar-widget-list-left">
                     <button
                       onClick={e => {
@@ -33,6 +35,8 @@ const ShopColor = ({ colors, getSortParams }) => {
                     >
                       <span className="checkmark" /> {color}{" "}
                     </button>
+                  </div>
+
                   </div>
                 </li>
               );

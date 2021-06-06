@@ -196,10 +196,13 @@ export const getIndividualSizes = product => {
   return individualSizes;
 };
 
+
 export const setActiveSort = e => {
+  
   const filterButtons = document.querySelectorAll(
-    ".sidebar-widget-list-left button, .sidebar-widget-tag button, .product-filter button"
+    ".category11 .sidebar-widget-list-left button, .sidebar-widget-tag button, .product-filter button"
   );
+
   filterButtons.forEach(item => {
     item.classList.remove("active");
   });

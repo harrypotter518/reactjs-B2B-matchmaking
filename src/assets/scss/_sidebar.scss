@@ -83,7 +83,7 @@
             height: 15px;
 
             border: 2px solid #888888;
-            border-radius: 3px;
+            border-radius: 50px;
             background-color: #fff;
             &::after {
               position: absolute;
@@ -124,6 +124,7 @@
           text-transform: capitalize;
 
           border: none;
+ 
           background: none;
           span {
             font-weight: 500;
@@ -155,6 +156,7 @@
             & > .checkmark {
               border-color: $theme-color;
               background-color: $theme-color;
+        
               &:after {
                 display: block;
               }
@@ -170,6 +172,7 @@
           .sidebar-widget-list-left {
             .checkmark {
               top: 5px;
+              border-radius: 50px;
             }
           }
         }
