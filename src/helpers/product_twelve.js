@@ -196,60 +196,21 @@ export const getIndividualSizes = product => {
   return individualSizes;
 };
 
-
-
-export const setActiveSort =( e, type) => {
-  console.log(type);
-
-  if (type=="category")
-  {
-    console.log("dsssssssss");
-  }
-  else
-  {
-    console.log("----------");
-  }
-  let sel;
-  if (type=="category")
-  {
-    sel= ".category_type .sidebar-widget-list-left button, .sidebar-widget-tag button, .product-filter button";
- 
-  }  
-  else if(type=="color")
-  {
-    sel= ".color_type .sidebar-widget-list-left button, .sidebar-widget-tag button, .product-filter button";
-  } 
-  else
-  {
-    sel= ".sidebar-widget-list-left button, .sidebar-widget-tag button, .product-filter button";
- 
-  }
-  // const filterButtons = document.querySelectorAll(
-  //   ".category11 .sidebar-widget-list-left button, .sidebar-widget-tag button, .product-filter button"
-  // );
-    const filterButtons = document.querySelectorAll(sel);
-
-  filterButtons.forEach(item => {
-    item.classList.remove("active");
-  });
-  e.currentTarget.classList.add("active");
-};
-
 export const setActiveSort_twelve =( e, type) => {
   
   let select_query;
-  if (type == "category")
+  if (type === "category")
     select_query = ".category_type .sidebar-widget-list-left button, .sidebar-widget-tag button, .product-filter button";
-  else if (type == "importamount")
+  else if (type === "importamount")
     select_query = ".importamount_type .sidebar-widget-list-left button, .sidebar-widget-tag button, .product-filter button";
 
-  else if (type == "annualrevenue")
+  else if (type === "annualrevenue")
     select_query = ".annualrevenue_type .sidebar-widget-list-left button, .sidebar-widget-tag button, .product-filter button";
 
-    else if (type == "owner")
+    else if (type === "owner")
     select_query = ".owner_type .sidebar-widget-list-left button, .sidebar-widget-tag button, .product-filter button";
 
-  else if (type == "offer")
+  else if (type === "offer")
     select_query = ".offer_type .sidebar-widget-list-left button, .sidebar-widget-tag button, .product-filter button";
   else
     select_query =".sidebar-widget-list-left button, .sidebar-widget-tag button, .product-filter button";

@@ -10,7 +10,6 @@ import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import ShopSidebarTwelve from "../../wrappers/product/ShopSidebarTwelve";
 import ShopTopbar from "../../wrappers/product/ShopTopbar";
 import ShopProductsTwelve from "../../wrappers/product/ShopProductsTwelve";
-import BrandDescriptionTab from "../../wrappers/product/ProductDescriptionTab";
 
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
@@ -81,7 +80,7 @@ const Brand = ({ location, products }) => {
                         src={
                         process.env.PUBLIC_URL + "/assets/img/brand-image/brand-1.jpg"
                         }
-                        width="100%"
+                        width="100%" alt="brand-1"
                     />
                 </div>
                 <div className="col-4" style={{ padding: "0px" }}>
@@ -89,7 +88,7 @@ const Brand = ({ location, products }) => {
                     src={
                     process.env.PUBLIC_URL + "/assets/img/brand-image/brand-2.jpg"
                     }
-                    width="100%"
+                    width="100%" alt="brand-2"
                 />
                 </div>
                 <div className="col-4" style={{ padding: "0px" }}>
@@ -97,7 +96,7 @@ const Brand = ({ location, products }) => {
                     src={
                     process.env.PUBLIC_URL + "/assets/img/brand-image/brand-3.png"
                     }
-                    width="100%"
+                    width="100%" alt="brand-3"
                 />
                 </div>
             </div>
@@ -111,6 +110,7 @@ const Brand = ({ location, products }) => {
                     process.env.PUBLIC_URL +
                     "/assets/img/brand-logo/brand-logo-1.png"
                     }
+                    alt="brand-logo"
                     style={{ width: "100%", marginTop: "-50px", background:"#f1e2e2",boxShadow: '10px 5px 10px #aaaaaa' }}
                 />
                 </div>
@@ -225,7 +225,7 @@ const Brand = ({ location, products }) => {
                         life, while building a better quality of life.
                         </p>                          
                         <div>
-                            <img src={process.env.PUBLIC_URL + "/assets/img/brand-image/brand-1.jpg"} width="90%"/>                              
+                            <img src={process.env.PUBLIC_URL + "/assets/img/brand-image/brand-1.jpg"} alt="brand" width="90%"/>                              
                         </div>       
                    
                     </div>

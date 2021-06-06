@@ -1,9 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 import { setActiveSort_twelve } from "../../helpers/product_twelve";
-import { Link } from "react-router-dom";
 
-import Form from "react-bootstrap/Form";
 const ShopImportAmount = ({ getSortParams }) => {
   return (
     <div className="sidebar-widget mt-50">

@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 import React from "react";
 import {
   getIndividualCategories,
-  getIndividualTags,
-  getIndividualColors,
-  getProductsIndividualSizes
+  // getIndividualTags,
+  // getIndividualColors,
+  // getProductsIndividualSizes
 } from "../../helpers/product_twelve";
 import ShopSearch from "../../components/product/ShopSearch";
 import ShopCategoriesTwelve from "../../components/product/ShopCategoriesTwelve";
@@ -19,9 +19,9 @@ import ShopOffer from "../../components/product/ShopOffer";
 
 const ShopSidebarTwelve = ({ products, getSortParams, sideSpaceClass }) => {
   const uniqueCategories = getIndividualCategories(products);
-  const uniqueColors = getIndividualColors(products);
-  const uniqueSizes = getProductsIndividualSizes(products);
-  const uniqueTags = getIndividualTags(products);
+  // const uniqueColors = getIndividualColors(products);
+  // const uniqueSizes = getProductsIndividualSizes(products);
+  // const uniqueTags = getIndividualTags(products);
 
   // const uniqueImportAmounts = getIndividualImportAmounts(products);
 
