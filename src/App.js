@@ -111,12 +111,14 @@ const NotFound = lazy(() => import("./pages/other/NotFound"));
 
 const StartSeller = lazy(() => import("./pages/seller/StartSeller"));
 const SellerDashboard = lazy(() => import("./pages/seller/SellerDashboard"));
+const MyProducts = lazy(() => import("./pages/seller/MyProducts"));
 const AddProduct = lazy(() => import("./pages/seller/AddProduct"));
 const EditProduct = lazy(() => import("./pages/seller/EditProduct"));
 const BuyerList = lazy(() => import("./pages/seller/BuyerList"));
 const Checkout = lazy(() => import("./pages/seller/Checkout"));
 const EditAccount = lazy(() => import("./pages/seller/EditAccount"));
 const ChangePassword = lazy(() => import("./pages/seller/ChangePassword"));
+
 
 const StartBuyer = lazy(() => import("./pages/buyer/StartBuyer"));
 const BuyerSearch = lazy(() => import("./pages/buyer/BuyerSearch"));
@@ -449,6 +451,11 @@ const App = (props) => {
                 <Route
                   path={process.env.PUBLIC_URL + "/seller/SellerDashboard"}
                   component={SellerDashboard}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/seller/MyProducts"}
+                  component={MyProducts}
                 />
 
                 <Route

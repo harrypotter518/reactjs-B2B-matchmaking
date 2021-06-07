@@ -19,6 +19,13 @@ const NavMenuEleven = ({ strings, menuWhiteClass, sidebarMenu }) => {
               <h4>{strings["dashboard"]}</h4>
             </Link>
           </li>
+
+             
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/seller/MyProducts"}>
+              <h4>{strings["my_products"]}</h4>
+            </Link>
+          </li>
           
           <li>
             <Link to={process.env.PUBLIC_URL + "/seller/AddProduct"}>

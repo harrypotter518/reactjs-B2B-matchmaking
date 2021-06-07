@@ -84,6 +84,7 @@
   "seller": "Seller",
   "buyer": "Buyer",
   "dashboard":"Dashboard",
+  "my_products":"My Products",
   "add_product":"Add Product",
   "edit_product": "Edit Product",
   "buyer_list": "Buyer List",
@@ -91,7 +92,7 @@
   "change_password": "Change Password",
   "logout":"Logout",
 
-
+ 
   "food_beverages" :"Food & Beverages",
   "health_wellness" :"Health & Wellness",
   "beauty_cosmetics" :"Beauty& Cosmetics",
