@@ -8,7 +8,7 @@ import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 const StartSeller = ({ location }) => {
   const { pathname } = location;
   const handleClick = e => {
-    window.location.href ="/buyer/BuyerSearch";
+    window.location.href =  process.env.PUBLIC_URL + "/buyer/BuyerSearch";
    };
   return (
     <Fragment>
