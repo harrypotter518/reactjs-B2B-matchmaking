@@ -4,12 +4,10 @@ import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutTwenty from "../../layouts/LayoutTwenty";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
-
+import { Link } from "react-router-dom";
 const StartSeller = ({ location }) => {
   const { pathname } = location;
-  const handleClick = e => {
-    window.location.href =  process.env.PUBLIC_URL + "/buyer/BuyerSearch";
-   };
+
   return (
     <Fragment>
       <MetaTags>
@@ -41,11 +39,13 @@ const StartSeller = ({ location }) => {
                       <p>Discover innovative products that meet your needs and keep on top of local and interantional consumer search trends.</p>
                       <p>Everything you need to discover, source and grow.</p>                      
                   {/* </div> */}
-                  <center>
-                    <button className="button_sign" onClick={handleClick} type="button">
-                      Sign
-                    </button>   
-                  </center>
+                  <Link to={process.env.PUBLIC_URL + "/buyer/BuyerSearch"}>
+                    <center>
+                      <button className="button_sign"  type="button">
+                        Sign
+                      </button>   
+                    </center>
+                  </Link>
                 {/* </div> */}
               </div>
               <div className="col-lg-8 col-md-7">
