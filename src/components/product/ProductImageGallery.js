@@ -108,8 +108,7 @@ const ProductImageGallery = ({ product }) => {
                       src={process.env.PUBLIC_URL + single}
                       className="img-fluid"
                       alt=""
-                      height="170px"
-
+               
                     />
                   </div>
                 </div>
