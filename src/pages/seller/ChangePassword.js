@@ -37,7 +37,7 @@ const EditAccount = ({ location }) => {
                       <Card.Header className="panel-heading">
                         <Accordion.Toggle variant="link" eventKey="0">
                           <h3 className="panel-title">
-                            <span>2 .</span> Change your password
+                            Change your password
                           </h3>
                         </Accordion.Toggle>
                       </Card.Header>
