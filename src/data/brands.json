@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "sku": "asdf204",
+    "name": "Brand-1",
+    "price": 5.52,
+    "discount": 10,
+    "new": true,
+    "rating": 5,
+    "saleCount": 12,
+    "category": ["handmade"],
+    "tag": ["handmade"],
+    "stock": 6,
+    "image": [
+      "/assets/img/brand-logo/brand-logo-1.png",
+      "/assets/img/product/handmade/4.jpg",
+      "/assets/img/product/handmade/5.jpg",
+      "/assets/img/product/handmade/6.jpg",
+      "/assets/img/product/handmade/7.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "2",
+    "sku": "asdf205",
+    "name": "Brand-2",
+    "price": 2.13,
+    "discount": 0,
+    "new": true,
+    "rating": 3,
+    "saleCount": 14,
+    "category": ["handmade"],
+    "tag": ["handmade"],
+    "stock": 12,
+    "image": [
+      "/assets/img/brand-logo/brand-logo-2.png",
+      "/assets/img/product/handmade/5.jpg",
+      "/assets/img/product/handmade/6.jpg",
+      "/assets/img/product/handmade/7.jpg",
+      "/assets/img/product/handmade/8.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "3",
+    "sku": "asdf206",
+    "name": "Brand-3",
+    "price": 12.9,
+    "discount": 40,
+    "new": false,
+    "rating": 3,
+    "saleCount": 13,
+    "category": ["handmade"],
+    "tag": ["handmade"],
+    "stock": 8,
+    "image": [
+      "/assets/img/brand-logo/brand-logo-3.png",
+      "/assets/img/product/handmade/6.jpg",
+      "/assets/img/product/handmade/7.jpg",
+      "/assets/img/product/handmade/8.jpg",
+      "/assets/img/product/handmade/1.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "4",
+    "sku": "asdf207",
+    "name": "Brand-4",
+    "price": 3.78,
+    "discount": 20,
+    "new": true,
+    "rating": 5,
+    "saleCount": 17,
+    "category": ["handmade"],
+    "tag": ["handmade"],
+    "stock": 5,
+    "image": [
+      "/assets/img/brand-logo/brand-logo-4.png",
+      "/assets/img/product/handmade/7.jpg",
+      "/assets/img/product/handmade/8.jpg",
+      "/assets/img/product/handmade/1.jpg",
+      "/assets/img/product/handmade/2.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "5",
+    "sku": "asdf208",
+    "name": "Brand-5",
+    "price": 2.52,
+    "discount": 10,
+    "new": true,
+    "rating": 4,
+    "saleCount": 18,
+    "category": ["handmade"],
+    "tag": ["handmade"],
+    "stock": 5,
+    "image": [
+      "/assets/img/brand-logo/brand-logo-5.png",
+      "/assets/img/product/handmade/8.jpg",
+      "/assets/img/product/handmade/1.jpg",
+      "/assets/img/product/handmade/2.jpg",
+      "/assets/img/product/handmade/3.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  }
+]

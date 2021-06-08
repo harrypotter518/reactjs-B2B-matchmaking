@@ -6,7 +6,7 @@ import { getDiscountPrice } from "../../helpers/product_twelve";
 import Rating from "./sub-components/ProductRating";
 import ProductModal from "./ProductModal";
 
-const BrandGridListSingle = ({
+const BuyerGridListSingle = ({
   product,
   currency,
   addToCart,
@@ -38,8 +38,8 @@ const BrandGridListSingle = ({
           className={`product-wrap ${spaceBottomClass ? spaceBottomClass : ""}`}
         >
           <div className="product-img">
-            {/* <Link to={process.env.PUBLIC_URL + "/product/" + product.id}> */}
-            <Link to={process.env.PUBLIC_URL + "/buyer/Brand"}>
+            {/* <Link to={process.env.PUBLIC_URL + "/buyer/product/" + product.id}> */}
+            <Link to={process.env.PUBLIC_URL + "/seller/EditProduct"}>
               <img
                 className="default-img"
                 src={process.env.PUBLIC_URL + product.image[0]}
@@ -51,7 +51,7 @@ const BrandGridListSingle = ({
                   className="hover-img"
                   src={process.env.PUBLIC_URL + product.image[1]}
                   alt=""
-                
+               
                 />
               ) : (
                 ""
@@ -245,7 +245,7 @@ const BrandGridListSingle = ({
                       <Link
                         to={`${process.env.PUBLIC_URL}/product/${product.id}`}
                       >
-                        Select Option
+                        Pay for Unlock
                       </Link>
                     ) : product.stock && product.stock > 0 ? (
                       <button
@@ -332,7 +332,7 @@ const BrandGridListSingle = ({
   );
 };
 
-BrandGridListSingle.propTypes = {
+BuyerGridListSingle.propTypes = {
   addToCart: PropTypes.func,
   addToCompare: PropTypes.func,
   addToWishlist: PropTypes.func,
@@ -345,4 +345,4 @@ BrandGridListSingle.propTypes = {
   wishlistItem: PropTypes.object
 };
 
-export default BrandGridListSingle;
+export default BuyerGridListSingle;

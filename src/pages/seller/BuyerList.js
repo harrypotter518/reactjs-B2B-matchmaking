@@ -1,12 +1,55 @@
 import PropTypes from "prop-types";
-import React, { Fragment } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import MetaTags from "react-meta-tags";
+import Paginator from "react-hooks-paginator";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
+import { connect } from "react-redux";
+import { getSortedProducts } from "../../helpers/product_twelve";
 import LayoutTwentyOne from "../../layouts/LayoutTwentyOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
+import ShopSidebar from "../../wrappers/product/ShopSidebar";
+import ShopTopbar from "../../wrappers/product/ShopTopbar";
+import ShopBuyers from "../../wrappers/product/ShopBuyers";
 
-const SellerDashboard = ({ location }) => {
+const BuyerList = ({ location, products }) => {
+  const [layout, setLayout] = useState("list");
+  const [sortType, setSortType] = useState("");
+  const [sortValue, setSortValue] = useState("");
+  const [filterSortType, setFilterSortType] = useState("");
+  const [filterSortValue, setFilterSortValue] = useState("");
+  const [offset, setOffset] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [currentData, setCurrentData] = useState([]);
+  const [sortedProducts, setSortedProducts] = useState([]);
+
+  const pageLimit = 15;
   const { pathname } = location;
+
+  const getLayout = layout => {
+    setLayout(layout);
+  };
+
+  const getSortParams = (sortType, sortValue) => {
+    setSortType(sortType);
+    setSortValue(sortValue);
+  };
+
+  const getFilterSortParams = (sortType, sortValue) => {
+    setFilterSortType(sortType);
+    setFilterSortValue(sortValue);
+  };
+
+  useEffect(() => {
+    let sortedProducts = getSortedProducts(products, sortType, sortValue);
+    const filterSortedProducts = getSortedProducts(
+      sortedProducts,
+      filterSortType,
+      filterSortValue
+    );
+    sortedProducts = filterSortedProducts;
+    setSortedProducts(sortedProducts);
+    setCurrentData(sortedProducts.slice(offset, offset + pageLimit));
+  }, [offset, products, sortType, sortValue, filterSortType, filterSortValue]);
 
   return (
     <Fragment>
@@ -14,41 +57,56 @@ const SellerDashboard = ({ location }) => {
         <title>OpenAsia | Seller</title>
         <meta
           name="description"
-          content="Contact of flone react minimalist eCommerce template."
+          content="Shop page of flone react minimalist eCommerce template."
         />
       </MetaTags>
+
       <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Seller</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Buyer List 
+        Buyer List
       </BreadcrumbsItem>
-      <LayoutTwentyOne 
-        headerContainerClass="container-fluid"
-        headerPaddingClass="header-padding-2"
-        headerTop="visible"
-      >
+
+      <LayoutTwentyOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
-        <div className="contact-area pt-100 pb-100">
+
+        <div className="shop-area pt-95 pb-100">
           <div className="container">
-            <div className="custom-row-2">
-              <div className="col-lg-4 col-md-5" >
-                {/* <div className="contact-info-wrap" > */}
-                  {/* <div className="single-contact-info"> */}
-                      <h3  style={{ paddingBottom:"2vh" }}>Suppliers & manufacturers</h3>
-                      <p>The resource you need to grow your business.</p>
-                      <p> It starts with you, the passinate manufacturers. We've built this platform to help brands grow.</p>
-                      <p>The need for availability is constant - increase your width and depth of distribution by showcasing your products to the key retailers and distributors.</p>
-                      <p>Make informed business decisions with our industry directory, consumer search engine trends, IRI insights and reports.</p>
-                  {/* </div> */}
-                  <center>
-                    <button className="button_sign" type="button">
-                      Sign
-                    </button>   
-                  </center>
-                {/* </div> */}
+            <div className="row">
+              <div className="col-lg-3 order-2">
+                {/* shop sidebar */}
+                <ShopSidebar
+                  products={products}
+                  getSortParams={getSortParams}
+                  sideSpaceClass="ml-30"
+                />
               </div>
-              <div className="col-lg-8 col-md-7">
-                 <img src={process.env.PUBLIC_URL + "/assets/img/seller-banner.jpg"} alt="" />
+              <div className="col-lg-9 order-1">
+                {/* shop topbar default */}
+                <ShopTopbar
+                  getLayout={getLayout}
+                  getFilterSortParams={getFilterSortParams}
+                  productCount={products.length}
+                  sortedProductCount={currentData.length}
+                />
+
+                {/* shop page content default */}
+                <ShopBuyers layout={layout} products={currentData} />
+
+                {/* shop product pagination */}
+                <div className="pro-pagination-style text-center mt-30">
+                  <Paginator
+                    totalRecords={sortedProducts.length}
+                    pageLimit={pageLimit}
+                    pageNeighbours={2}
+                    setOffset={setOffset}
+                    currentPage={currentPage}
+                    setCurrentPage={setCurrentPage}
+                    pageContainerClass="mb-0 mt-0"
+                    pagePrevText="«"
+                    pageNextText="»"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -58,8 +116,15 @@ const SellerDashboard = ({ location }) => {
   );
 };
 
-SellerDashboard.propTypes = {
-  location: PropTypes.object
+BuyerList.propTypes = {
+  location: PropTypes.object,
+  products: PropTypes.array
 };
 
-export default SellerDashboard;
+const mapStateToProps = state => {
+  return {
+    products: state.productData.products
+  };
+};
+
+export default connect(mapStateToProps)(BuyerList);

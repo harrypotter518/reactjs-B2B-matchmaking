@@ -88,6 +88,7 @@ const ProductImageGallery = ({ product }) => {
                         src={process.env.PUBLIC_URL + single}
                         className="img-fluid"
                         alt=""
+                     
                       />
                     </div>
                   </div>
@@ -101,12 +102,14 @@ const ProductImageGallery = ({ product }) => {
           {product.image &&
             product.image.map((single, key) => {
               return (
-                <div key={key}>
+                <div key={key} >
                   <div className="single-image">
                     <img
                       src={process.env.PUBLIC_URL + single}
                       className="img-fluid"
                       alt=""
+                      height="170px"
+
                     />
                   </div>
                 </div>

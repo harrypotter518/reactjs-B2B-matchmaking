@@ -54,16 +54,16 @@ const MyProducts = ({ location, products }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Shop Page</title>
+        <title>OpenAsia | Seller</title>
         <meta
           name="description"
           content="Shop page of flone react minimalist eCommerce template."
         />
       </MetaTags>
 
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Seller</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Shop
+        My Products
       </BreadcrumbsItem>
 
       <LayoutTwentyOne headerTop="visible">

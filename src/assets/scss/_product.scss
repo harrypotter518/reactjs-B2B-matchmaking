@@ -252,10 +252,13 @@
   position: relative;
   .product-img {
     position: relative;
+    width:270px;
+    height:270px;
 
     overflow: hidden;
     img {
       width: 100%;
+      transform: translateY(-10%);
     }
 
     &-badges {
@@ -295,7 +298,7 @@
       visibility: hidden;
 
       transition-duration: 0.7s;
-      transform: translate(-50%, 20px);
+      transform: translate(-50%, -10%);
 
       opacity: 0;
     }
@@ -2214,6 +2217,7 @@
   margin-right: 10px!important;
   padding-left:10px!important;
 }
+
 /* product home 8*/
 .collection-product {    
   width: 160px!important;
