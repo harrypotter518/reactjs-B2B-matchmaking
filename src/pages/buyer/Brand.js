@@ -139,7 +139,7 @@ const Brand = ({ location, products }) => {
                             <ul>                    
                                 <li key="1">
                                 <button>
-                                Food&Beverages
+                                Food & Beverages
                                 </button>
                                 </li>    
                                 <li key="2">
