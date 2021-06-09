@@ -11,6 +11,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import { makeStyles } from '@material-ui/core/styles';
+
 const useStyles = makeStyles((theme) => ({
   formControl: {
     margin: theme.spacing(1),
@@ -73,7 +74,7 @@ const LoginRegisterEleven = ({ location }) => {
                       <Tab.Pane eventKey="login">
                         <div className="login-form-container">
                           <div className="login-register-form">
-                            <form action={process.env.PUBLIC_URL + "/seller/SellerDashboard"}>
+                            <form>
                               <input
                                   type="text"
                                   name="user-name"
@@ -94,9 +95,11 @@ const LoginRegisterEleven = ({ location }) => {
                                     Forgot Password?
                                   </Link>
                                 </div>
-                                <button type="submit">
-                                  <span>Login</span>
-                                </button>
+                                <Link to= {process.env.PUBLIC_URL + "/seller/SellerDashboard"}>
+                                  <button type="submit">
+                                    <span>Login</span>
+                                  </button>
+                                </Link>
                               </div>
                             </form>
                           </div>
@@ -105,7 +108,7 @@ const LoginRegisterEleven = ({ location }) => {
                       <Tab.Pane eventKey="register">                     
                         <div className="login-form-container">
                           <div className="login-register-form">
-                            <form action={process.env.PUBLIC_URL + "/seller/LoginRegisterEleven2"}>
+                            <form >
                                
                                 <div className="row">
                                   <div className="col-lg-12 col-md-12">
@@ -171,9 +174,11 @@ const LoginRegisterEleven = ({ location }) => {
                                   <div className="col-lg-12 col-md-12">
                                     <h4 style={{ color:'blue', marginTop:'1rem' }}>Step 1/2</h4>
                                     <div className="button-box" style={{ textAlign:"right"}}>
-                                      <button type="submit">
-                                        <span>Continue</span>
-                                      </button>
+                                      <Link to={process.env.PUBLIC_URL + "/seller/LoginRegisterEleven2"}>
+                                        <button type="submit">
+                                          <span>Continue</span>
+                                        </button>
+                                      </Link>
                                     </div>
                                   </div>
                               </div>  
