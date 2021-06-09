@@ -117,7 +117,8 @@ const EditProduct = lazy(() => import("./pages/seller/EditProduct"));
 const BuyerList = lazy(() => import("./pages/seller/BuyerList"));
 const Checkout = lazy(() => import("./pages/seller/Checkout"));
 const EditAccount = lazy(() => import("./pages/seller/EditAccount"));
-const ChangePassword = lazy(() => import("./pages/seller/ChangePassword"));
+const LoginRegisterEleven = lazy(() => import("./pages/seller/LoginRegisterEleven"));
+const LoginRegisterEleven2 = lazy(() => import("./pages/seller/LoginRegisterEleven2"));
 
 
 const StartBuyer = lazy(() => import("./pages/buyer/StartBuyer"));
@@ -483,8 +484,13 @@ const App = (props) => {
                 />
 
                 <Route
-                  path={process.env.PUBLIC_URL + "/seller/ChangePassword"}
-                  component={ChangePassword}
+                  path={process.env.PUBLIC_URL + "/seller/LoginRegisterEleven"}
+                  component={LoginRegisterEleven}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/seller/LoginRegisterEleven2"}
+                  component={LoginRegisterEleven2}
                 />
 
                 <Route

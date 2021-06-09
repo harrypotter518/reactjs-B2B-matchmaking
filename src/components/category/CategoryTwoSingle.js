@@ -6,7 +6,8 @@ const CategoryTwoSingle = ({ data, sliderClass }) => {
   return (
     <div className={`collection-product ${sliderClass ? sliderClass : ""}`} >
       <div className="collection-img">
-        <Link to={process.env.PUBLIC_URL + data.link}>
+        {/* <Link to={process.env.PUBLIC_URL + data.link}> */}
+        <Link to={process.env.PUBLIC_URL + "/buyer/BuyerSearch"}>
           <img src={process.env.PUBLIC_URL + data.image} alt=""  style={{ width:"160px"}}/>
         </Link>
       </div>

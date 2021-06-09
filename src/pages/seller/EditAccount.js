@@ -73,7 +73,7 @@ const EditAccount = ({ location }) => {
                       <Card.Header className="panel-heading">
                         <Accordion.Toggle variant="link" eventKey="0">
                           <h3 className="panel-title">
-                            <span> </span> Edit Account{" "}
+                            <span> 1.</span> Edit Account{" "}
                           </h3>
                         </Accordion.Toggle>
                       </Card.Header>
@@ -82,7 +82,6 @@ const EditAccount = ({ location }) => {
                           <div className="myaccount-info-wrapper">
                             <div className="account-info-wrapper">
                               <h4>My Account Information</h4>
-                              <h5>Your Personal Details</h5>
                             </div>
                             <div className="row">
                               <div className="col-lg-12 col-md-12">
@@ -92,13 +91,13 @@ const EditAccount = ({ location }) => {
                                 </div>
                               </div>
 
-                              <div className="col-lg-12 col-md-12">
+                              <div className="col-lg-6 col-md-6">
                                 <div className="billing-info">
                                   <label>Email Address</label>
                                   <input type="email"  className="form-control"/>
                                 </div>
                               </div>
-                              <div className="col-lg-12 col-md-12">
+                              <div className="col-lg-6 col-md-6">
                                 <div className="billing-info">
                                   <label>Telephone</label>
                                   <input type="text"  className="form-control"/>
@@ -111,17 +110,16 @@ const EditAccount = ({ location }) => {
                                   <textarea
                                   className="form-control"
                                   id="exampleFormControlTextarea1"
-                                  rows="5"
+                                  rows="4"
                                   />
                                 </div>
                               </div>
 
-                              <div className="col-lg-12 col-md-12">
+                              <div className="col-lg-6 col-md-6">
                                 <div className="billing-info">
                                   <div>
                                     <label>Location</label>
-                                  </div>
-                                  
+                                  </div>                                  
                                   <FormControl variant="outlined" className={classes.formControl}>
                           
                                   <Select
@@ -385,7 +383,7 @@ const EditAccount = ({ location }) => {
                                   </div>
                               </div>                     
 
-                              <div className="col-lg-12 col-md-12">
+                              <div className="col-lg-6 col-md-6">
                                 <div className="billing-info">
                                   <label>Type of Business</label>
                                   <FormControl variant="outlined" className={classes.formControl}>
@@ -409,7 +407,7 @@ const EditAccount = ({ location }) => {
                                 </div>
                               </div>                              
 
-                              <div className="col-lg-12 col-md-12">
+                              <div className="col-lg-6 col-md-6">
                                 <div className="billing-info">
                                   <label>Terms of trading</label>
                                   <FormControl variant="outlined" className={classes.formControl}>
@@ -427,7 +425,7 @@ const EditAccount = ({ location }) => {
                                 </div>
                               </div>
 
-                              <div className="col-lg-12 col-md-12">
+                              <div className="col-lg-6 col-md-6">
                                 <div className="billing-info">
                                   <label>Funded year</label>
                                   <FormControl variant="outlined" className={classes.formControl}>
@@ -457,6 +455,44 @@ const EditAccount = ({ location }) => {
                       </Accordion.Collapse>
                     </Card>
                     
+                    <Card className="single-my-account mb-20">
+                      <Card.Header className="panel-heading">
+                        <Accordion.Toggle variant="link" eventKey="1">
+                          <h3 className="panel-title">
+                            <span>2.</span>Change your password
+                          </h3>
+                        </Accordion.Toggle>
+                      </Card.Header>
+                      <Accordion.Collapse eventKey="1">
+                        <Card.Body>
+                          <div className="myaccount-info-wrapper">
+                            <div className="account-info-wrapper">
+                              <h4>Change Password</h4>
+                              <h5>Your Password</h5>
+                            </div>
+                            <div className="row">
+                              <div className="col-lg-12 col-md-12">
+                                <div className="billing-info">
+                                  <label>Password</label>
+                                  <input type="password" />
+                                </div>
+                              </div>
+                              <div className="col-lg-12 col-md-12">
+                                <div className="billing-info">
+                                  <label>Password Confirm</label>
+                                  <input type="password" />
+                                </div>
+                              </div>
+                            </div>
+                            <div className="billing-back-btn">
+                              <div className="billing-btn">
+                                <button type="submit">Change</button>
+                              </div>
+                            </div>
+                          </div>
+                        </Card.Body>
+                      </Accordion.Collapse>
+                    </Card>
                   </Accordion>
                 </div>
               </div>

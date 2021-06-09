@@ -58,12 +58,6 @@ const NavMenuEleven = ({ strings, menuWhiteClass, sidebarMenu }) => {
           </li>
 
           <li>
-            <Link to={process.env.PUBLIC_URL + "/seller/ChangePassword"}>
-              <h4>{strings["change_password"]}</h4>
-            </Link>
-          </li>
-
-          <li>
             <Link to={process.env.PUBLIC_URL + "/seller/StartSeller"}>
               <h4>{strings["logout"]}</h4>
             </Link>

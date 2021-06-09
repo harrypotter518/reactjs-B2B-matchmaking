@@ -40,11 +40,7 @@ const SellerDashboard = ({ location }) => {
                       <p>The need for availability is constant - increase your width and depth of distribution by showcasing your products to the key retailers and distributors.</p>
                       <p>Make informed business decisions with our industry directory, consumer search engine trends, IRI insights and reports.</p>
                   {/* </div> */}
-                  <center>
-                    <button className="button_sign" type="button">
-                      Sign
-                    </button>   
-                  </center>
+           
                 {/* </div> */}
               </div>
               <div className="col-lg-8 col-md-7">
