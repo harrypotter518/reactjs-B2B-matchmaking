@@ -126,12 +126,12 @@
 }
 
 .section-title-3 {
-  h4 {
-    font-size: 24px;
-    font-weight: 500;
+  // h4 {
+  //   font-size: 24px;
+  //   font-weight: 500;
 
-    color: #000000;
-  }
+  //   color: #000000;
+  // }
   &.mb-40 {
     @media #{$xs-layout} {
       margin-bottom: 20px;

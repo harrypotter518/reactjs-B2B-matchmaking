@@ -34,7 +34,7 @@ const HomeFashionTwo = () => {
         <HeroSliderNine spaceLeftClass="ml-70" spaceRightClass="mr-70" />
         {/* banner */}
         {/* <BannerOne spaceTopClass="pt-60" spaceBottomClass="pb-35" /> */}
-        <BannerFour spaceTopClass="pt-60" spaceBottomClass="pb-35" />
+        <BannerFour  spaceBottomClass="pb-35" />
         {/* category */}
         <CategoryTwoSlider spaceTopClass="pt-50" spaceBottomClass="pb-95" />
         
@@ -55,14 +55,18 @@ const HomeFashionTwo = () => {
         />
 
         {/* QA part */}
-        <div className="container" style={{ paddingTop:'40px' }}>
-          <div className="row">
-            <div className="ml-auto mr-auto col-lg-9">
-              <div className="myaccount-wrapper" style={{borderTop:'5px solid #bca487'}}>
+        <div className="row pt-40 mb-40">
+          <div className="row" style={{width:"90%", marginRight:"auto", marginLeft:"auto"}}>
+            <div className="col-lg-3 col-3">
+              <img src={process.env.PUBLIC_URL + "/assets/img/bg/faq-bg-left.jpg"} alt="" style={{width:"100%"}}/> 
+            </div>
+          
+            <div className="col-lg-6 col-6 ">
+              <div className="myaccount-wrapper pb-40" style={{borderTop:'5px solid #bca487', borderRadius:"5px",boxShadow: "0px 10px 10px 0px rgba(0,0,0,0.15)" }}>
                 <h3 style={{ marginTop:'40px', marginBottom:'30px',textAlign:'center' }}>Frequently asked questions</h3>
-                <Accordion>
+                <Accordion className="pl-20 pr-20 mb-10">
                   
-                  <Card className="single-my-account mb-20">
+                  <Card className="single-my-account mb-20" style={{margin:"0px"}}>
                     <Card.Header className="panel-heading">
                       <Accordion.Toggle variant="link" eventKey="0">
                         <h3 className="panel-title">
@@ -72,7 +76,7 @@ const HomeFashionTwo = () => {
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">
                       <Card.Body>
-                        <div className="myaccount-info-wrapper">
+                        <div className="myaccount-info-wrapper pb-0 pt-0">
                         
                           <div className="row">
                             <div className="col-lg-12 col-md-12">
@@ -84,7 +88,7 @@ const HomeFashionTwo = () => {
                     </Accordion.Collapse>
                   </Card>
 
-                  <Card className="single-my-account mb-20">
+                  <Card className="single-my-account mb-20" style={{margin:"0px"}}>
                     <Card.Header className="panel-heading">
                       <Accordion.Toggle variant="link" eventKey="1">
                         <h3 className="panel-title">
@@ -94,7 +98,7 @@ const HomeFashionTwo = () => {
                     </Card.Header>
                     <Accordion.Collapse eventKey="1">
                       <Card.Body>
-                        <div className="myaccount-info-wrapper">
+                        <div className="myaccount-info-wrapper  pb-0 pt-0">
                         
                           <div className="row">
                             <div className="col-lg-12 col-md-12">
@@ -106,7 +110,7 @@ const HomeFashionTwo = () => {
                     </Accordion.Collapse>
                   </Card>
 
-                  <Card className="single-my-account mb-20">
+                  <Card className="single-my-account mb-20" style={{margin:"0px"}}>
                     <Card.Header className="panel-heading">
                       <Accordion.Toggle variant="link" eventKey="2">
                         <h3 className="panel-title">
@@ -116,7 +120,7 @@ const HomeFashionTwo = () => {
                     </Card.Header>
                     <Accordion.Collapse eventKey="2">
                       <Card.Body>
-                        <div className="myaccount-info-wrapper">
+                        <div className="myaccount-info-wrapper  pb-0 pt-0">
                         
                           <div className="row">
                             <div className="col-lg-12 col-md-12">                             
@@ -128,7 +132,7 @@ const HomeFashionTwo = () => {
                     </Accordion.Collapse>
                   </Card>
 
-                  <Card className="single-my-account mb-20">
+                  <Card className="single-my-account mb-20" style={{margin:"0px"}}>
                     <Card.Header className="panel-heading">
                       <Accordion.Toggle variant="link" eventKey="3">
                         <h3 className="panel-title">
@@ -138,7 +142,7 @@ const HomeFashionTwo = () => {
                     </Card.Header>
                     <Accordion.Collapse eventKey="3">
                       <Card.Body>
-                        <div className="myaccount-info-wrapper">
+                        <div className="myaccount-info-wrapper  pb-0 pt-0">
                         
                           <div className="row">
                             <div className="col-lg-12 col-md-12">
@@ -151,7 +155,10 @@ const HomeFashionTwo = () => {
                   </Card>       
               
                 </Accordion>
-              </div>
+              </div>  
+            </div>
+            <div className="col-lg-3 col-3">
+                <img src={process.env.PUBLIC_URL + "/assets/img/bg/faq-bg-right.jpg"} alt="" style={{width:"100%"}}/> 
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@
 
 /*-- Google Font --*/
 
-@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,500,600,700|Poppins:300,400,500,600,700,800,900|Josefin+Sans:wght@300;400;500;600;700|Abril+Fatface|Great+Vibe|Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,500,600,700|lato:300,400,500,600,700,800,900|Josefin+Sans:wght@300;400;500;600;700|Abril+Fatface|Great+Vibe|Lobster&display=swap");
 
 /*-- Common Style --*/
 
@@ -21,13 +21,14 @@ body {
 }
 
 body {
-  font-family: $poppins;
-  font-size: 14px;
+  // font-family: $poppins;
+  font-family: 'lato';
+  font-size: 15px;
   font-weight: 400;
   font-style: normal;
-  line-height: 24px;
+  line-height: 23px;
 
-  color: #000;
+  color: #1d252d;
   background-color: $white;
 }
 
@@ -37,24 +38,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $poppins;
-  font-weight: 400;
+  font-family: 'lato';
+  font-weight: 600;
 
   margin-top: 0;
 
   color: $heading-color;
 }
 
-p {
-  font-family: $poppins;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
 
-  margin-bottom: 15px;
-
-  color: #333;
-}
 
 h1 {
   font-size: 36px;
@@ -68,22 +60,36 @@ h2 {
 
 h3 {
   font-size: 24px;
-  line-height: 30px;
+  line-height: 32px;
+  font-weight: 700;
 }
 
 h4 {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 32px;
+  font-weight: 600;
 }
 
 h5 {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
 }
 
 h6 {
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+p {
+  font-family: 'lato';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  
+  margin-bottom: 15px;
+
 }
 
 p:last-child {

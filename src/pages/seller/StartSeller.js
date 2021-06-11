@@ -27,18 +27,18 @@ const StartSeller = ({ location }) => {
         headerTop="visible"
       >
         {/* breadcrumb */}
-        <Breadcrumb />
+        {/* <Breadcrumb /> */}
         <div className="contact-area pt-100 pb-100">
           <div className="container">
             <div className="custom-row-2">
               <div className="col-lg-4 col-md-5" >
                 {/* <div className="contact-info-wrap" > */}
                   {/* <div className="single-contact-info"> */}
-                      <h3  style={{ paddingBottom:"2vh" }}>Suppliers & manufacturers</h3>
-                      <p>The resource you need to grow your business.</p>
-                      <p> It starts with you, the passinate manufacturers. We've built this platform to help brands grow.</p>
-                      <p>The need for availability is constant - increase your width and depth of distribution by showcasing your products to the key retailers and distributors.</p>
-                      <p>Make informed business decisions with our industry directory, consumer search engine trends, IRI insights and reports.</p>
+                      <h4  style={{ paddingBottom:"2vh" }}>Suppliers & manufacturers</h4>
+                      <h5>The resource you need to grow your business.</h5>
+                      <h5>It starts with you, the passinate manufacturers. We've built this platform to help brands grow.</h5>
+                      <h5>The need for availability is constant - increase your width and depth of distribution by showcasing your products to the key retailers and distributors.</h5>
+                      <h5> Make informed business decisions with our industry directory, consumer search engine trends, IRI insights and reports.</h5>
                   {/* </div> */}
                   <Link to={process.env.PUBLIC_URL + "/seller/LoginRegisterEleven"}>
                     <center>

@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 import React, { useState } from "react";
-import Tab from "react-bootstrap/Tab";
-import Nav from "react-bootstrap/Nav";
+// import Tab from "react-bootstrap/Tab";
+// import Nav from "react-bootstrap/Nav";
 import Swiper from "react-id-swiper";
-import SectionTitleFive from "../../components/section-title/SectionTitleFive";
+// import SectionTitleFive from "../../components/section-title/SectionTitleFive";
 import ProductGridTwo from "./ProductGridTwo";
 
 const TabProductEleven = ({
@@ -81,8 +81,9 @@ const TabProductEleven = ({
       }`}
     >
       <div className="container">
+        <h3 className="mb-30"><center>New in OpenAsia</center></h3>
         <div className="product-tab-slider-wrapper position-relative">
-          <Tab.Container defaultActiveKey="saleItems">
+          {/* <Tab.Container defaultActiveKey="saleItems">
             <div className="product-top-bar section-border mb-60">
               <SectionTitleFive titleText={sectionTitle} />
               <Nav
@@ -107,7 +108,7 @@ const TabProductEleven = ({
               </Nav>
             </div>
             <Tab.Content>
-              <Tab.Pane eventKey="newArrival">
+              <Tab.Pane eventKey="newArrival"> */}
                 <div className="row">
                   <Swiper {...settings} getSwiper={updateSwiper}>
                     <ProductGridTwo
@@ -134,7 +135,7 @@ const TabProductEleven = ({
                     </button>
                   </div>
                 </div>
-              </Tab.Pane>
+              {/* </Tab.Pane>
               <Tab.Pane eventKey="bestSeller">
                 <div className="row">
                   <Swiper {...settings} getSwiper={updateSwiper2}>
@@ -192,7 +193,7 @@ const TabProductEleven = ({
                 </div>
               </Tab.Pane>
             </Tab.Content>
-          </Tab.Container>
+          </Tab.Container> */}
         </div>
       </div>
       {bgShape ? (

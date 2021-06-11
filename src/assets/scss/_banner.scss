@@ -50,40 +50,40 @@
         font-size: 30px;
       }
     }
-    h4 {
-      font-family: "Cormorant Garamond";
-      font-size: 18px;
-      font-weight: 600;
+    // h4 {
+    //   font-family: "Cormorant Garamond";
+    //   font-size: 18px;
+    //   font-weight: 600;
 
-      margin: 3px 0 58px;
+    //   margin: 3px 0 58px;
 
-      color: #010101;
-      @media #{$lg-layout} {
-        margin: 3px 0 25px;
-      }
-      @media #{$lg-layout} {
-        margin: 3px 0 15px;
-      }
-      @media #{$md-layout} {
-        margin: 3px 0 8px;
-      }
-      @media #{$xs-layout} {
-        margin: 3px 0 20px;
-      }
-      span {
-        font-size: 20px;
-        line-height: 1;
+    //   color: #010101;
+    //   @media #{$lg-layout} {
+    //     margin: 3px 0 25px;
+    //   }
+    //   @media #{$lg-layout} {
+    //     margin: 3px 0 15px;
+    //   }
+    //   @media #{$md-layout} {
+    //     margin: 3px 0 8px;
+    //   }
+    //   @media #{$xs-layout} {
+    //     margin: 3px 0 20px;
+    //   }
+    //   span {
+    //     font-size: 20px;
+    //     line-height: 1;
 
-        position: relative;
-        top: 2px;
+    //     position: relative;
+    //     top: 2px;
 
-        display: inline-block;
+    //     display: inline-block;
 
-        margin: 0 0 0 2px;
+    //     margin: 0 0 0 2px;
 
-        color: #935644;
-      }
-    }
+    //     color: #935644;
+    //   }
+    // }
     a {
       font-size: 14px;
 

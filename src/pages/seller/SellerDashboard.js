@@ -27,7 +27,7 @@ const SellerDashboard = ({ location }) => {
         headerTop="visible"
       >
         {/* breadcrumb */}
-        <Breadcrumb />
+        {/* <Breadcrumb /> */}
         <div className="contact-area pt-100 pb-100">
           <div className="container">
             <div className="custom-row-2">

@@ -6,7 +6,7 @@ const SectionTitleFour = ({ titleText, spaceBottomClass }) => {
     <div
       className={`section-title-3 ${spaceBottomClass ? spaceBottomClass : ""}`}
     >
-      <h4>{titleText}</h4>
+      <h3>{titleText}</h3>
     </div>
   );
 };

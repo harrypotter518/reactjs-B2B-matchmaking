@@ -65,8 +65,8 @@
       line-height: 1;
 
       position: absolute;
-      top: 15px;
-      right: 0;
+      top: 140px;
+      // right: 0;     
 
       display: inline-block;
 
@@ -93,8 +93,19 @@
         background-color: $theme-color;
       }
       &.swiper-button-prev {
-        right: 40px;
-        left: auto;
+        // right: 40px;
+        // left: auto;
+        right: auto;
+        left: 0px;
+        border-radius: 30px;
+        @media #{$xs-layout} {
+          margin-right: 10px;
+        }
+      }
+
+      &.swiper-button-next {
+ 
+        border-radius: 30px;
         @media #{$xs-layout} {
           margin-right: 10px;
         }
@@ -1418,11 +1429,14 @@
   overflow: hidden;
   .product-img {
     position: relative;
-    height:270px;
+    height:260px;
+    width:260px;
+ 
     img {
       width: 100%;
-      height:270px;
+      height:260px;
       object-fit:cover;
+      border-radius: 5px;
       // transform:translateY(-10%);
     }
     span {

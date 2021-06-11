@@ -36,6 +36,7 @@ const HeaderTen = ({
         headerPositionClass ? headerPositionClass : ""
       }`}
     >      
+    
       {/* <div
         className={`${headerPaddingClass ? headerPaddingClass : ""} ${
           top === "visible" ? "d-none d-lg-block" : "d-none"
@@ -54,8 +55,7 @@ const HeaderTen = ({
       <div
         className={` ${
           headerPaddingClass ? headerPaddingClass : ""
-        } sticky-bar header-res-padding clearfix ${
-          scroll > headerTop ? "stick" : ""
+        } sticky-bar header-res-padding clearfix stick
         }`}
       >
         <div className={layout === "container-fluid" ? layout : "container"}>
@@ -64,14 +64,30 @@ const HeaderTen = ({
               {/* header logo */}
               <Logo imageUrl="/assets/img/logo/logo.png" logoClass="logo" />
             </div>
-            <div className="col-xl-9 col-lg-9 d-none d-lg-block">
+
+            <div className="col-xl-7 col-lg-7 col-md-6 col-8">
+           
+              {/* <IconGroupTen /> */}
+              <div className="header-right-wrap">
+                <div className="same-style header-search d-none d-lg-block">
+                  <div className="search-content active" style={{ width:"50vw", marginTop:"-27px",boxShadow:"none",  }}>
+                    <form action="#">
+                      <input type="text" placeholder="Search for items or brands"  style={{backgroundColor:"#f6f6f6", borderRadius:"5px"}}/>
+                      <button className="button-search" style={{ borderRadius:"5px"}} >
+                        <i className="pe-7s-search" />
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div className="col-xl-3 col-lg-3 col-md-6 d-none d-lg-block">
               {/* Nav menu */}
               <NavMenuTen />
             </div>         
-            <div className="col-xl-1 col-lg-1 col-md-6 col-8">
-              {/* Icon group */}
-              <IconGroupTen />
-            </div>
+            
+    
 
             <div className="col-xl-1 col-lg-1 col-md-6 col-8">
               <div className={layout === "container-fluid" ? layout : "container"} style={{ marginLeft:"-3vw" }}>          
