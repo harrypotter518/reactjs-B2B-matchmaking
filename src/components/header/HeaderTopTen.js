@@ -13,11 +13,12 @@ const HeaderTopTen = ({
   borderStyle
 }) => {
   return (
-    <div
-      className={`header-top-wap ${
-        borderStyle === "fluid-border" ? "border-bottom" : ""
-      }`} style={{ width:"72px", marginTop:"15px" }}
-    >
+    // <div
+    //   className={`header-top-wap ${
+    //     borderStyle === "fluid-border" ? "border-bottom" : ""
+    //   }`} style={{ width:"72px", marginTop:"15px" }}
+    // >
+    <div>
       <LanguageCurrencyChanger
         currency={currency}
         setCurrency={setCurrency}

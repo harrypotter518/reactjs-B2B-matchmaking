@@ -83,7 +83,7 @@ const HeaderTen = ({
               </div>
 
             </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 d-none d-lg-block">
+            <div className="col-xl-3 col-lg-3 col-md-6 d-none d-lg-block" style={{ float:"right" }}>
               {/* Nav menu */}
               <NavMenuTen />
             </div>         
@@ -91,9 +91,9 @@ const HeaderTen = ({
     
 
             <div className="col-xl-1 col-lg-1 col-md-6 col-8">
-              <div className={layout === "container-fluid" ? layout : "container"} style={{ marginLeft:"-3vw" }}>          
+              {/* <div className={layout === "container-fluid" ? layout : "container"} style={{ marginLeft:"-3vw" }}>           */}
                 <HeaderTopTen borderStyle={borderStyle} />             
-              </div>
+              {/* </div> */}
             </div>
          
           </div>
