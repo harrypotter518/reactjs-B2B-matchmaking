@@ -49,7 +49,7 @@ const StartSeller = ({ location }) => {
                 {/* </div> */}
               </div>
               <div className="col-lg-8 col-md-7">
-                 <img src={process.env.PUBLIC_URL + "/assets/img/buyer-banner.jpg"} alt="" />
+                 <img src={process.env.PUBLIC_URL + "/assets/img/buyer-banner.jpg"} alt="" width="100%"/>
               </div>
             </div>
           </div>

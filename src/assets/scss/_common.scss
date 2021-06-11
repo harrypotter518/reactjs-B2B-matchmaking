@@ -30,7 +30,17 @@ body {
 
   color: #1d252d;
   background-color: $white;
+  @media (max-width:900px){
+    font-size: 14px;
+  }
 }
+
+.lang_bar{
+  @media (max-width:900px){
+    font-size: 13px;
+  }
+}
+
 
 h1,
 h2,
@@ -74,6 +84,10 @@ h5 {
   font-size: 15px;
   line-height: 23px;
   font-weight: 400;
+
+  @media (max-width:900px){
+    font-size: 14px;
+  }
 }
 
 h6 {
@@ -1463,6 +1477,10 @@ textarea:focus {
   @media #{$xs-layout} {
     margin-right: -15px;
     margin-left: -15px;
+  }
+
+  button{
+    margin-bottom:20px!important;
   }
 }
 .custom-row-3 {

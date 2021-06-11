@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 // import MenuCart from "./sub-components/MenuCart";
 import { deleteFromCart } from "../../redux/actions/cartActions";
@@ -13,9 +13,9 @@ const IconGroupTen = ({
   deleteFromCart,
   iconWhiteClass
 }) => {
-  const handleClick = e => {
-    e.currentTarget.nextSibling.classList.toggle("active");
-  };
+  // const handleClick = e => {
+  //   e.currentTarget.nextSibling.classList.toggle("active");
+  // };
 
   const triggerMobileMenu = () => {
     const offcanvasMobileMenu = document.querySelector(
@@ -29,11 +29,11 @@ const IconGroupTen = ({
       className={`header-right-wrap ${iconWhiteClass ? iconWhiteClass : ""}`}
     >
       
-      <div className="same-style header-search d-none d-lg-block">
-        {/* <button className="search-active" onClick={e => handleClick(e)}>
+      {/* <div className="same-style header-search d-none d-lg-block">
+        <button className="search-active" onClick={e => handleClick(e)}>
           <i className="pe-7s-search " />
-        </button> */}
-        <div className="search-content active" style={{ width:"50vw",marginTop:"-85px", boxShadow:"none" }}>
+        </button>
+        <div className="search-content" >
           <form action="#">
             <input type="text" placeholder="Search" />
             <button className="button-search">
@@ -42,31 +42,7 @@ const IconGroupTen = ({
           </form>
         </div>
       </div>
-      <div className="same-style account-setting d-none d-lg-block">
-        <button
-          className="account-setting-active"
-          onClick={e => handleClick(e)}
-        >
-          <i className="pe-7s-user-female" />
-        </button>
-        <div className="account-dropdown">
-          <ul>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/login-register"}>Login</Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/login-register"}>
-                Register
-              </Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/my-account"}>
-                my account
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </div>
+  */}
       {/* <div className="same-style header-compare">
         <Link to={process.env.PUBLIC_URL + "/compare"}>
           <i className="pe-7s-shuffle" />

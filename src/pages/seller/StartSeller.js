@@ -41,7 +41,7 @@ const StartSeller = ({ location }) => {
                       <h5> Make informed business decisions with our industry directory, consumer search engine trends, IRI insights and reports.</h5>
                   {/* </div> */}
                   <Link to={process.env.PUBLIC_URL + "/seller/LoginRegisterEleven"}>
-                    <center>
+                    <center  >
                       <button className="button_sign" type="button" >
                         Sign
                       </button>   
@@ -50,7 +50,7 @@ const StartSeller = ({ location }) => {
                 {/* </div> */}
               </div>
               <div className="col-lg-8 col-md-7">
-                 <img src={process.env.PUBLIC_URL + "/assets/img/seller-banner.jpg"} alt="" />
+                 <img src={process.env.PUBLIC_URL + "/assets/img/seller-banner.jpg"} alt="" width="100%"/>
               </div>
             </div>
           </div>

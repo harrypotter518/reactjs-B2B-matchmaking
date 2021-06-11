@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import React, { useEffect } from "react";
 import Logo from "../../components/header/Logo";
 import NavMenuTen from "../../components/header/NavMenuTen";
-// import IconGroupTen from "../../components/header/IconGroupTen";
+import IconGroupTen from "../../components/header/IconGroupTen";
 import MobileMenu from "../../components/header/MobileMenu";
 import HeaderTopTen from "../../components/header/HeaderTopTen";
 
@@ -61,17 +61,20 @@ const HeaderTen = ({
       >
         <div className={layout === "container-fluid" ? layout : "container"}>
           <div className="row">
-            <div className="col-xl-1 col-lg-1 col-md-6 col-4">
+            <div className="col-xl-1 col-lg-1 col-md-8 col-8">
               {/* header logo */}
               <Logo imageUrl="/assets/img/logo/logo.png" logoClass="logo" />
             </div>
+            <div className="col-xl-1 col-lg-1  col-md-4 col-4">
+              <IconGroupTen />
+            </div>
 
-            <div className="col-xl-7 col-lg-7 col-md-6 col-8">
+            <div className="col-xl-5 col-lg-5  d-none d-lg-block">
            
               {/* <IconGroupTen /> */}
-              <div className="header-right-wrap">
-                <div className="same-style header-search d-none d-lg-block">
-                  <div className="search-content active" style={{ width:"50vw",marginTop:"-27px", boxShadow:"none", backgroundColor:"transparent"  }}>
+              <div className="header-right-wrap" style={{ width:"100%"}}>
+                <div className="same-style header-search  d-none d-lg-block" style={{ width:"100%"}}>
+                  <div className="search-content active" style={{ width:"100%",marginTop:"-27px", boxShadow:"none", backgroundColor:"transparent"  }}>
                     <form action="#">
                       <input type="text" placeholder="Search for items or brands"  style={{backgroundColor:"#f6f6f6", borderRadius:"5px"}}/>
                       <button className="button-search" style={{ borderRadius:"5px"}} >
@@ -83,16 +86,21 @@ const HeaderTen = ({
               </div>
 
             </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 d-none d-lg-block" >
+            <div className="col-xl-4 col-lg-4   d-none d-lg-block"  style={{ paddingLeft:'0px',paddingRight:'0px' }} >
               {/* Nav menu */}
               <NavMenuTen />
-            </div>         
+              
+            </div> 
+     
+              
             
     
 
-            <div className="col-xl-1 col-lg-1 col-md-6 col-8 pt-10">
-              {/* <div className={layout === "container-fluid" ? layout : "container"} style={{ marginLeft:"-3vw" }}>           */}
-                <HeaderTopTen borderStyle={borderStyle} />             
+            <div className="col-xl-1 col-lg-1 d-none d-lg-block pt-10 lang_bar" style={{paddingLeft:'0px',paddingRight:'0px'}}> 
+              {/* <div className={layout === "container-fluid" ? layout : "container"} >           */}
+                                
+                    <HeaderTopTen borderStyle={borderStyle} />  
+                                       
               {/* </div> */}
             </div>
          
