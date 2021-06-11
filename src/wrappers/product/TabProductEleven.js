@@ -16,8 +16,8 @@ const TabProductEleven = ({
   colorClass
 }) => {
   const [swiper, updateSwiper] = useState(null);
-  const [swiper2, updateSwiper2] = useState(null);
-  const [swiper3, updateSwiper3] = useState(null);
+  // const [swiper2, updateSwiper2] = useState(null);
+  // const [swiper3, updateSwiper3] = useState(null);
 
   const settings = {
     loop: false,
@@ -51,27 +51,27 @@ const TabProductEleven = ({
     }
   };
 
-  const goNext2 = () => {
-    if (swiper2 !== null) {
-      swiper2.slideNext();
-    }
-  };
-  const goPrev2 = () => {
-    if (swiper2 !== null) {
-      swiper2.slidePrev();
-    }
-  };
+  // const goNext2 = () => {
+  //   if (swiper2 !== null) {
+  //     swiper2.slideNext();
+  //   }
+  // };
+  // const goPrev2 = () => {
+  //   if (swiper2 !== null) {
+  //     swiper2.slidePrev();
+  //   }
+  // };
 
-  const goNext3 = () => {
-    if (swiper3 !== null) {
-      swiper3.slideNext();
-    }
-  };
-  const goPrev3 = () => {
-    if (swiper3 !== null) {
-      swiper3.slidePrev();
-    }
-  };
+  // const goNext3 = () => {
+  //   if (swiper3 !== null) {
+  //     swiper3.slideNext();
+  //   }
+  // };
+  // const goPrev3 = () => {
+  //   if (swiper3 !== null) {
+  //     swiper3.slidePrev();
+  //   }
+  // };
   return (
     <div
       className={`product-area product-area--style2 ${

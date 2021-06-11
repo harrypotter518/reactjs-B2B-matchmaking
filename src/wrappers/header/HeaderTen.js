@@ -1,8 +1,9 @@
 import PropTypes from "prop-types";
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Logo from "../../components/header/Logo";
 import NavMenuTen from "../../components/header/NavMenuTen";
-import IconGroupTen from "../../components/header/IconGroupTen";
+// import IconGroupTen from "../../components/header/IconGroupTen";
 import MobileMenu from "../../components/header/MobileMenu";
 import HeaderTopTen from "../../components/header/HeaderTopTen";
 
@@ -14,21 +15,21 @@ const HeaderTen = ({
   headerPositionClass,
   headerBgClass
 }) => {
-  const [scroll, setScroll] = useState(0);
-  const [headerTop, setHeaderTop] = useState(0);
+  // const [scroll, setScroll] = useState(0);
+  // const [headerTop, setHeaderTop] = useState(0);
 
   useEffect(() => {
-    const header = document.querySelector(".sticky-bar");
-    setHeaderTop(header.offsetTop);
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+  //   const header = document.querySelector(".sticky-bar");
+  //   setHeaderTop(header.offsetTop);
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
   }, []);
 
-  const handleScroll = () => {
-    setScroll(window.scrollY);
-  };
+  // const handleScroll = () => {
+  //   setScroll(window.scrollY);
+  // };
 
   return (
     <header

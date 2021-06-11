@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutTwentyOne from "../../layouts/LayoutTwentyOne";
-import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
+// import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 
 const SellerDashboard = ({ location }) => {
   const { pathname } = location;
