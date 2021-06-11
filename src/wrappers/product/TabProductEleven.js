@@ -81,7 +81,7 @@ const TabProductEleven = ({
       }`}
     >
       <div className="container">
-        <h3 className="mb-30"><center>New in OpenAsia</center></h3>
+        <h3 className="mb-30"><center>New on OpenAsia</center></h3>
         <div className="product-tab-slider-wrapper position-relative">
           {/* <Tab.Container defaultActiveKey="saleItems">
             <div className="product-top-bar section-border mb-60">

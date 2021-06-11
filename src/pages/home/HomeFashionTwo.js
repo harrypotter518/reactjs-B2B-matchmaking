@@ -31,7 +31,7 @@ const HomeFashionTwo = () => {
       >
 
         {/* hero slider */}
-        <HeroSliderNine spaceLeftClass="ml-70" spaceRightClass="mr-70" />
+        <HeroSliderNine  spaceLeftClass="ml-70" spaceRightClass="mr-70" />
         {/* banner */}
         {/* <BannerOne spaceTopClass="pt-60" spaceBottomClass="pb-35" /> */}
         <BannerFour  spaceBottomClass="pb-35" />

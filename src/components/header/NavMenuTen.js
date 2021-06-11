@@ -11,9 +11,10 @@ const NavMenuTen = ({ strings, menuWhiteClass, sidebarMenu }) => {
           ? "sidebar-menu"
           : `main-menu ${menuWhiteClass ? menuWhiteClass : ""}`
       } `}
+      style={{ float:"right", paddingTop:"0px" }}
     >
       <nav>
-        <ul style={{ float:'left' }}>
+        <ul>
           <li >
             <Link to={process.env.PUBLIC_URL + "/seller/StartSeller"}>
               <h6>{strings["seller"]}</h6>
@@ -28,12 +29,12 @@ const NavMenuTen = ({ strings, menuWhiteClass, sidebarMenu }) => {
 
           <li>
             <Link to={process.env.PUBLIC_URL + "/seller/LoginRegisterEleven"}>
-              {strings["login"]}
+            <h6>{strings["login"]}</h6>
             </Link>
           </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/seller/LoginRegisterEleven"}>
-              {strings["signup"]}
+              <button className= "button_signup" style={{ padding:"12px" }}>{strings["signup"]}</button>
             </Link>
           </li>
 

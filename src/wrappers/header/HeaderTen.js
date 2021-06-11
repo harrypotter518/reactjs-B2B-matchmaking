@@ -71,7 +71,7 @@ const HeaderTen = ({
               {/* <IconGroupTen /> */}
               <div className="header-right-wrap">
                 <div className="same-style header-search d-none d-lg-block">
-                  <div className="search-content active" style={{ width:"50vw", marginTop:"-27px",boxShadow:"none",  }}>
+                  <div className="search-content active" style={{ width:"50vw",marginTop:"-27px", boxShadow:"none", backgroundColor:"transparent"  }}>
                     <form action="#">
                       <input type="text" placeholder="Search for items or brands"  style={{backgroundColor:"#f6f6f6", borderRadius:"5px"}}/>
                       <button className="button-search" style={{ borderRadius:"5px"}} >
@@ -83,14 +83,14 @@ const HeaderTen = ({
               </div>
 
             </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 d-none d-lg-block" style={{ float:"right" }}>
+            <div className="col-xl-3 col-lg-3 col-md-6 d-none d-lg-block" >
               {/* Nav menu */}
               <NavMenuTen />
             </div>         
             
     
 
-            <div className="col-xl-1 col-lg-1 col-md-6 col-8">
+            <div className="col-xl-1 col-lg-1 col-md-6 col-8 pt-10">
               {/* <div className={layout === "container-fluid" ? layout : "container"} style={{ marginLeft:"-3vw" }}>           */}
                 <HeaderTopTen borderStyle={borderStyle} />             
               {/* </div> */}
