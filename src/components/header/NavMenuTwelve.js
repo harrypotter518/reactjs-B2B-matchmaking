@@ -13,7 +13,7 @@ const NavMenuTwelve = ({ strings, menuWhiteClass, sidebarMenu }) => {
       } `}
     >
       <nav>
-        <ul style={{ float:'left' }}>
+        <ul style={{ float:'right' }}>
        
           <li>
             <Link to={process.env.PUBLIC_URL + "/"}>

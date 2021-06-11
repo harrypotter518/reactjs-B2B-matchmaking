@@ -67,13 +67,13 @@ const AddProduct = ({ location }) => {
                       </div>
                       
                       <div className="row">
-                        <div className="col-lg-12 col-md-12">
+                        <div className="col-lg-12 col-md-12 mt-2">
                           <div className="billing-info">
                             <label>Title</label>
                             <input type="text"   className="form-control"/>
                           </div>
                         </div>
-                        <div className="col-lg-12 col-md-12">
+                        <div className="col-lg-12 col-md-12  mt-2">
                           <div className="billing-info">
                             <label>Description</label>                             
                             <textarea
@@ -84,7 +84,7 @@ const AddProduct = ({ location }) => {
                           </div>
                         </div>
 
-                        <div className="col-lg-12 col-md-12">
+                        <div className="col-lg-12 col-md-12  mt-2">
                           <div className="billing-info">
                             <div>
                               <label>Manufacutured in </label>
@@ -353,7 +353,7 @@ const AddProduct = ({ location }) => {
                             </div>
                         </div>
 
-                        <div className="col-lg-12 col-md-12">
+                        <div className="col-lg-12 col-md-12  mt-2">
                           <div className="billing-info">
                             <label>Product photo</label>
                             <DropzoneArea
@@ -364,13 +364,13 @@ const AddProduct = ({ location }) => {
                           </div>
                         </div>
 
-                        <div className="col-lg-12 col-md-12">
+                        <div className="col-lg-6 col-md-6  mt-2">
                           <div className="billing-info">
                             <label>Quantity</label>
                             <input type="number"   className="form-control"/>
                           </div>
                         </div>
-                        <div className="col-lg-12 col-md-12">
+                        <div className="col-lg-6 col-md-6  mt-2">
                           <div className="billing-info">
                             <label>Category</label>
                             <FormControl variant="outlined" className={classes.formControl}>

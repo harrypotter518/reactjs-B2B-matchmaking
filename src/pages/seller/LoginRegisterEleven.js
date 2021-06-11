@@ -6,7 +6,7 @@ import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 import LayoutTwenty from "../../layouts/LayoutTwenty";
-import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
+// import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
@@ -51,8 +51,8 @@ const LoginRegisterEleven = ({ location }) => {
         headerPaddingClass="header-padding-2"
         headerTop="visible">
         {/* breadcrumb */}
-        <Breadcrumb />
-        <div className="login-register-area pt-30 pb-30">
+        {/* <Breadcrumb /> */}
+        <div className="login-register-area pt-130 pb-30">
           <div className="container">
             <div className="row">
               <div className="col-lg-7 col-md-12 ml-auto mr-auto">

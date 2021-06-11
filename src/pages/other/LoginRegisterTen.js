@@ -6,7 +6,7 @@ import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 import LayoutTwenty from "../../layouts/LayoutTwenty";
-import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
+// import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 
 const LoginRegisterTen = ({ location }) => {
   const { pathname } = location;
@@ -29,7 +29,7 @@ const LoginRegisterTen = ({ location }) => {
         headerPaddingClass="header-padding-2"
         headerTop="visible">
         {/* breadcrumb */}
-        <Breadcrumb />
+        {/* <Breadcrumb /> */}
         <div className="login-register-area pt-100 pb-100">
           <div className="container">
             <div className="row">
