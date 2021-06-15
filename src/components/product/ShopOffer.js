@@ -4,9 +4,9 @@ import { setActiveSort_twelve } from "../../helpers/product_twelve";
 
 const ShopOffer = ({ getSortParams }) => {
   return (
-    <div className="sidebar-widget  mt-50">
+    <div className="sidebar-widget mt-10 mb-10">
       <h4 className="pro-sidebar-title">What you wish to be offered</h4>  
-        <div className="sidebar-widget-list mt-30">
+        <div className="sidebar-widget-list mt-10">
 
           <ul>
             <li>
@@ -48,7 +48,7 @@ const ShopOffer = ({ getSortParams }) => {
                       setActiveSort_twelve(e,"offer");
                     }}
                   >
-                    <span className="checkmark" />5%-10% marketing fee
+                    <span className="checkmark" />5~10% marketing fee
                   </button>
                 </div>
               </div>
@@ -63,7 +63,7 @@ const ShopOffer = ({ getSortParams }) => {
                       setActiveSort_twelve(e,"offer");
                     }}
                   >
-                    <span className="checkmark" />10%-20% marketing fee
+                    <span className="checkmark" />10~20% marketing fee
                   </button>
                 </div>
               </div>
@@ -78,7 +78,7 @@ const ShopOffer = ({ getSortParams }) => {
                       setActiveSort_twelve(e,"offer");
                     }}
                   >
-                    <span className="checkmark" />20%-30% marketing fee
+                    <span className="checkmark" />20~30% marketing fee
                   </button>
                 </div>
               </div>

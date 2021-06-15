@@ -4,9 +4,9 @@ import { setActiveSort_twelve } from "../../helpers/product_twelve";
 
 const ShopCategoriesTwelve = ({ categories, getSortParams }) => {
   return (
-    <div className="sidebar-widget  mt-50">
-      <h4 className="pro-sidebar-title">Categories </h4>  
-        <div className="sidebar-widget-list mt-30">
+    <div className="sidebar-widget mt-10 mb-10">
+      <h4 className="pro-sidebar-title">Food & Beverages </h4>  
+        <div className="sidebar-widget-list mt-10">
         {categories ? (
           <ul>
             <li>
@@ -18,38 +18,94 @@ const ShopCategoriesTwelve = ({ categories, getSortParams }) => {
                       setActiveSort_twelve(e,"category");
                     }}
                   >
-                    <span className="checkmark" /> All Categories
+                    <span className="checkmark" /> Accessories
                   </button>
                 </div>
               </div>
             </li>
-            {categories.map((category, key) => {
-              return (
-                <li key={key}>
-                  <div className="category_type">
-                    <div className="sidebar-widget-list-left">
-                      <button
-                        onClick={e => {
-                          getSortParams("category", category);
-                          setActiveSort_twelve(e,"category");
-                        }}
-                      >
-                        {" "}
-                        <span className="checkmark" /> {category}{" "}
-                      </button>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
+
+            <li>
+              <div className="category_type">
+                <div className="sidebar-widget-list-left">
+                  <button
+                    onClick={e => {
+                      getSortParams("category", "");
+                      setActiveSort_twelve(e,"category");
+                    }}
+                  >
+                    <span className="checkmark" />Baking Ingredients
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="category_type">
+                <div className="sidebar-widget-list-left">
+                  <button
+                    onClick={e => {
+                      getSortParams("category", "");
+                      setActiveSort_twelve(e,"category");
+                    }}
+                  >
+                    <span className="checkmark" />Beans
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="category_type">
+                <div className="sidebar-widget-list-left">
+                  <button
+                    onClick={e => {
+                      getSortParams("category", "");
+                      setActiveSort_twelve(e,"category");
+                    }}
+                  >
+                    <span className="checkmark" />Beef
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="category_type">
+                <div className="sidebar-widget-list-left">
+                  <button
+                    onClick={e => {
+                      getSortParams("category", "");
+                      setActiveSort_twelve(e,"category");
+                    }}
+                  >
+                    <span className="checkmark" />Bread
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="category_type">
+                <div className="sidebar-widget-list-left">
+                  <button
+                    onClick={e => {
+                      getSortParams("category", "");
+                      setActiveSort_twelve(e,"category");
+                    }}
+                  >
+                    <span className="checkmark" />Breakfast Snacks
+                  </button>
+                </div>
+              </div>
+            </li>
+
+      
           </ul>
         ) : (
           "No categories found"
         )}
       </div>
-
-
-    
+   
     </div>
   );
 };

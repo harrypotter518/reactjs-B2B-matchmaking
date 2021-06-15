@@ -38,13 +38,16 @@
 }
 
 .sidebar-widget {
+
+  border-bottom:1px solid #e1e1e1;
+  padding-bottom:20px;
+
   h4.pro-sidebar-title {
     font-size: 16px;
     font-weight: 500;
-
     margin: 0;
 
-    color: #333;
+    color: #1d252d;
   }
   .sidebar-widget-list {
     ul {

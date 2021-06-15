@@ -32,7 +32,7 @@ const CategoryTwoSlider = ({ spaceTopClass, spaceBottomClass }) => {
         spaceBottomClass ? spaceBottomClass : ""
       }`}
     >
-      <div className="container">
+      <div className="container" style={{ maxWidth:"1200px" }}>
         {/* section title */}
         <SectionTitleFour titleText="By Categories" spaceBottomClass="mb-40" />
         <div className="collection-wrap">

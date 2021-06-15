@@ -80,7 +80,7 @@ const TabProductEleven = ({
         bgColorClass ? bgColorClass : ""
       }`}
     >
-      <div className="container">
+      <div className="container" >
         <h3 className="mb-30"><center>New on OpenAsia</center></h3>
         <div className="product-tab-slider-wrapper position-relative">
           {/* <Tab.Container defaultActiveKey="saleItems">

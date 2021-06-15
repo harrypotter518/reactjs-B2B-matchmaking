@@ -14,7 +14,6 @@ const LayoutTwentyTwo = ({
     <Fragment>
       <HeaderTwelve
         layout={headerContainerClass}
-
         headerPaddingClass={headerPaddingClass}
         headerPositionClass={headerPositionClass}
       />

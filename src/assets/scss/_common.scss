@@ -117,7 +117,7 @@ button {
   cursor: pointer;
   text-decoration: none;
 
-  color: #000;
+  color: #1d252d;
 }
 
 a,
@@ -1892,7 +1892,21 @@ a.default-btn {
   .container {
     max-width: 1200px;
   }
+  
 }
+
+@media (min-width: 1440px) {
+  .container_second {
+    max-width: 1440px;
+  }
+
+  .container_small {
+    max-width: 1000px;
+  }
+  
+}
+
+
 
 .item-empty-area {
   &__icon {

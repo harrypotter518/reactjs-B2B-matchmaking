@@ -55,8 +55,8 @@ const HomeFashionTwo = () => {
         />
 
         {/* QA part */}
-        <div className="row pt-40 mb-40">
-          <div className="row" style={{width:"90%", marginRight:"auto", marginLeft:"auto"}}>
+    
+          <div className="row pt-40 mb-40" style={{width:"90%", marginRight:"auto", marginLeft:"auto"}}>
             <div className="col-lg-3 col-3">
               <img src={process.env.PUBLIC_URL + "/assets/img/bg/faq-bg-left.jpg"} alt="" style={{width:"100%"}}/> 
             </div>
@@ -160,8 +160,8 @@ const HomeFashionTwo = () => {
             <div className="col-lg-3 col-3">
                 <img src={process.env.PUBLIC_URL + "/assets/img/bg/faq-bg-right.jpg"} alt="" style={{width:"100%"}}/> 
             </div>
+      
           </div>
-        </div>
 
       </LayoutTwenty>
     </Fragment>

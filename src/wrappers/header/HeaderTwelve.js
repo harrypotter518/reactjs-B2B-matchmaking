@@ -53,20 +53,20 @@ const HeaderTwelve = ({
         className={` ${
           headerPaddingClass ? headerPaddingClass : ""
         } sticky-bar header-res-padding clearfix ${
-          scroll > headerTop ? "stick" : ""
-        }`}
+          scroll > headerTop ? "stick" : "stick"
+        }`}      
       >
-        <div className={layout === "container-fluid" ? layout : "container"}>
+        <div className={layout === "container-fluid" ? layout : "container container_second"}>
           <div className="row">
             <div className="col-xl-2 col-lg-2 col-md-6 col-4">
               {/* header logo */}
               <Logo imageUrl="/assets/img/logo/logo.png" logoClass="logo" />
             </div>
-            <div className="col-xl-8 col-lg-8 d-none d-lg-block">
+            <div className="col-xl-9 col-lg-9 d-none d-lg-block">
               {/* Nav menu */}
               <NavMenuTwelve />
             </div>
-            <div className="col-xl-2 col-lg-2 col-md-6 col-8">
+            <div className="col-xl-1 col-lg-1 col-md-6 col-8">
               {/* Icon group */}
               <IconGroupTwelve />
             </div>

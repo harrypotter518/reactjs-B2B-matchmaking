@@ -364,7 +364,7 @@ const AddProduct = ({ location }) => {
                           </div>
                         </div>
 
-                        <div className="col-lg-6 col-md-6  mt-2">
+                        <div className="col-lg-6 col-md-6  mt-3">
                           <div className="billing-info">
                             <label>Quantity</label>
                             <input type="number"   className="form-control"/>

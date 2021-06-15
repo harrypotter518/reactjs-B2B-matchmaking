@@ -5,7 +5,7 @@ import React from "react";
 const BannerFour = () => {
   return (
     <div className="banner-area ">
-      <div className="container">
+      <div className="container" style={{ maxWidth:"1200px" }}>
         <div className="row">
 
           <div className="col-xl-4 col-lg-4 col-md-4 col-4">

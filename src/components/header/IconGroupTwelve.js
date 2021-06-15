@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import MenuCart from "./sub-components/MenuCart";
+// import MenuCart from "./sub-components/MenuCart";
 import { deleteFromCart } from "../../redux/actions/cartActions";
 
 const IconGroup = ({
@@ -66,7 +66,7 @@ const IconGroup = ({
           </ul>
         </div>
       </div>
-      <div className="same-style header-compare">
+      {/* <div className="same-style header-compare">
         <Link to={process.env.PUBLIC_URL + "/compare"}>
           <i className="pe-7s-shuffle" />
           <span className="count-style">
@@ -81,16 +81,16 @@ const IconGroup = ({
             {wishlistData && wishlistData.length ? wishlistData.length : 0}
           </span>
         </Link>
-      </div>
-      <div className="same-style cart-wrap d-none d-lg-block">
+      </div> */}
+      {/* <div className="same-style cart-wrap d-none d-lg-block">
         <button className="icon-cart" onClick={e => handleClick(e)}>
           <i className="pe-7s-shopbag" />
           <span className="count-style">
             {cartData && cartData.length ? cartData.length : 0}
           </span>
-        </button>
+        </button> */}
         {/* menu cart */}
-        <MenuCart
+        {/* <MenuCart
           cartData={cartData}
           currency={currency}
           deleteFromCart={deleteFromCart}
@@ -103,7 +103,7 @@ const IconGroup = ({
             {cartData && cartData.length ? cartData.length : 0}
           </span>
         </Link>
-      </div>
+      </div> */}
       <div className="same-style mobile-off-canvas d-block d-lg-none">
         <button
           className="mobile-aside-button"

@@ -12,6 +12,7 @@ import ShopImportAmount from "../../components/product/ShopImportAmount";
 import ShopAnnualRevenue from "../../components/product/ShopAnnualRevenue";
 import ShopOwner from "../../components/product/ShopOwner";
 import ShopOffer from "../../components/product/ShopOffer";
+import BrandValues from "../../components/product/BrandValues";
 
 // import ShopColor from "../../components/product/ShopColor";
 // import ShopSize from "../../components/product/ShopSize";
@@ -35,6 +36,8 @@ const ShopSidebarTwelve = ({ products, getSortParams, sideSpaceClass }) => {
        categories={uniqueCategories}
         getSortParams={getSortParams}
       />
+       {/* filter by ImportAmount */}
+       <BrandValues  getSortParams={getSortParams} />
 
       {/* filter by ImportAmount */}
       <ShopImportAmount  getSortParams={getSortParams} />

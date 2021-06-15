@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { useToasts } from "react-toast-notifications";
 import { getDiscountPrice } from "../../helpers/product_twelve";
 import ProductImageGallery from "../../components/product/ProductImageGallery";
-import ProductDescriptionInfo from "../../components/product/ProductDescriptionInfo";
+import ProductDescriptionInfoTwelve from "../../components/product/ProductDescriptionInfoTwelve";
 import ProductImageGallerySideThumb from "../../components/product/ProductImageGallerySideThumb";
 import ProductImageFixed from "../../components/product/ProductImageFixed";
 
@@ -38,9 +38,9 @@ const ProductImageDescription = ({
         spaceBottomClass ? spaceBottomClass : ""
       }`}
     >
-      <div className="container">
+      <div className="container container_small" >
         <div className="row">
-          <div className="col-lg-6 col-md-6">
+          <div className="col-lg-7 col-md-7">
             {/* product image gallery */}
             {galleryType === "leftThumb" ? (
               <ProductImageGallerySideThumb
@@ -55,9 +55,9 @@ const ProductImageDescription = ({
               <ProductImageGallery product={product} />
             )}
           </div>
-          <div className="col-lg-6 col-md-6">
+          <div className="col-lg-5 col-md-5">
             {/* product description info */}
-            <ProductDescriptionInfo
+            <ProductDescriptionInfoTwelve
               product={product}
               discountedPrice={discountedPrice}
               currency={currency}

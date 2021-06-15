@@ -101,20 +101,20 @@ const Brand = ({ location, products }) => {
                 </div>
             </div>
 
-          <div className="container">
+          <div className="container container_second">
 
             <div className="row">             
-                <div className="col-2" style={{ padding: "0px" }}>
-                <img
-                    src={
-                    process.env.PUBLIC_URL +
-                    "/assets/img/brand-logo/brand-logo-1.png"
-                    }
-                    alt="brand-logo"
-                    style={{ width: "100%", marginTop: "-50px", background:"#f1e2e2",boxShadow: '10px 5px 10px #aaaaaa' }}
-                />
+                <div className="col-1" style={{ padding: "0px" }}>
+                  <img
+                      src={
+                      process.env.PUBLIC_URL +
+                      "https://cdn.store.flexlane.co/56c9bd7ce7b6f79632e3184c0612268e.jpg?x-oss-process=image/resize,m_lfit,w_150,h_150/auto-orient,1/quality,Q_100/sharpen,100/format,webp"
+                      }
+                      alt="brand-logo"
+                      style={{ width: "120px", height: "120px", marginTop: "-30px", background:"#f1e2e2",boxShadow: '10px 5px 10px #aaaaaa' }}
+                  />
                 </div>
-                <div className="col-5" style={{ padding: "10px" }}>         
+                <div className="col-8" style={{ padding: "10px" }}>         
                     <div className="brand-star-box">
                         <span className="title">Go Green</span>
                         <div className="ratting-star" style={{ color: '#ffa900' }}>
@@ -172,7 +172,7 @@ const Brand = ({ location, products }) => {
               <Tab.Content className="description-review-bottom">
                 <Tab.Pane eventKey="product">
                   <div className="row">
-                    <div className="col-lg-3 order-2 order-lg-1">
+                    <div className="col-lg-2 order-2 order-lg-1">
                       {/* shop sidebar */}
                       <ShopSidebarTwelve
                         products={products}
@@ -180,7 +180,7 @@ const Brand = ({ location, products }) => {
                         sideSpaceClass="mr-30"
                       />
                     </div>
-                    <div className="col-lg-9 order-1 order-lg-2">
+                    <div className="col-lg-10 order-1 order-lg-2">
                       {/* shop topbar default */}
                       <ShopTopbar
                         getLayout={getLayout}

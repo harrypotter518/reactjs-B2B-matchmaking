@@ -58,7 +58,7 @@ const ProductGridSingleTwo = ({
                 ""
               )} */}
             </Link>
-            {product.discount || product.new ? (
+            {/* {product.discount || product.new ? (
               <div className="product-img-badges">
                 {product.discount ? (
                   <span className="pink">-{product.discount}%</span>
@@ -69,9 +69,13 @@ const ProductGridSingleTwo = ({
               </div>
             ) : (
               ""
-            )}
+            )} */}
+       
+            <div className="product-img-badges">
+                <span className="purple">New</span>
+            </div>      
 
-            <div className="product-action-2">
+            {/* <div className="product-action-2"> */}
               {/* {product.affiliateLink ? (
                 <a
                   href={product.affiliateLink}
@@ -127,7 +131,7 @@ const ProductGridSingleTwo = ({
               >
                 <i className="fa fa-retweet"></i>
               </button> */}
-            </div>
+            {/* </div> */}
           </div>
           <div className="product-content-2">
             <div
@@ -135,12 +139,31 @@ const ProductGridSingleTwo = ({
                 titlePriceClass ? titlePriceClass : ""
               }`}
             >
+              <h5 style={{color:"#007bff"}}>             
+                  Brand-{product.sku}                
+              </h5>
               <h3>
                 <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
                   {product.name}
                 </Link>
-              </h3>
-              <div className="price-2">
+              </h3>   
+
+              <div className="filter sidebar-widget">
+                <div className="sidebar-widget-tag mt-25">                    
+                    <ul>  
+                    {product.category.map((single_category,key)=>{
+                        return(
+                          <li key={ key } > 
+                           <button style={{ color:"#007bff" }}>{single_category}</button> 
+                          </li>  
+                        );
+                    })}             
+                    </ul>
+                </div>
+              </div>  
+                              
+             
+              {/* <div className="price-2">
                 {discountedPrice !== null ? (
                   <Fragment>
                     <span>
@@ -153,9 +176,9 @@ const ProductGridSingleTwo = ({
                 ) : (
                   <span>{currency.currencySymbol + finalProductPrice} </span>
                 )}
-              </div>
+              </div> */}
             </div>
-            <div className="pro-wishlist-2">
+            {/* <div className="pro-wishlist-2">
               <button
                 className={wishlistItem !== undefined ? "active" : ""}
                 disabled={wishlistItem !== undefined}
@@ -168,7 +191,8 @@ const ProductGridSingleTwo = ({
               >
                 <i className="fa fa-heart-o" />
               </button>
-            </div>
+            </div> */}
+            
           </div>
         </div>
       </div>

@@ -4,9 +4,9 @@ import { setActiveSort_twelve } from "../../helpers/product_twelve";
 
 const ShopAnnualRevenue = ({ getSortParams }) => {
   return (
-    <div className="sidebar-widget  mt-50">
+    <div className="sidebar-widget  mt-10 mb-10">
       <h4 className="pro-sidebar-title">Annual Revenue </h4>  
-        <div className="sidebar-widget-list mt-30">
+        <div className="sidebar-widget-list mt-10">
 
           <ul>
             <li>

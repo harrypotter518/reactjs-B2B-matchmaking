@@ -30,7 +30,7 @@ const ProductGridListSingleTwelve = ({
   return (
     <Fragment>
       <div
-        className={`col-xl-4 col-sm-6 ${
+        className={`col-lg-3 col-md-4 col-sm-6 ${
           sliderClassName ? sliderClassName : ""
         }`}
       >
@@ -45,7 +45,7 @@ const ProductGridListSingleTwelve = ({
                 alt=""
               
               />
-              {product.image.length > 1 ? (
+              {/* {product.image.length > 1 ? (
                 <img
                   className="hover-img"
                   src={process.env.PUBLIC_URL + product.image[1]}
@@ -54,7 +54,7 @@ const ProductGridListSingleTwelve = ({
                 />
               ) : (
                 ""
-              )}
+              )} */}
             </Link>
             {product.discount || product.new ? (
               <div className="product-img-badges">
@@ -69,7 +69,7 @@ const ProductGridListSingleTwelve = ({
               ""
             )}
 
-            <div className="product-action">
+            {/* <div className="product-action">
               <div className="pro-same-action pro-wishlist">
                 <button
                   className={wishlistItem !== undefined ? "active" : ""}
@@ -84,6 +84,7 @@ const ProductGridListSingleTwelve = ({
                   <i className="pe-7s-like" />
                 </button>
               </div>
+
               <div className="pro-same-action pro-cart">
                 {product.affiliateLink ? (
                   <a
@@ -122,14 +123,16 @@ const ProductGridListSingleTwelve = ({
                     Out of Stock
                   </button>
                 )}
-              </div>
+              </div> 
+
               <div className="pro-same-action pro-quickview">
                 <button onClick={() => setModalShow(true)} title="Quick View">
                   <i className="pe-7s-look" />
                 </button>
-              </div>
-            </div>
+              </div> 
+            </div> */}
           </div>
+
           <div className="product-content text-center">
             <h3>
               <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
