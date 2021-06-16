@@ -58,9 +58,9 @@ const BrandValues = ({ getSortParams }) => {
   const { handmade, limited_production, not_on_amazon, not_on_taobao, organic, socially_responsible, sustainable, women_owned} = state;
 
   return (
-    <div className="sidebar-widget  mt-10 mb-5" style={{ marginBottom:'5px!important'}}>
-      <h4 className="pro-sidebar-title"  style={{ marginBottom:'20px!important', paddingButtom:'10px'}}>Brand Values</h4>  
-      <div className="sidebar-widget-list">
+    <div className="sidebar-widget  mt-10 mb-5" style={{ marginLeft:'-2px', marginBottom:'5px!important'}}>
+      <h4 className="pro-sidebar-title"  style={{ paddingButtom:'10px'}}>Brand Values</h4>  
+      <div className="sidebar-widget-list" style={{ marginLeft:'8px', marginTop:'10px'}}>
  
         <FormControl component="fieldset" className={classes.formControl} >
             <FormGroup className={classes.formGroup}>
