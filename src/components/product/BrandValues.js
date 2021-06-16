@@ -14,15 +14,26 @@ const useStyles = makeStyles((theme) => ({
   // formControl: {
   //   margin: theme.spacing(1),  
   // },
-  formControlLabel:{    
+  formControlLabel:{   
     fontFamily: 'lato',
     fontSize: '15px',
     lineHeight: '23px',
     fontWeight: '400',
-    color: '#1d252d',    
+    color: '#1d252d',  
+    margin:'0px!important',  
+    padding:'0px!important',
+    paddingLeft:'10px'
+  },
+  formGroup:{
+    margin:'0px!important',
+    padding:'0px!important',
+    paddingBottom:'0px', 
+    paddingLeft:'10px'
   },
   checkbox_size:{
-    transform: "scale(0.8)"
+    transform: "scale(0.8)",
+    margin:'0px!important',
+    padding:'0px!important',
   }
 }));
 
@@ -47,12 +58,12 @@ const BrandValues = ({ getSortParams }) => {
   const { handmade, limited_production, not_on_amazon, not_on_taobao, organic, socially_responsible, sustainable, women_owned} = state;
 
   return (
-    <div className="sidebar-widget  mt-10 mb-10">
-      <h4 className="pro-sidebar-title">Brand Values</h4>  
-      <div className="sidebar-widget-list mt-10">
+    <div className="sidebar-widget  mt-10 mb-5" style={{ marginBottom:'5px!important'}}>
+      <h4 className="pro-sidebar-title"  style={{ marginBottom:'20px!important', paddingButtom:'10px'}}>Brand Values</h4>  
+      <div className="sidebar-widget-list">
  
         <FormControl component="fieldset" className={classes.formControl} >
-            <FormGroup>
+            <FormGroup className={classes.formGroup}>
               <FormControlLabel
                 control={<Checkbox checked={handmade} className={classes.checkbox_size} color="default" onChange={handleChange} name="handmade"  />}
                 label={<Typography variant="h5" className = {classes.formControlLabel}>Handmade</Typography>}             

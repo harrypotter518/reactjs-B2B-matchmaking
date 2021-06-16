@@ -7,7 +7,6 @@ const ShopImportAmount = ({ getSortParams }) => {
     <div className="sidebar-widget mt-10 mb-10">
       <h4 className="pro-sidebar-title">Import Amounts </h4>  
         <div className="sidebar-widget-list mt-10">
-
           <ul>
             <li>
               <div className="importamount_type">

@@ -5,7 +5,7 @@ import { useToasts } from "react-toast-notifications";
 import { getDiscountPrice } from "../../helpers/product_twelve";
 import ProductModal from "./ProductModal";
 
-const ProductGridSingleTwo = ({
+const  ProductGridSingleTwo = ({
   product,
   currency,
   addToCart,
@@ -139,7 +139,7 @@ const ProductGridSingleTwo = ({
                 titlePriceClass ? titlePriceClass : ""
               }`}
             >
-              <h5 style={{color:"#007bff"}}>             
+              <h5>             
                   Brand-{product.sku}                
               </h5>
               <h3>
@@ -154,7 +154,7 @@ const ProductGridSingleTwo = ({
                     {product.category.map((single_category,key)=>{
                         return(
                           <li key={ key } > 
-                           <button style={{ color:"#007bff" }}>{single_category}</button> 
+                           <button>{single_category}</button> 
                           </li>  
                         );
                     })}             

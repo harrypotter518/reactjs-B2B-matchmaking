@@ -36,9 +36,6 @@ const ShopSidebarTwelve = ({ products, getSortParams, sideSpaceClass }) => {
        categories={uniqueCategories}
         getSortParams={getSortParams}
       />
-       {/* filter by ImportAmount */}
-       <BrandValues  getSortParams={getSortParams} />
-
       {/* filter by ImportAmount */}
       <ShopImportAmount  getSortParams={getSortParams} />
       {/* filter by AnnualRevenue */}
@@ -47,6 +44,7 @@ const ShopSidebarTwelve = ({ products, getSortParams, sideSpaceClass }) => {
       <ShopOwner  getSortParams={getSortParams} />
       {/* filter by Offer */}
       <ShopOffer  getSortParams={getSortParams} />
+      <BrandValues  getSortParams={getSortParams} />
 
       {/* filter by color */}
       {/* <ShopColor colors={uniqueColors} getSortParams={getSortParams} /> */}

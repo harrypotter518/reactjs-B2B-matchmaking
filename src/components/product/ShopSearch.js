@@ -4,7 +4,7 @@ const ShopSearch = () => {
   return (
     <div className="sidebar-widget">
       <h4 className="pro-sidebar-title">Search </h4>
-      <div className="pro-sidebar-search mb-20 mt-25">
+      <div className="pro-sidebar-search mb-10 mt-15">
         <form className="pro-sidebar-search-form" action="#">
           <input type="text" placeholder="Search here..." />
           <button>

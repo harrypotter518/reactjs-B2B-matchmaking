@@ -1906,6 +1906,79 @@ a.default-btn {
   
 }
 
+.startbuyer_part3{
+  padding:3vw 10vw 3vw 15vw;
+
+  label{
+    background-color:#d1d1d1;
+    padding:5px;
+    margin-bottom:20px;
+    border-radius:4px; 
+  }
+  
+  h3{
+    padding-Bottom:25px;
+  }
+  
+  h4{
+    color:#a57025;
+    padding-left:1vw;
+  }
+  
+  p{
+    font-size:16px;
+    padding-left:1vw;
+  } 
+
+}
+
+.startbuyer_part4{
+  padding:3vw 12vw 3vw 15vw;
+  margin:auto;
+
+  hr{
+    width:40%;
+    border:2px solid #a57025;
+    margin-left:0px;
+  }
+}
+
+.startbuyer_part5{
+  padding:150px 10vw 3vw 15vw;
+  z-index:'-2'
+  p{
+    font-size:16px;
+  } 
+
+}
+
+.order_panel{
+  width:30vw;
+  height: 520px;
+  margin-left:5vw;
+  margin-top:80px;
+  z-index:100;
+  background-color: #ffffff;
+  box-shadow:2px 5px 5px #e1e1e1;
+
+  .order_content{
+    padding:40px;
+    img{
+      margin-bottom:32px;
+    }
+    p{
+      font-size:16px;
+    }
+  }
+}
+
+.question_part
+{
+  background-color: #ffffff;
+  border:none;
+  border-bottom:1px solid #e1e1e1;
+}
+
 
 
 .item-empty-area {
