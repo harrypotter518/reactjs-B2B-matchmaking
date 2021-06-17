@@ -4,7 +4,7 @@ import ProductgridListTwelve from "./ProductgridListTwelve";
 
 const ShopProductsTwelve = ({ products, layout }) => {
   return (
-    <div className="shop-bottom-area mt-35 ml-40">
+    <div className="shop-bottom-area mt-35">
       <div className={`row ${layout ? layout : ""}`}>
         <ProductgridListTwelve products={products} spaceBottomClass="mb-25" />
       </div>

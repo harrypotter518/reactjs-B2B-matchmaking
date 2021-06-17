@@ -9,7 +9,7 @@ const ShopTopAction = ({
   sortedProductCount
 }) => {
   return (
-    <div className="shop-top-bar mb-35 ml-40">
+    <div className="shop-top-bar mb-35">
       <div className="select-shoing-wrap">
         <div className="shop-select">
           <select

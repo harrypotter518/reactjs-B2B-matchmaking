@@ -101,7 +101,7 @@ const Brand = ({ location, products }) => {
                 </div>
             </div>
 
-          <div className="container container_second">
+          <div className="container">
 
             <div className="row">             
                 <div className="col-1" style={{ padding: "0px" }}>
