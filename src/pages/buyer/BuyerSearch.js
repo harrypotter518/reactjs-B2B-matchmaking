@@ -6,7 +6,7 @@ import { BreadcrumbsItem } from 'react-breadcrumbs-dynamic';
 import { connect } from 'react-redux';
 import { getSortedProducts } from '../../helpers/product_twelve';
 import LayoutTwenty from '../../layouts/LayoutTwenty';
-import Breadcrumb from '../../wrappers/breadcrumb/Breadcrumb';
+// import Breadcrumb from '../../wrappers/breadcrumb/Breadcrumb';
 import ShopSidebarTwelve from '../../wrappers/product/ShopSidebarTwelve';
 import ShopTopbar from '../../wrappers/product/ShopTopbar';
 import ShopBrands from '../../wrappers/product/ShopBrands';
