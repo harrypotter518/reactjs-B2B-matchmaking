@@ -5,7 +5,7 @@ import Paginator from 'react-hooks-paginator';
 import { BreadcrumbsItem } from 'react-breadcrumbs-dynamic';
 import { connect } from 'react-redux';
 import { getSortedProducts } from '../../helpers/product_twelve';
-import LayoutTwentyTwo from '../../layouts/LayoutTwentyTwo';
+import LayoutTwenty from '../../layouts/LayoutTwenty';
 import Breadcrumb from '../../wrappers/breadcrumb/Breadcrumb';
 import ShopSidebarTwelve from '../../wrappers/product/ShopSidebarTwelve';
 import ShopTopbar from '../../wrappers/product/ShopTopbar';
@@ -58,9 +58,9 @@ const BuyerSearch = ({location, products}) => {
             <BreadcrumbsItem to={process.env.PUBLIC_URL + '/'}>Buyer</BreadcrumbsItem>
             <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>Buyer Search</BreadcrumbsItem>
 
-            <LayoutTwentyTwo headerTop="visible">
+            <LayoutTwenty headerTop="visible">
                 {/* breadcrumb */}
-                <Breadcrumb />
+                {/* <Breadcrumb /> */}
 
                 <div className="shop-area pt-95 pb-100">
                     <div className="container container_second">
@@ -94,7 +94,7 @@ const BuyerSearch = ({location, products}) => {
                         </div>
                     </div>
                 </div>
-            </LayoutTwentyTwo>
+            </LayoutTwenty>
         </Fragment>
     )
 }

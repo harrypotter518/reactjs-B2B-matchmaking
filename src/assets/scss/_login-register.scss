@@ -17,14 +17,14 @@
           margin: 0 20px;
           text-transform: capitalize;
           transition: all 0.3s ease 0s;
+          color: rgb(158, 157, 157);
         }
         &:last-child::before {
           display: none;
         }
       }
       a.active h4 {
-        // color: $theme-color;
-        color: rgb(158, 157, 157);
+        color: $theme-color;
       }
 
       &:before {
@@ -76,6 +76,7 @@
           width: 17px;
         }
         .button-box {
+          text-align:center;
           .login-toggle-btn {
             padding: 10px 0 19px;
             label {
@@ -100,9 +101,9 @@
             }
           }
           button {
-            background-color: #f2f2f2;
+            background-color: #333;
             border: medium none;
-            color: #333;
+            color: #f2f2f2;
             cursor: pointer;
             font-size: 14px;
             font-weight: 500;
@@ -110,6 +111,7 @@
             padding: 11px 30px;
             text-transform: uppercase;
             transition: all 0.3s ease 0s;
+            border-radius:5px;
             &:hover {
               background-color: $theme-color;
               color: #fff;

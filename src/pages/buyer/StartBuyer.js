@@ -31,11 +31,11 @@ const StartSeller = ({ location }) => {
       >
         {/* breadcrumb */}
         {/* <Breadcrumb /> */}
-        <div className="row mt-100" style={{ height:'480px' }}>
-          <div className="col-lg-2 col-md-2">
-            <img src={process.env.PUBLIC_URL + "/assets/img/startseller/sell-hero-left.png"} width="100%" height="100%" alt="" />
+        <div className="row mt-20" >
+          <div className="col-lg-2  startbuyer_part1_1">
+            <img src={process.env.PUBLIC_URL + "/assets/img/startseller/sell-hero-left.png"} width="100%" alt="" />
           </div>
-          <div className="col-lg-8 col-md-8 pt-100 bg-gray" style={{ paddingLeft:"20vw", paddingRight:"20vw"}}>
+          <div className="col-lg-8 pt-100 bg-gray startbuyer_part1_2" style={{ paddingLeft:"20vw", paddingRight:"20vw"}}>
             <center>
               <p>SELL WITH OPENASIA</p>
               <h3 style={{ fontSize:'28px' }}>Get your brand in front of thousands of Asian retailers</h3>
@@ -47,8 +47,8 @@ const StartSeller = ({ location }) => {
               </Link>
             </center>
           </div>
-          <div className="col-lg-2 col-md-2">
-            <img src={process.env.PUBLIC_URL + "/assets/img/startseller/sell-hero-right.png"} width="100%" height="100%" alt=""/>
+          <div className="col-lg-2  startbuyer_part1_3">
+            <img src={process.env.PUBLIC_URL + "/assets/img/startseller/sell-hero-right.png"} width="100%" alt=""/>
           </div>
         </div>
 
@@ -103,7 +103,7 @@ const StartSeller = ({ location }) => {
         </div>
 
         <div class="row bg-gray">
-          <div className="col-lg-6 startbuyer_part3" >
+          <div className="col-xl-6 col-lg-5 col-md-12 startbuyer_part3" >
             <label >OpenAsia Direct</label>
             <h3>Take your wholesale online</h3>
             <h4>Custom domain</h4>
@@ -116,7 +116,7 @@ const StartSeller = ({ location }) => {
             <p>Every sale is a guarantee sale on your end, we pay you up front and collect payment from the retailer after 60 days.</p>
 
           </div>
-          <div className="col-lg-6" style={{ margin:'auto', padding:'3vw 5vw 3vw 5vw'}}>
+          <div className="col-xl-6 col-lg-7 col-md-12 startbuyer_part3_2">
             <img src={process.env.PUBLIC_URL + "/assets/img/buyer-banner.jpg"} alt="" width="100%"/>                
           </div>  
         </div>
@@ -126,20 +126,18 @@ const StartSeller = ({ location }) => {
               <h3 style={{ paddingBottom:"2vh" }}>End to end cross border logistics management</h3>
               <p style={{ fontSize:'18px'}}>OpenAsia handles the entire logistics lifecycle from ordering to return so you can focus on what matters most.</p>
               <hr/>
-          </div>
-          <div className="col-lg-3 col-md-2">
-          </div>
-          <div className="col-lg-4 col-md-4" style={{padding:'0px'}}>
+          </div>        
+          <div className="col-lg-7 col-md-6 startbuyer_part4_2">
             <img src={process.env.PUBLIC_URL + "/assets/img/startseller/sea-map.svg"} alt="" width="100%"/>                
           </div>  
         </div>
 
-        <div className="row" style={{ height:'660px' }}>
-          <div className="col-lg-5 col-md-5 startbuyer_part5 bg-gray" >
+        <div className="row">
+          <div className="col-xl-5 col-lg-5 col-md-4 col-sm-12 startbuyer_part5 bg-gray" >
               <h3 style={{ paddingBottom:"2vh" }}> Manage your wholesale orders all in one place</h3>
               <p style={{ fontSize:'18px' }}>Designed to fully support you in bringing your wholesale business online.</p>
           </div>
-          <div className="col-lg-2 col-md-2  bg-gray">
+          <div className="col-xl-2 col-lg-3 col-md-1 col-sm-12  bg-gray">
             <div className="order_panel row">
               <div className ="col-lg-6 col-md-6 col-xs-12 order_content">
                 <img src="https://static-image.peeba.com/order-management.svg" alt=""/>
@@ -163,8 +161,8 @@ const StartSeller = ({ location }) => {
               </div>
             </div>
           </div>
-          <div className="col-lg-5 col-md-5" style={{padding:'0px', zIndex:'-1'}}>
-            <img src={process.env.PUBLIC_URL + "/assets/img/startseller/salt-pine-bg.png"} alt="" width="100%" height="660px"/>                
+          <div className="col-xl-5 col-lg-4 col-md-7 startbuyer_part5_3" >
+            <img src={process.env.PUBLIC_URL + "/assets/img/startseller/salt-pine-bg.png"} alt="" width="100%"/>                
           </div>  
         </div>
 

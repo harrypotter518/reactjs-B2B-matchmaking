@@ -7,7 +7,7 @@ import { connect } from "react-redux";
 import { getSortedProducts } from "../../helpers/product_twelve";
 import LayoutTwentyOne from "../../layouts/LayoutTwentyOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
-import ShopSidebar from "../../wrappers/product/ShopSidebar";
+import ShopSidebarTwelve from "../../wrappers/product/ShopSidebarTwelve";
 import ShopTopbar from "../../wrappers/product/ShopTopbar";
 import ShopBuyers from "../../wrappers/product/ShopBuyers";
 
@@ -75,7 +75,7 @@ const BuyerList = ({ location, products }) => {
             <div className="row">
               <div className="col-lg-3 order-2">
                 {/* shop sidebar */}
-                <ShopSidebar
+                <ShopSidebarTwelve
                   products={products}
                   getSortParams={getSortParams}
                   sideSpaceClass="ml-30"

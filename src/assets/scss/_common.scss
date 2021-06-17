@@ -1906,8 +1906,39 @@ a.default-btn {
   
 }
 
+.startbuyer_part1_1{
+  img{
+    height:660px;
+    object-fit:cover;
+  }
+  @media (max-width:990px){
+    img{
+     display:none;
+    }
+  }
+}
+
+.startbuyer_part1_2{
+  padding:10vw; 
+  // padding-right:20vw;
+}
+.startbuyer_part1_3{
+  img{
+    object-fit:cover;
+    height:660px;
+  }
+
+  @media (max-width:990px){
+    img{
+     display:none;
+    }
+  }
+}
 .startbuyer_part3{
   padding:3vw 10vw 3vw 15vw;
+  @media (max-width: 1200px) { 
+    padding:3vw 5vw 3vw 8vw;
+  }
 
   label{
     background-color:#d1d1d1;
@@ -1930,11 +1961,24 @@ a.default-btn {
     padding-left:1vw;
   } 
 
+  
 }
-
-.startbuyer_part4{
-  padding:3vw 12vw 3vw 15vw;
+.startbuyer_part3_2{
   margin:auto;
+  padding:1vw 3vw 1vw 3vw;
+  // @media #{$md-layout} { 
+  //   padding:3vw 15vw 3vw 15vw;
+  // }
+  @media (max-width:990px) { 
+    padding:3vw 15vw 3vw 15vw;
+  }
+}
+.startbuyer_part4{
+  padding:3vw 8vw 3vw 15vw;
+  margin:auto;
+  @media (max-width: 1200px) { 
+    padding:3vw 5vw 3vw 8vw;
+  }
 
   hr{
     width:40%;
@@ -1943,9 +1987,24 @@ a.default-btn {
   }
 }
 
+.startbuyer_part4_2{
+  padding:0px;
+  padding-left:20vw;
+  @media (max-width:990px) { 
+    padding-left:5vw;
+  }
+  @media #{$sm-layout} { 
+    padding:0vw 15vw 0vw 15vw;
+  }
+}
+
 .startbuyer_part5{
-  padding:150px 10vw 3vw 15vw;
-  z-index:'-2'
+  padding:15vw 10vw 10vw 15vw;
+
+  z-index:-2;
+  @media #{$md-layout} { 
+    padding:15vw 5vw 10vw 5vw;
+  }
   p{
     font-size:16px;
   } 
@@ -1953,16 +2012,24 @@ a.default-btn {
 }
 
 .order_panel{
+  padding:2vw;
   width:30vw;
-  height: 520px;
   margin-left:5vw;
-  margin-top:80px;
+  margin-top:4vw;
   z-index:100;
   background-color: #ffffff;
   box-shadow:2px 5px 5px #e1e1e1;
-
+  @media #{$md-layout} { 
+    width:50vw;
+    margin-left:0vw;  
+  }
+  @media #{$sm-layout} { 
+    width:80vw;
+    margin:auto;
+    margin-bottom:50px;  
+  }
   .order_content{
-    padding:40px;
+    padding:1vw;
     img{
       margin-bottom:32px;
     }
@@ -1970,6 +2037,24 @@ a.default-btn {
       font-size:16px;
     }
   }
+}
+
+.startbuyer_part5_3{
+  padding:0px;
+  z-index:-1;
+
+  img{
+    height:660px;
+    @media #{$md-layout} { 
+      height:500px; 
+    }
+    @media #{$sm-layout} { 
+      display:none;
+    }
+    @media #{$xs-layout} { 
+      display:none;
+    }
+  }  
 }
 
 .question_part

@@ -42,7 +42,7 @@ const StartSeller = ({ location }) => {
                   {/* </div> */}
                   <Link to={process.env.PUBLIC_URL + "/seller/LoginRegisterEleven"}>
                     <center  >
-                      <button className="button_sign" type="button" >
+                      <button className="button_sign" type="button" style={{ borderRadius:'5px' }} >
                         Sign
                       </button>   
                     </center>

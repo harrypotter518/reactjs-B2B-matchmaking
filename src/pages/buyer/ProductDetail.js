@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import { connect } from "react-redux";
-import LayoutTwentyTwo from "../../layouts/LayoutTwentyTwo";
+import LayoutTwenty from "../../layouts/LayoutTwenty";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import RelatedProductSlider from "../../wrappers/product/RelatedProductSlider";
 import ProductDescriptionTab from "../../wrappers/product/ProductDescriptionTab";
@@ -27,9 +27,9 @@ const ProductDetail = ({ location, product }) => {
          Product Detail
       </BreadcrumbsItem>
 
-      <LayoutTwentyTwo headerTop="visible">
+      <LayoutTwenty headerTop="visible">
         {/* breadcrumb */}
-        <Breadcrumb />
+        {/* <Breadcrumb /> */}
 
         {/* product description with image */}
         <ProductImageDescription
@@ -49,7 +49,7 @@ const ProductDetail = ({ location, product }) => {
           spaceBottomClass="pb-95"
           category={product.category[0]}
         />
-      </LayoutTwentyTwo>
+      </LayoutTwenty>
     </Fragment>
   );
 };

@@ -9,6 +9,7 @@ import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
+import { DropzoneArea } from 'material-ui-dropzone';
 import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
   formControl: {
@@ -104,13 +105,24 @@ const EditAccount = ({ location }) => {
                                 </div>
                               </div>
 
-                              <div className="col-lg-12 col-md-12">
+                              <div className="col-lg-6 col-md-6">
                                 <div className="billing-info">
                                   <label>Description</label>                             
                                   <textarea
                                   className="form-control"
                                   id="exampleFormControlTextarea1"
-                                  rows="4"
+                                  rows="10"
+                                  />
+                                </div>
+                              </div>
+
+                              <div className="col-lg-6 col-md-6">
+                                <div className="billing-info">
+                                  <label>Account photo</label>
+                                  <DropzoneArea
+                                    acceptedFiles={['image/*']}
+                                    dropzoneText={"Drag and drop an image here or click"}
+                                    onChange={(files) => console.log('Files:', files)}
                                   />
                                 </div>
                               </div>

@@ -173,7 +173,7 @@ const LoginRegisterEleven = ({ location }) => {
                                   </div>                                                           
                                   <div className="col-lg-12 col-md-12">
                                     <h4 style={{ color:'blue', marginTop:'1rem' }}>Step 1/2</h4>
-                                    <div className="button-box" style={{ textAlign:"right"}}>
+                                    <div className="button-box">
                                       <Link to={process.env.PUBLIC_URL + "/seller/LoginRegisterEleven2"}>
                                         <button type="submit">
                                           <span>Continue</span>

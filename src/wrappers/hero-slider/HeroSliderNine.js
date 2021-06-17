@@ -37,7 +37,7 @@ const HeroSliderNine = ({ spaceLeftClass, spaceRightClass }) => {
     //   style={{ backgroundColor:"#5e20!important" }}
     // >
      <div
-      className="slider-area mt-60" 
+      className="slider-area mt-20" 
       style={{ backgroundColor:"#f0f0f0"}}
     >
       <div className="slider-active nav-style-1" style={{ marginBottom:"50px"}}>
