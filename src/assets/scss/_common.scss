@@ -1888,18 +1888,22 @@ a.default-btn {
   overflow: hidden !important;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .container {
-    max-width: 1200px;
-  }
-  
+    max-width: 1400px;
+  }  
 }
 // @media (min-width: 1200px) {
 //   .container {
-//     max-width: 75vw;
-//   }
-  
+//     max-width: 1200px;
+//   }  
 // }
+
+@media (min-width: 1200px) {
+  .container_welcome {
+    max-width: 1200px;
+  }
+}
 
 @media (min-width: 1440px) {
   .container_second {

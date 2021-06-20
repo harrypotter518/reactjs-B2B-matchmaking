@@ -637,6 +637,10 @@
 .product-large-image-wrapper {
   position: relative;
   width:530px;
+  
+  .single-image{
+    max-height:530px;
+  }
  
   .product-img-badges {
     position: absolute;
@@ -704,12 +708,9 @@
   }
 
   .single-image {
-    height:530px;
-    transform: translateY(-10%);
-
+    max-height:530px;
     img {
-      width: 100%;
-      
+      width: 100%;      
     }
   }
 }

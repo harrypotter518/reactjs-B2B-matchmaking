@@ -25,7 +25,7 @@ const Brand = ({ location, products }) => {
   const [currentData, setCurrentData] = useState([]);
   const [sortedProducts, setSortedProducts] = useState([]);
 
-  const pageLimit = 15;
+  const pageLimit = 16;
   const { pathname } = location;
 
   const getLayout = (layout) => {
@@ -60,7 +60,7 @@ const Brand = ({ location, products }) => {
         <title>OpenAsia | Buyer</title>
         <meta
           name="description"
-          content="Shop page of flone react minimalist eCommerce template."
+          content="Shop page of OpenAsia react minimalist eCommerce."
         />
       </MetaTags>
 

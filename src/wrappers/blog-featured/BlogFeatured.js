@@ -11,7 +11,7 @@ const BlogFeatured = ({ spaceTopClass, spaceBottomClass }) => {
         spaceBottomClass ? spaceBottomClass : ""
       }`}
     >
-      <div className="container">
+      <div className="container container_welcome">
         <SectionTitle
           titleText="OUR BLOG"
           positionClass="text-center"

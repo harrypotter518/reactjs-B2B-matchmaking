@@ -59,7 +59,7 @@ const HeaderTen = ({
           scroll > headerTop ? "stick" : "stick"
         }`}      
       >
-        <div className={layout === "container-fluid" ? layout : "container"}>
+        <div className={layout === "container-fluid" ? layout : "container "}>
           <div className="row">
             <div className="col-xl-1 col-lg-1 col-md-8 col-8">
               {/* header logo */}

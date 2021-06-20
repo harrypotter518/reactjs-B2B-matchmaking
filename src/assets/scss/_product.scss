@@ -289,7 +289,24 @@
   .product-img {
     position: relative;
 
-    max-height: 284px;
+    max-height: 261px;
+    @media (max-width: 1400px) {
+      max-height: 207px;
+    }
+
+    @media (max-width: 1200px) {
+      max-height: 170px;
+    }
+
+    @media (max-width: 990px) {
+      max-height: 170px;
+    }
+    @media (max-width: 770px) {
+      max-height: 240px;
+    }
+    @media (max-width: 575px) {
+      max-height: 502px;
+    }
 
     overflow: hidden;
     img {
