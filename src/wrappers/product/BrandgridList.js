@@ -20,7 +20,8 @@ const BrandGrid = ({
             sliderClassName={sliderClassName}
             spaceBottomClass={spaceBottomClass}
             product={product}
-            currency={currency}          
+            currency={currency}    
+            addToWishlist={addToWishlist}      
           
             key={product.id}
           />

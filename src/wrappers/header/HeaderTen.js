@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Logo from "../../components/header/Logo";
 import NavMenuTen from "../../components/header/NavMenuTen";
 import IconGroupTen from "../../components/header/IconGroupTen";
-import MobileMenu from "../../components/header/MobileMenu";
+import MobileMenuTen from "../../components/header/MobileMenuTen";
 import HeaderTopTen from "../../components/header/HeaderTopTen";
 
 const HeaderTen = ({
@@ -88,28 +88,19 @@ const HeaderTen = ({
             </div>
             <div className="col-xl-4 col-lg-4   d-none d-lg-block"  style={{ paddingLeft:'0px',paddingRight:'0px' }} >
               {/* Nav menu */}
-              <NavMenuTen />
-              
+              <NavMenuTen />              
             </div> 
-     
-              
-            
-    
 
             <div className="col-xl-1 col-lg-1 d-none d-lg-block pt-10 lang_bar" style={{paddingLeft:'0px',paddingRight:'0px'}}> 
               {/* <div className={layout === "container-fluid" ? layout : "container"} >           */}
-                                
-                    <HeaderTopTen borderStyle={borderStyle} />  
-                                       
+               <HeaderTopTen borderStyle={borderStyle} />  
               {/* </div> */}
             </div>
          
           </div>
         </div>
         {/* mobile menu */}
-        <MobileMenu />
-
-     
+        <MobileMenuTen />    
 
       </div>
     </header>

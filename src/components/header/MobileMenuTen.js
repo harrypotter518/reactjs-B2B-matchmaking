@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import MobileMenuSearch from "./sub-components/MobileSearch";
-import MobileNavMenu from "./sub-components/MobileNavMenu";
+import MobileNavMenuTen from "./sub-components/MobileNavMenuTen";
 import MobileLangCurChange from "./sub-components/MobileLangCurrChange";
 import MobileWidgets from "./sub-components/MobileWidgets";
 
-const MobileMenu = () => {
+const MobileMenuTen = () => {
   useEffect(() => {
     const offCanvasNav = document.querySelector("#offcanvas-navigation");
     const offCanvasNavSubMenu = offCanvasNav.querySelectorAll(".sub-menu");
@@ -59,7 +59,7 @@ const MobileMenu = () => {
           <MobileMenuSearch />
 
           {/* mobile nav menu */}
-          <MobileNavMenu />
+          <MobileNavMenuTen />
 
           {/* mobile language and currency */}
           <MobileLangCurChange />
@@ -72,4 +72,4 @@ const MobileMenu = () => {
   );
 };
 
-export default MobileMenu;
+export default MobileMenuTen;

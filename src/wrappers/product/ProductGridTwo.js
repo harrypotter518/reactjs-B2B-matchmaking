@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import React, { Fragment } from "react";
 import { connect } from "react-redux";
 import { getProducts } from "../../helpers/product_twelve";
+
 import ProductGridSingleTwo from "../../components/product/ProductGridSingleTwo";
 import { addToCart } from "../../redux/actions/cartActions";
 import { addToWishlist } from "../../redux/actions/wishlistActions";
@@ -32,7 +33,7 @@ const ProductGridTwo = ({
             product={product}
             currency={currency}
             // addToCart={addToCart}
-            // addToWishlist={addToWishlist}
+             addToWishlist={addToWishlist}
             // addToCompare={addToCompare}
             // cartItem={
             //   cartItems.filter((cartItem) => cartItem.id === product.id)[0]

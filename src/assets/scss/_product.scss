@@ -438,10 +438,16 @@
   }
   .product-content {
     margin: 20px 0 0;
+    h5{
+      font-size: 16px;
+      color:#214f7d;
+    }
     h3 {
       font-size: 16px;
-
       margin: 0;
+      a{
+        font-size: 16px;
+      }
     }
     .product-rating {
       margin: 3px 0 3px;

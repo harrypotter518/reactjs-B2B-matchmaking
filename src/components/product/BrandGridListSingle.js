@@ -49,16 +49,41 @@ const BrandGridListSingleTwelve = ({
             </Link>
           </div>
 
-          <div className="product-content text-center">    
+          <div className="product-content text-left" >    
             <h5>             
-                Brand-{product.sku}                
+                <strong>Brand-{product.sku}  </strong>              
             </h5>
-            <h3>
-              <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
-                {product.name}
-              </Link>
-            </h3>   
-            <div className="product-price">
+            <div className="row">
+              <div className="col-xl-6 col-md-12">
+                <h3>
+                  <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
+                    {product.name}
+                  </Link>
+                </h3> 
+              </div>
+              <div className="col-xl-4 col-md-7" style={{ paddingLeft:'0px' }}>
+                <p style={{ border:'2px solid #1d252d', borderRadius:'5px', padding:'3px',width:'auto',textAlign:'center' }}>Australia</p> 
+              </div>
+              <div className="col-xl-2 col-md-3" style={{ paddingLeft:'0px' }}>
+                <div className="pro-same-action pro-wishlist">
+                  <button
+                    style={{ border:'none', backgroundColor:'transparent' }}
+                    className={wishlistItem !== undefined ? "active" : ""}
+                    disabled={wishlistItem !== undefined}
+                    title={
+                      wishlistItem !== undefined
+                        ? "Added to wishlist"
+                        : "Add to wishlist"
+                    }
+                    onClick={() => addToWishlist(product, addToast)}
+                  >
+                    <i className="pe-7s-like" style={{fontSize:'1.5em' }}/>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* <div className="product-price">
               <div className="badge-widget">
                 <div className="badge-widget-tag mt-25">                    
                     <ul>  
@@ -72,7 +97,7 @@ const BrandGridListSingleTwelve = ({
                     </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>

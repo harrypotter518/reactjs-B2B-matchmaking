@@ -133,22 +133,49 @@ const  ProductGridSingleTwo = ({
               </button> */}
             {/* </div> */}
           </div>
-          <div className="product-content-2">
-            <div
+          <div className="product-content text-left mt-20">
+            {/* <div
               className={`title-price-wrap-2 ${
                 titlePriceClass ? titlePriceClass : ""
               }`}
-            >
-              <h5>             
-                  Brand-{product.sku}                
+            > */}
+           
+              <h5 style={{color:'#214f7d'}}>             
+                  <strong>Brand-{product.sku}</strong>                
               </h5>
-              <h3>
-                <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
-                  {product.name}
-                </Link>
-              </h3>   
 
-              <div className="filter sidebar-widget">
+              <div className="row">
+                <div className="col-xl-6 col-md-12">
+                  <h3>
+                    <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
+                      <p style={{fontSize:'16px'}}><strong>{product.name}</strong></p>
+                    </Link>
+                  </h3> 
+                </div>
+                <div className="col-xl-4 col-md-7" style={{ paddingLeft:'0px' }}>
+                  <p style={{ border:'2px solid #1d252d', borderRadius:'5px', padding:'3px',width:'auto',textAlign:'center' }}>Australia</p> 
+                </div>
+                <div className="col-xl-2 col-md-3" style={{ paddingLeft:'0px' }}>
+                  <div className="pro-same-action pro-wishlist">
+                    <button
+                      style={{ border:'none', backgroundColor:'transparent' }}
+                      className={wishlistItem !== undefined ? "active" : ""}
+                      disabled={wishlistItem !== undefined}
+                      title={
+                        wishlistItem !== undefined
+                          ? "Added to wishlist"
+                          : "Add to wishlist"
+                      }
+                      onClick={() => addToWishlist(product, addToast)}
+                    >
+                      <i className="pe-7s-like" style={{fontSize:'1.5em' }}/>
+                    </button>
+                  </div>
+                </div>
+              {/* </div> */}
+
+
+              {/* <div className="filter sidebar-widget">
                 <div className="sidebar-widget-tag mt-25">                    
                     <ul>  
                     {product.category.map((single_category,key)=>{
@@ -160,7 +187,7 @@ const  ProductGridSingleTwo = ({
                     })}             
                     </ul>
                 </div>
-              </div>  
+              </div>   */}
                               
              
               {/* <div className="price-2">

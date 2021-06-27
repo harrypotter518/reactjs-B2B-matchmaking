@@ -2,7 +2,7 @@
   {
     "id": "1",
     "sku": "asdf123",
-    "name": "Lorem ipsum jacket",
+    "name": "jacket",
     "price": 12.45,
     "discount": 10,
     "offerEnd": "October 5, 2020 12:11:00",
@@ -83,12 +83,12 @@
       "/assets/img/product/fashion/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
   {
     "id": "2",
     "sku": "asdf124",
-    "name": "Lorem ipsum coat",
+    "name": "coat",
     "price": 18.5,
     "discount": 15,
     "new": false,
@@ -168,13 +168,13 @@
       "/assets/img/product/fashion/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
 
   {
     "id": "3",
     "sku": "asdf125",
-    "name": "Lorem ipsum jacket",
+    "name": "jacket",
     "price": 17.45,
     "discount": 40,
     "offerEnd": "October 2, 2020 12:11:00",
@@ -255,12 +255,12 @@
       "/assets/img/product/fashion/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
   {
     "id": "4",
     "sku": "asdf126",
-    "name": "Lorem ipsum fashion coat",
+    "name": "fashion coat",
     "price": 15.5,
     "discount": 0,
     "new": true,
@@ -340,12 +340,12 @@
       "/assets/img/product/fashion/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
   {
     "id": "5",
     "sku": "asdf127",
-    "name": "Lorem ipsum female coat",
+    "name": "female coat",
     "price": 25.5,
     "discount": 10,
     "new": true,
@@ -425,12 +425,12 @@
       "/assets/img/product/fashion/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
   {
     "id": "6",
     "sku": "asdf128",
-    "name": "Lorem ipsum jacket",
+    "name": "jacket",
     "price": 19.85,
     "discount": 0,
     "offerEnd": "October 17, 2020 12:11:00",
@@ -511,12 +511,12 @@
       "/assets/img/product/fashion/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
   {
     "id": "7",
     "sku": "asdf129",
-    "name": "Lorem ipsum fashion female coat",
+    "name": "fashion female coat",
     "price": 55.5,
     "discount": 40,
     "new": true,
@@ -596,12 +596,12 @@
       "/assets/img/product/fashion/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
   {
     "id": "8",
     "sku": "asdf130",
-    "name": "Lorem ipsum fashion jacket",
+    "name": "fashion jacket",
     "price": 29.85,
     "discount": 10,
     "offerEnd": "October 18, 2020 12:11:00",
@@ -619,12 +619,12 @@
       "/assets/img/product/fashion/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
   {
     "id": "9",
     "sku": "asdf131",
-    "name": "Lorem ipsum fashion female top",
+    "name": "fashion female top",
     "price": 35.6,
     "discount": 0,
     "new": false,
@@ -647,7 +647,7 @@
   {
     "id": "10",
     "sku": "asdf132",
-    "name": "Lorem ipsum blender",
+    "name": "blender",
     "price": 15.6,
     "discount": 0,
     "new": false,
@@ -669,7 +669,7 @@
   {
     "id": "11",
     "sku": "asdf133",
-    "name": "Lorem ipsum speaker",
+    "name": "speaker",
     "price": 10.6,
     "discount": 10,
     "new": true,
@@ -691,7 +691,7 @@
   {
     "id": "12",
     "sku": "asdf134",
-    "name": "Lorem ipsum camera",
+    "name": "camera",
     "price": 12.5,
     "discount": 20,
     "new": true,
@@ -713,7 +713,7 @@
   {
     "id": "13",
     "sku": "asdf135",
-    "name": "Lorem ipsum monitor",
+    "name": "monitor",
     "price": 14.5,
     "discount": 30,
     "new": false,
@@ -735,7 +735,7 @@
   {
     "id": "14",
     "sku": "asdf136",
-    "name": "Lorem ipsum small speaker",
+    "name": "small speaker",
     "price": 2.5,
     "discount": 10,
     "new": true,
@@ -757,7 +757,7 @@
   {
     "id": "15",
     "sku": "asdf137",
-    "name": "Lorem ipsum microphone",
+    "name": "microphone",
     "price": 12.5,
     "discount": 0,
     "new": false,
@@ -779,7 +779,7 @@
   {
     "id": "16",
     "sku": "asdf138",
-    "name": "Lorem ipsum grinder",
+    "name": "grinder",
     "price": 22.5,
     "discount": 20,
     "new": true,
@@ -801,7 +801,7 @@
   {
     "id": "17",
     "sku": "asdf139",
-    "name": "Lorem ipsum bluetooth",
+    "name": "bluetooth",
     "price": 32.5,
     "discount": 10,
     "new": true,
@@ -823,7 +823,7 @@
   {
     "id": "18",
     "sku": "asdf140",
-    "name": "Lorem ipsum chair one",
+    "name": "chair one",
     "price": 15.6,
     "discount": 0,
     "new": false,
@@ -845,7 +845,7 @@
   {
     "id": "19",
     "sku": "asdf141",
-    "name": "Lorem ipsum chair two",
+    "name": "chair two",
     "price": 10.6,
     "discount": 10,
     "new": true,
@@ -867,7 +867,7 @@
   {
     "id": "20",
     "sku": "asdf142",
-    "name": "Lorem ipsum chair three",
+    "name": "chair three",
     "price": 12.5,
     "discount": 20,
     "new": true,
@@ -889,7 +889,7 @@
   {
     "id": "21",
     "sku": "asdf143",
-    "name": "Lorem ipsum sofa one",
+    "name": "sofa one",
     "price": 14.5,
     "discount": 30,
     "new": false,
@@ -911,7 +911,7 @@
   {
     "id": "22",
     "sku": "asdf144",
-    "name": "Lorem ipsum sofa two",
+    "name": "sofa two",
     "price": 22.5,
     "discount": 10,
     "new": true,
@@ -933,7 +933,7 @@
   {
     "id": "23",
     "sku": "asdf145",
-    "name": "Lorem ipsum sofa three",
+    "name": "sofa three",
     "price": 12.5,
     "discount": 0,
     "new": false,
@@ -955,7 +955,7 @@
   {
     "id": "24",
     "sku": "asdf146",
-    "name": "Lorem ipsum sofa four",
+    "name": "sofa four",
     "price": 22.5,
     "discount": 20,
     "new": true,
@@ -977,7 +977,7 @@
   {
     "id": "25",
     "sku": "asdf147",
-    "name": "Lorem ipsum sofa five",
+    "name": "sofa five",
     "price": 32.5,
     "discount": 10,
     "new": true,
@@ -999,7 +999,7 @@
   {
     "id": "26",
     "sku": "asdf148",
-    "name": "Lorem ipsum plant one",
+    "name": "plant one",
     "price": 15.6,
     "discount": 0,
     "new": false,
@@ -1021,7 +1021,7 @@
   {
     "id": "27",
     "sku": "asdf149",
-    "name": "Lorem ipsum plant two",
+    "name": "plant two",
     "price": 10.6,
     "discount": 10,
     "new": true,
@@ -1043,7 +1043,7 @@
   {
     "id": "28",
     "sku": "asdf150",
-    "name": "Lorem ipsum plant three",
+    "name": "plant three",
     "price": 12.5,
     "discount": 20,
     "new": true,
@@ -1065,7 +1065,7 @@
   {
     "id": "29",
     "sku": "asdf151",
-    "name": "Lorem ipsum plant four",
+    "name": "plant four",
     "price": 14.5,
     "discount": 30,
     "new": false,
@@ -1087,7 +1087,7 @@
   {
     "id": "30",
     "sku": "asdf152",
-    "name": "Lorem ipsum plant five",
+    "name": "plant five",
     "price": 22.5,
     "discount": 10,
     "new": true,
@@ -1109,7 +1109,7 @@
   {
     "id": "31",
     "sku": "asdf153",
-    "name": "Lorem ipsum plant six",
+    "name": "plant six",
     "price": 12.5,
     "discount": 0,
     "new": false,
@@ -1131,7 +1131,7 @@
   {
     "id": "32",
     "sku": "asdf154",
-    "name": "Lorem ipsum plant seven",
+    "name": "plant seven",
     "price": 22.5,
     "discount": 20,
     "new": true,
@@ -1153,7 +1153,7 @@
   {
     "id": "33",
     "sku": "asdf155",
-    "name": "Lorem ipsum plant eight",
+    "name": "plant eight",
     "price": 32.5,
     "discount": 10,
     "new": true,
@@ -1175,7 +1175,7 @@
   {
     "id": "34",
     "sku": "asdf156",
-    "name": "Lorem ipsum fruit one",
+    "name": "fruit one",
     "price": 15.6,
     "discount": 0,
     "new": false,
@@ -1197,7 +1197,7 @@
   {
     "id": "35",
     "sku": "asdf157",
-    "name": "Lorem ipsum fruit two",
+    "name": "fruit two",
     "price": 10.6,
     "discount": 10,
     "new": true,
@@ -1219,7 +1219,7 @@
   {
     "id": "36",
     "sku": "asdf158",
-    "name": "Lorem ipsum fruit three",
+    "name": "fruit three",
     "price": 12.5,
     "discount": 20,
     "new": true,
@@ -1241,7 +1241,7 @@
   {
     "id": "37",
     "sku": "asdf159",
-    "name": "Lorem ipsum fruit four",
+    "name": "fruit four",
     "price": 14.5,
     "discount": 30,
     "new": false,
@@ -1263,7 +1263,7 @@
   {
     "id": "38",
     "sku": "asdf160",
-    "name": "Lorem ipsum fruit five",
+    "name": "fruit five",
     "price": 22.5,
     "discount": 10,
     "new": true,
@@ -1285,7 +1285,7 @@
   {
     "id": "39",
     "sku": "asdf161",
-    "name": "Lorem ipsum fruit six",
+    "name": "fruit six",
     "price": 12.5,
     "discount": 0,
     "new": false,
@@ -1307,7 +1307,7 @@
   {
     "id": "40",
     "sku": "asdf162",
-    "name": "Lorem ipsum fruit seven",
+    "name": "fruit seven",
     "price": 22.5,
     "discount": 20,
     "new": true,
@@ -1329,7 +1329,7 @@
   {
     "id": "41",
     "sku": "asdf163",
-    "name": "Lorem ipsum fruit eight",
+    "name": "fruit eight",
     "price": 32.5,
     "discount": 10,
     "new": true,
@@ -1351,7 +1351,7 @@
   {
     "id": "42",
     "sku": "asdf164",
-    "name": "Lorem ipsum lamp",
+    "name": "lamp",
     "price": 12.5,
     "discount": 20,
     "new": true,
@@ -1373,7 +1373,7 @@
   {
     "id": "43",
     "sku": "asdf165",
-    "name": "Lorem ipsum headphone",
+    "name": "headphone",
     "price": 16.5,
     "discount": 10,
     "new": false,
@@ -1395,7 +1395,7 @@
   {
     "id": "44",
     "sku": "asdf166",
-    "name": "Lorem ipsum flower one",
+    "name": "flower one",
     "price": 1.5,
     "discount": 20,
     "new": true,
@@ -1417,7 +1417,7 @@
   {
     "id": "45",
     "sku": "asdf167",
-    "name": "Lorem ipsum flower two",
+    "name": "flower two",
     "price": 6.5,
     "discount": 30,
     "new": false,
@@ -1439,7 +1439,7 @@
   {
     "id": "46",
     "sku": "asdf168",
-    "name": "Lorem ipsum flower three",
+    "name": "flower three",
     "price": 3.5,
     "discount": 5,
     "new": true,
@@ -1461,7 +1461,7 @@
   {
     "id": "47",
     "sku": "asdf169",
-    "name": "Lorem ipsum flower four",
+    "name": "flower four",
     "price": 4.5,
     "discount": 20,
     "new": true,
@@ -1483,7 +1483,7 @@
   {
     "id": "48",
     "sku": "asdf170",
-    "name": "Lorem ipsum flower five",
+    "name": "flower five",
     "price": 7.5,
     "discount": 30,
     "new": true,
@@ -1505,7 +1505,7 @@
   {
     "id": "49",
     "sku": "asdf171",
-    "name": "Lorem ipsum flower six",
+    "name": "flower six",
     "price": 4.5,
     "discount": 10,
     "new": false,
@@ -1527,7 +1527,7 @@
   {
     "id": "50",
     "sku": "asdf172",
-    "name": "Lorem ipsum flower seven",
+    "name": "flower seven",
     "price": 3.5,
     "discount": 20,
     "new": true,
@@ -1549,7 +1549,7 @@
   {
     "id": "51",
     "sku": "asdf173",
-    "name": "Lorem ipsum flower eight",
+    "name": "flower eight",
     "price": 2.5,
     "discount": 30,
     "new": true,
@@ -1571,7 +1571,7 @@
   {
     "id": "52",
     "sku": "asdf174",
-    "name": "Lorem ipsum book one",
+    "name": "book one",
     "price": 6.5,
     "discount": 30,
     "new": true,
@@ -1593,7 +1593,7 @@
   {
     "id": "53",
     "sku": "asdf175",
-    "name": "Lorem ipsum book two",
+    "name": "book two",
     "price": 4.2,
     "discount": 0,
     "new": true,
@@ -1615,7 +1615,7 @@
   {
     "id": "54",
     "sku": "asdf176",
-    "name": "Lorem ipsum book three",
+    "name": "book three",
     "price": 6.6,
     "discount": 20,
     "new": true,
@@ -1637,7 +1637,7 @@
   {
     "id": "55",
     "sku": "asdf177",
-    "name": "Lorem ipsum book four",
+    "name": "book four",
     "price": 7.1,
     "discount": 40,
     "new": true,
@@ -1659,7 +1659,7 @@
   {
     "id": "56",
     "sku": "asdf178",
-    "name": "Lorem ipsum book five",
+    "name": "book five",
     "price": 8.6,
     "discount": 30,
     "new": false,
@@ -1681,7 +1681,7 @@
   {
     "id": "57",
     "sku": "asdf179",
-    "name": "Lorem ipsum book six",
+    "name": "book six",
     "price": 5.5,
     "discount": 10,
     "new": true,
@@ -1703,7 +1703,7 @@
   {
     "id": "58",
     "sku": "asdf180",
-    "name": "Lorem ipsum book seven",
+    "name": "book seven",
     "price": 3.2,
     "discount": 20,
     "new": false,
@@ -1725,7 +1725,7 @@
   {
     "id": "59",
     "sku": "asdf181",
-    "name": "Lorem ipsum book eight",
+    "name": "book eight",
     "price": 8.5,
     "discount": 5,
     "new": true,
@@ -1747,7 +1747,7 @@
   {
     "id": "60",
     "sku": "asdf182",
-    "name": "Lorem ipsum cosmetics one",
+    "name": "cosmetics one",
     "price": 3.5,
     "discount": 10,
     "new": true,
@@ -1769,7 +1769,7 @@
   {
     "id": "61",
     "sku": "asdf183",
-    "name": "Lorem ipsum cosmetics two",
+    "name": "cosmetics two",
     "price": 18.5,
     "discount": 15,
     "new": false,
@@ -1791,7 +1791,7 @@
   {
     "id": "62",
     "sku": "asdf184",
-    "name": "Lorem ipsum cosmetics three",
+    "name": "cosmetics three",
     "price": 4.2,
     "discount": 15,
     "new": true,
@@ -1813,7 +1813,7 @@
   {
     "id": "63",
     "sku": "asdf185",
-    "name": "Lorem ipsum cosmetics four",
+    "name": "cosmetics four",
     "price": 1.5,
     "discount": 0,
     "new": false,
@@ -1835,7 +1835,7 @@
   {
     "id": "64",
     "sku": "asdf186",
-    "name": "Lorem ipsum cosmetics five",
+    "name": "cosmetics five",
     "price": 6.3,
     "discount": 15,
     "new": true,
@@ -1857,7 +1857,7 @@
   {
     "id": "65",
     "sku": "asdf187",
-    "name": "Lorem ipsum cosmetics six",
+    "name": "cosmetics six",
     "price": 4.5,
     "discount": 20,
     "new": false,
@@ -1879,7 +1879,7 @@
   {
     "id": "66",
     "sku": "asdf188",
-    "name": "Lorem ipsum cosmetics seven",
+    "name": "cosmetics seven",
     "price": 7.1,
     "discount": 45,
     "new": true,
@@ -1901,7 +1901,7 @@
   {
     "id": "67",
     "sku": "asdf189",
-    "name": "Lorem ipsum cosmetics eight",
+    "name": "cosmetics eight",
     "price": 9.0,
     "discount": 10,
     "new": false,
@@ -1923,7 +1923,7 @@
   {
     "id": "68",
     "sku": "asdf190",
-    "name": "Lorem ipsum accessories one",
+    "name": "accessories one",
     "price": 3.1,
     "discount": 10,
     "new": true,
@@ -1945,7 +1945,7 @@
   {
     "id": "69",
     "sku": "asdf191",
-    "name": "Lorem ipsum accessories two",
+    "name": "accessories two",
     "price": 12.43,
     "discount": 20,
     "new": false,
@@ -1967,7 +1967,7 @@
   {
     "id": "70",
     "sku": "asdf192",
-    "name": "Lorem ipsum accessories three",
+    "name": "accessories three",
     "price": 12.5,
     "discount": 0,
     "new": true,
@@ -1989,7 +1989,7 @@
   {
     "id": "71",
     "sku": "asdf193",
-    "name": "Lorem ipsum accessories four",
+    "name": "accessories four",
     "price": 19.33,
     "discount": 20,
     "new": false,
@@ -2011,7 +2011,7 @@
   {
     "id": "72",
     "sku": "asdf194",
-    "name": "Lorem ipsum accessories five",
+    "name": "accessories five",
     "price": 12.35,
     "discount": 20,
     "new": true,
@@ -2033,7 +2033,7 @@
   {
     "id": "73",
     "sku": "asdf195",
-    "name": "Lorem ipsum accessories six",
+    "name": "accessories six",
     "price": 12.45,
     "discount": 20,
     "new": true,
@@ -2055,7 +2055,7 @@
   {
     "id": "74",
     "sku": "asdf196",
-    "name": "Lorem ipsum accessories seven",
+    "name": "accessories seven",
     "price": 2.43,
     "discount": 10,
     "new": true,
@@ -2077,7 +2077,7 @@
   {
     "id": "75",
     "sku": "asdf197",
-    "name": "Lorem ipsum accessories eight",
+    "name": "accessories eight",
     "price": 13.4,
     "discount": 30,
     "new": true,
@@ -2099,7 +2099,7 @@
   {
     "id": "76",
     "sku": "asdf198",
-    "name": "Lorem ipsum accessories nine",
+    "name": "accessories nine",
     "price": 5.24,
     "discount": 30,
     "new": true,
@@ -2121,7 +2121,7 @@
   {
     "id": "77",
     "sku": "asdf199",
-    "name": "Lorem ipsum accessories ten",
+    "name": "accessories ten",
     "price": 2.2,
     "discount": 0,
     "new": true,
@@ -2143,7 +2143,7 @@
   {
     "id": "78",
     "sku": "asdf200",
-    "name": "Lorem ipsum accessories eleven",
+    "name": "accessories eleven",
     "price": 12.65,
     "discount": 20,
     "new": true,
@@ -2165,7 +2165,7 @@
   {
     "id": "79",
     "sku": "asdf201",
-    "name": "Lorem ipsum accessories twelve",
+    "name": "accessories twelve",
     "price": 9.52,
     "discount": 0,
     "new": true,
@@ -2187,7 +2187,7 @@
   {
     "id": "80",
     "sku": "asdf202",
-    "name": "Lorem ipsum handmade one",
+    "name": "handmade one",
     "price": 19,
     "discount": 10,
     "new": true,
@@ -2209,7 +2209,7 @@
   {
     "id": "81",
     "sku": "asdf203",
-    "name": "Lorem ipsum handmade two",
+    "name": "handmade two",
     "price": 12,
     "discount": 50,
     "new": false,
@@ -2231,7 +2231,7 @@
   {
     "id": "82",
     "sku": "asdf204",
-    "name": "Lorem ipsum handmade three",
+    "name": "handmade three",
     "price": 5.52,
     "discount": 10,
     "new": true,
@@ -2253,7 +2253,7 @@
   {
     "id": "83",
     "sku": "asdf205",
-    "name": "Lorem ipsum handmade four",
+    "name": "handmade four",
     "price": 2.13,
     "discount": 0,
     "new": true,
@@ -2275,7 +2275,7 @@
   {
     "id": "84",
     "sku": "asdf206",
-    "name": "Lorem ipsum handmade five",
+    "name": "handmade five",
     "price": 12.9,
     "discount": 40,
     "new": false,
@@ -2297,7 +2297,7 @@
   {
     "id": "85",
     "sku": "asdf207",
-    "name": "Lorem ipsum handmade six",
+    "name": "handmade six",
     "price": 3.78,
     "discount": 20,
     "new": true,
@@ -2319,7 +2319,7 @@
   {
     "id": "86",
     "sku": "asdf208",
-    "name": "Lorem ipsum handmade seven",
+    "name": "handmade seven",
     "price": 2.52,
     "discount": 10,
     "new": true,
@@ -2341,7 +2341,7 @@
   {
     "id": "87",
     "sku": "asdf209",
-    "name": "Lorem ipsum handmade eight",
+    "name": "handmade eight",
     "price": 6.4,
     "discount": 0,
     "new": true,
@@ -2363,7 +2363,7 @@
   {
     "id": "88",
     "sku": "asdf210",
-    "name": "Lorem ipsum kids one",
+    "name": "kids one",
     "price": 12.45,
     "discount": 10,
     "offerEnd": "October 5, 2020 12:11:00",
@@ -2444,12 +2444,12 @@
       "/assets/img/product/fashion/27.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
   {
     "id": "89",
     "sku": "asdf211",
-    "name": "Lorem ipsum kids two",
+    "name": "kids two",
     "price": 18.5,
     "discount": 15,
     "new": false,
@@ -2529,13 +2529,13 @@
       "/assets/img/product/fashion/28.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
 
   {
     "id": "90",
     "sku": "asdf212",
-    "name": "Lorem ipsum kids three",
+    "name": "kids three",
     "price": 17.45,
     "discount": 40,
     "offerEnd": "October 2, 2020 12:11:00",
@@ -2616,12 +2616,12 @@
       "/assets/img/product/fashion/29.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
   {
     "id": "91",
     "sku": "asdf213",
-    "name": "Lorem ipsum kids four",
+    "name": "kids four",
     "price": 15.5,
     "discount": 0,
     "new": true,
@@ -2701,12 +2701,12 @@
       "/assets/img/product/fashion/30.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
   {
     "id": "92",
     "sku": "asdf214",
-    "name": "Lorem ipsum kids five",
+    "name": "kids five",
     "price": 25.5,
     "discount": 10,
     "new": true,
@@ -2786,12 +2786,12 @@
       "/assets/img/product/fashion/23.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
   {
     "id": "93",
     "sku": "asdf215",
-    "name": "Lorem ipsum kids six",
+    "name": "kids six",
     "price": 19.85,
     "discount": 0,
     "offerEnd": "October 17, 2020 12:11:00",
@@ -2872,12 +2872,12 @@
       "/assets/img/product/fashion/24.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
   {
     "id": "94",
     "sku": "asdf216",
-    "name": "Lorem ipsum kids seven",
+    "name": "kids seven",
     "price": 55.5,
     "discount": 40,
     "new": true,
@@ -2957,12 +2957,12 @@
       "/assets/img/product/fashion/25.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
   {
     "id": "95",
     "sku": "asdf217",
-    "name": "Lorem ipsum kids eight",
+    "name": "kids eight",
     "price": 29.85,
     "discount": 10,
     "offerEnd": "October 18, 2020 12:11:00",
@@ -2980,12 +2980,12 @@
       "/assets/img/product/fashion/26.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
   },
   {
     "id": "96",
     "sku": "asdf218",
-    "name": "Lorem ipsum auto part one",
+    "name": "auto part one",
     "price": 16.4,
     "discount": 10,
     "new": true,
@@ -3007,7 +3007,7 @@
   {
     "id": "97",
     "sku": "asdf219",
-    "name": "Lorem ipsum auto part two",
+    "name": "auto part two",
     "price": 26.5,
     "discount": 0,
     "new": false,
@@ -3029,7 +3029,7 @@
   {
     "id": "98",
     "sku": "asdf220",
-    "name": "Lorem ipsum auto part three",
+    "name": "auto part three",
     "price": 14.2,
     "discount": 30,
     "new": true,
@@ -3051,7 +3051,7 @@
   {
     "id": "99",
     "sku": "asdf221",
-    "name": "Lorem ipsum auto part four",
+    "name": "auto part four",
     "price": 6.4,
     "discount": 0,
     "new": false,
@@ -3073,7 +3073,7 @@
   {
     "id": "100",
     "sku": "asdf222",
-    "name": "Lorem ipsum cake one",
+    "name": "cake one",
     "price": 6.4,
     "discount": 0,
     "new": false,
@@ -3095,7 +3095,7 @@
   {
     "id": "101",
     "sku": "asdf223",
-    "name": "Lorem ipsum cake two",
+    "name": "cake two",
     "price": 3,
     "discount": 10,
     "new": true,
@@ -3117,7 +3117,7 @@
   {
     "id": "102",
     "sku": "asdf224",
-    "name": "Lorem ipsum cake three",
+    "name": "cake three",
     "price": 2.4,
     "discount": 10,
     "new": false,
@@ -3139,7 +3139,7 @@
   {
     "id": "103",
     "sku": "asdf225",
-    "name": "Lorem ipsum cake four",
+    "name": "cake four",
     "price": 3.5,
     "discount": 10,
     "new": true,
@@ -3161,7 +3161,7 @@
   {
     "id": "104",
     "sku": "asdf226",
-    "name": "Lorem ipsum cake five",
+    "name": "cake five",
     "price": 4.2,
     "discount": 0,
     "new": false,
@@ -3183,7 +3183,7 @@
   {
     "id": "105",
     "sku": "asdf227",
-    "name": "Lorem ipsum cake six",
+    "name": "cake six",
     "price": 5.7,
     "discount": 30,
     "new": true,
@@ -3205,7 +3205,7 @@
   {
     "id": "106",
     "sku": "asdf228",
-    "name": "Lorem ipsum cake seven",
+    "name": "cake seven",
     "price": 6.5,
     "discount": 10,
     "new": true,
@@ -3227,7 +3227,7 @@
   {
     "id": "107",
     "sku": "asdf229",
-    "name": "Lorem ipsum cake eight",
+    "name": "cake eight",
     "price": 4.5,
     "discount": 10,
     "new": true,
@@ -3249,7 +3249,7 @@
   {
     "id": "108",
     "sku": "asdf222",
-    "name": "Lorem ipsum cake one",
+    "name": "cake one",
     "price": 6.4,
     "discount": 0,
     "new": false,
@@ -3271,7 +3271,7 @@
   {
     "id": "109",
     "sku": "asdf223",
-    "name": "Lorem ipsum cake two",
+    "name": "cake two",
     "price": 3,
     "discount": 10,
     "new": true,
@@ -3293,7 +3293,7 @@
   {
     "id": "110",
     "sku": "asdf224",
-    "name": "Lorem ipsum cake three",
+    "name": "cake three",
     "price": 2.4,
     "discount": 10,
     "new": false,
@@ -3315,7 +3315,7 @@
   {
     "id": "111",
     "sku": "asdf225",
-    "name": "Lorem ipsum cake four",
+    "name": "cake four",
     "price": 3.5,
     "discount": 10,
     "new": true,
@@ -3337,7 +3337,7 @@
   {
     "id": "112",
     "sku": "asdf226",
-    "name": "Lorem ipsum cake five",
+    "name": "cake five",
     "price": 4.2,
     "discount": 0,
     "new": false,
@@ -3359,7 +3359,7 @@
   {
     "id": "113",
     "sku": "asdf227",
-    "name": "Lorem ipsum cake six",
+    "name": "cake six",
     "price": 5.7,
     "discount": 30,
     "new": true,
@@ -3381,7 +3381,7 @@
   {
     "id": "114",
     "sku": "asdf228",
-    "name": "Lorem ipsum cake seven",
+    "name": "cake seven",
     "price": 6.5,
     "discount": 10,
     "new": true,
@@ -3403,7 +3403,7 @@
   {
     "id": "115",
     "sku": "asdf229",
-    "name": "Lorem ipsum cake eight",
+    "name": "cake eight",
     "price": 4.5,
     "discount": 10,
     "new": true,
@@ -3425,7 +3425,7 @@
   {
     "id": "116",
     "sku": "asdf230",
-    "name": "Lorem ipsum pet food one",
+    "name": "pet food one",
     "price": 6.4,
     "discount": 0,
     "new": false,
@@ -3447,7 +3447,7 @@
   {
     "id": "117",
     "sku": "asdf231",
-    "name": "Lorem ipsum pet food two",
+    "name": "pet food two",
     "price": 3,
     "discount": 10,
     "new": true,
@@ -3469,7 +3469,7 @@
   {
     "id": "118",
     "sku": "asdf232",
-    "name": "Lorem ipsum pet food three",
+    "name": "pet food three",
     "price": 2.4,
     "discount": 10,
     "new": false,
@@ -3491,7 +3491,7 @@
   {
     "id": "119",
     "sku": "asdf233",
-    "name": "Lorem ipsum pet food four",
+    "name": "pet food four",
     "price": 3.5,
     "discount": 10,
     "new": true,
@@ -3513,7 +3513,7 @@
   {
     "id": "120",
     "sku": "asdf234",
-    "name": "Lorem ipsum pet food five",
+    "name": "pet food five",
     "price": 4.2,
     "discount": 0,
     "new": false,
@@ -3535,7 +3535,7 @@
   {
     "id": "121",
     "sku": "asdf235",
-    "name": "Lorem ipsum pet food six",
+    "name": "pet food six",
     "price": 5.7,
     "discount": 30,
     "new": true,
@@ -3557,7 +3557,7 @@
   {
     "id": "122",
     "sku": "asdf236",
-    "name": "Lorem ipsum pet food seven",
+    "name": "pet food seven",
     "price": 6.5,
     "discount": 10,
     "new": true,
@@ -3579,7 +3579,7 @@
   {
     "id": "123",
     "sku": "asdf237",
-    "name": "Lorem ipsum pet food eight",
+    "name": "pet food eight",
     "price": 4.5,
     "discount": 10,
     "new": true,
@@ -3601,7 +3601,7 @@
   {
     "id": "124",
     "sku": "asdf238",
-    "name": "Lorem ipsum medical one",
+    "name": "medical one",
     "price": 6.4,
     "discount": 0,
     "new": false,
@@ -3623,7 +3623,7 @@
   {
     "id": "125",
     "sku": "asdf239",
-    "name": "Lorem ipsum medical two",
+    "name": "medical two",
     "price": 3,
     "discount": 10,
     "new": true,
@@ -3645,7 +3645,7 @@
   {
     "id": "126",
     "sku": "asdf240",
-    "name": "Lorem ipsum medical three",
+    "name": "medical three",
     "price": 2.4,
     "discount": 10,
     "new": false,
@@ -3667,7 +3667,7 @@
   {
     "id": "127",
     "sku": "asdf241",
-    "name": "Lorem ipsum medical four",
+    "name": "medical four",
     "price": 3.5,
     "discount": 10,
     "new": true,
@@ -3689,7 +3689,7 @@
   {
     "id": "128",
     "sku": "asdf242",
-    "name": "Lorem ipsum medical five",
+    "name": "medical five",
     "price": 4.2,
     "discount": 0,
     "new": false,
@@ -3711,7 +3711,7 @@
   {
     "id": "129",
     "sku": "asdf243",
-    "name": "Lorem ipsum medical six",
+    "name": "medical six",
     "price": 5.7,
     "discount": 30,
     "new": true,
@@ -3733,7 +3733,7 @@
   {
     "id": "130",
     "sku": "asdf244",
-    "name": "Lorem ipsum medical seven",
+    "name": "medical seven",
     "price": 6.5,
     "discount": 10,
     "new": true,
@@ -3755,7 +3755,7 @@
   {
     "id": "131",
     "sku": "asdf245",
-    "name": "Lorem ipsum medical eight",
+    "name": "medical eight",
     "price": 4.5,
     "discount": 10,
     "new": true,
@@ -3777,7 +3777,7 @@
   {
     "id": "132",
     "sku": "asdf246",
-    "name": "Lorem ipsum black one",
+    "name": "black one",
     "price": 6.4,
     "discount": 0,
     "new": false,
@@ -3799,7 +3799,7 @@
   {
     "id": "133",
     "sku": "asdf247",
-    "name": "Lorem ipsum black two",
+    "name": "black two",
     "price": 3,
     "discount": 10,
     "new": true,
@@ -3821,7 +3821,7 @@
   {
     "id": "134",
     "sku": "asdf248",
-    "name": "Lorem ipsum black three",
+    "name": "black three",
     "price": 2.4,
     "discount": 10,
     "new": false,
@@ -3843,7 +3843,7 @@
   {
     "id": "135",
     "sku": "asdf249",
-    "name": "Lorem ipsum black four",
+    "name": "black four",
     "price": 3.5,
     "discount": 10,
     "new": true,
@@ -3865,7 +3865,7 @@
   {
     "id": "136",
     "sku": "asdf250",
-    "name": "Lorem ipsum black five",
+    "name": "black five",
     "price": 4.2,
     "discount": 0,
     "new": false,
@@ -3887,7 +3887,7 @@
   {
     "id": "137",
     "sku": "asdf251",
-    "name": "Lorem ipsum black six",
+    "name": "black six",
     "price": 5.7,
     "discount": 30,
     "new": true,
@@ -3909,7 +3909,7 @@
   {
     "id": "138",
     "sku": "asdf252",
-    "name": "Lorem ipsum black seven",
+    "name": "black seven",
     "price": 6.5,
     "discount": 10,
     "new": true,
@@ -3931,7 +3931,7 @@
   {
     "id": "139",
     "sku": "asdf253",
-    "name": "Lorem ipsum black eight",
+    "name": "black eight",
     "price": 4.5,
     "discount": 10,
     "new": true,
@@ -3953,7 +3953,7 @@
   {
     "id": "140",
     "sku": "asdf249",
-    "name": "Lorem ipsum christmas one",
+    "name": "christmas one",
     "price": 3.5,
     "discount": 10,
     "new": true,
@@ -3975,7 +3975,7 @@
   {
     "id": "141",
     "sku": "asdf250",
-    "name": "Lorem ipsum christmas two",
+    "name": "christmas two",
     "price": 4.2,
     "discount": 0,
     "new": false,
@@ -3997,7 +3997,7 @@
   {
     "id": "142",
     "sku": "asdf251",
-    "name": "Lorem ipsum christmas three",
+    "name": "christmas three",
     "price": 5.7,
     "discount": 30,
     "new": true,
@@ -4019,7 +4019,7 @@
   {
     "id": "143",
     "sku": "asdf252",
-    "name": "Lorem ipsum christmas four",
+    "name": "christmas four",
     "price": 6.5,
     "discount": 10,
     "new": true,
@@ -4041,7 +4041,7 @@
   {
     "id": "144",
     "sku": "asdf253",
-    "name": "Lorem ipsum christmas five",
+    "name": "christmas five",
     "price": 4.5,
     "discount": 10,
     "new": true,

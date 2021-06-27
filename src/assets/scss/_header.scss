@@ -2271,8 +2271,7 @@
     li {
       &.menu-item-has-children {
         .sub-menu {
-          visibility: hidden;
-
+          // visibility: hidden;
           height: 0;
 
           transition: 0.3s;

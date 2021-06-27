@@ -111,6 +111,7 @@ const TabProductEleven = ({
               <Tab.Pane eventKey="newArrival"> */}
                 <div className="row">
                   <Swiper {...settings} getSwiper={updateSwiper}>
+                    
                     <ProductGridTwo
                       category={category}
                       type="new"
