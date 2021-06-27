@@ -5,6 +5,7 @@ export const DELETE_ALL_FROM_WISHLIST = "DELETE_ALL_FROM_WISHLIST";
 // add to wishlist
 export const addToWishlist = (item, addToast) => {
   return dispatch => {
+    console.log("dsffffffffffffffff");
     if (addToast) {
       addToast("Added To Wishlist", {
         appearance: "success",

@@ -9,6 +9,7 @@ import BrandGridListSingle from "../../components/product/BrandGridListSingle";
 const BrandGrid = ({
   products,
   currency,
+  addToWishlist,
   sliderClassName,
   spaceBottomClass
 }) => {

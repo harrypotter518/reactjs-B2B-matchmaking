@@ -67,7 +67,7 @@ const BrandGridListSingleTwelve = ({
               <div className="col-xl-2 col-md-3" style={{ paddingLeft:'0px' }}>
                 <div className="pro-same-action pro-wishlist">
                   <button
-                    style={{ border:'none', backgroundColor:'transparent' }}
+                    style={{border:'none', backgroundColor:'transparent' }}
                     className={wishlistItem !== undefined ? "active" : ""}
                     disabled={wishlistItem !== undefined}
                     title={

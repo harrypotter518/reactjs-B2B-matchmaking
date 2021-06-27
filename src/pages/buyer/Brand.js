@@ -104,17 +104,17 @@ const Brand = ({ location, products }) => {
           <div className="container">
 
             <div className="row">             
-                <div className="col-1" style={{ padding: "0px" }}>
+                <div className="col-lg-1 col-md-2 col-sm-3" style={{ padding: "0px" }}>
                   <img
                       src={
                       process.env.PUBLIC_URL +
                       "https://cdn.store.flexlane.co/56c9bd7ce7b6f79632e3184c0612268e.jpg?x-oss-process=image/resize,m_lfit,w_150,h_150/auto-orient,1/quality,Q_100/sharpen,100/format,webp"
                       }
                       alt="brand-logo"
-                      style={{ width: "120px", height: "120px", marginTop: "-30px", background:"#f1e2e2",boxShadow: '10px 5px 10px #aaaaaa' }}
+                      style={{ width: "100%", marginTop: "-30px", background:"#f1e2e2",boxShadow: '10px 5px 10px #aaaaaa' }}
                   />
                 </div>
-                <div className="col-8" style={{ padding: "10px" }}>         
+                <div className="col-lg-8 col-md-8 co,-sm-8" style={{ padding: "10px" }}>         
                     <div className="brand-star-box">
                         <span className="title">Go Green</span>
                         <div className="ratting-star" style={{ color: '#ffa900' }}>
