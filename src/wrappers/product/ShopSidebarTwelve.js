@@ -8,7 +8,7 @@ import React from "react";
 // } from "../../helpers/product_twelve";
 // import ShopSearch from "../../components/product/ShopSearch";
 import ShopCategoryMenu from "../../components/product/ShopCategoryMenu";
-// import ShopCategoriesTwelve from "../../components/product/ShopCategoriesTwelve";
+//  import ShopCategoriesTwelve from "../../components/product/ShopCategoriesTwelve";
 import ShopImportAmount from "../../components/product/ShopImportAmount";
 import ShopAnnualRevenue from "../../components/product/ShopAnnualRevenue";
 import ShopOwner from "../../components/product/ShopOwner";
