@@ -8,7 +8,7 @@ import React from "react";
 // } from "../../helpers/product_twelve";
 // import ShopSearch from "../../components/product/ShopSearch";
 import ShopCategoryMenu from "../../components/product/ShopCategoryMenu";
-//  import ShopCategoriesTwelve from "../../components/product/ShopCategoriesTwelve";
+import ShopCategoriesTwelve from "../../components/product/ShopCategoriesTwelve";
 import ShopImportAmount from "../../components/product/ShopImportAmount";
 import ShopAnnualRevenue from "../../components/product/ShopAnnualRevenue";
 import ShopOwner from "../../components/product/ShopOwner";
@@ -113,7 +113,7 @@ const data = {
 
 const ShopSidebarTwelve = ({ products, getSortParams, sideSpaceClass }) => {
   // const uniqueCategories = getIndividualCategories(products);
-  // const uniqueCategories = ['fashion','men','women','electronics','furniture','plant','organic food','flower','book'];
+  const uniqueCategories = ['fashion','men','women','electronics','furniture','plant','organic food','flower','book'];
 
   // const uniqueColors = getIndividualColors(products);
   // const uniqueSizes = getProductsIndividualSizes(products);
@@ -134,10 +134,10 @@ const ShopSidebarTwelve = ({ products, getSortParams, sideSpaceClass }) => {
       />
       
       {/* filter by categories */}
-      {/* <ShopCategoriesTwelve
+      <ShopCategoriesTwelve
         categories={uniqueCategories}
         getSortParams={getSortParams}
-      /> */}
+      />
       {/* filter by ImportAmount */}
       <ShopImportAmount  getSortParams={getSortParams} />
       {/* filter by AnnualRevenue */}
