@@ -40,7 +40,7 @@ const StartSeller = ({ location }) => {
               <p>SELL WITH OPENASIA</p>
               <h3 style={{ fontSize:'28px' }}>Get your brand in front of thousands of Asian retailers</h3>
               <p style={{ fontSize:'18px', paddingTop:'20px' }}>Peeba is a B2B Wholesale Marketplace that helps you streamline, manage and grow your wholesale business.</p>
-              <Link to={process.env.PUBLIC_URL + "/seller/LoginRegisterEleven"}>                  
+              <Link to={process.env.PUBLIC_URL + "/seller/SellerDashboard"}>                  
                   <button className="button_sign"  type="button" style={{ borderRadius:"5px" }}>
                     Apply as Seller
                   </button>                 
